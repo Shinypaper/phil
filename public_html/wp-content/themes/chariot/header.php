@@ -88,7 +88,18 @@ if( !empty($options['enable-sticky-header']) && $options['enable-sticky-header']
 }
 
 ?>
+
+<div class="social-icons-nav">
+        <img src="http://placehold.it/20&text=T" alt=""/>
+        <img src="http://placehold.it/20&text=FB" alt=""/>
+        <img src="http://placehold.it/20&text=PH" alt=""/>
+        <img src="http://placehold.it/20&text=IN" alt=""/>
+</div>
+
+
 <header class="<?php echo $header_class; ?>">
+
+
 	<div class="container">
     	<div class="row">
         
@@ -130,6 +141,7 @@ if( !empty($options['enable-sticky-header']) && $options['enable-sticky-header']
 </header>
 <!-- End Header -->
 
+
 <!-- Mobile Navigation Mobile Menu -->
 <div id="navigation-mobile">
 	<div class="container">
@@ -150,6 +162,8 @@ if( !empty($options['enable-sticky-header']) && $options['enable-sticky-header']
     </div>
 </div>
 <!-- End Navigation Mobile Menu -->
+
+
 
 <!-- Start Main -->
 <div id="main" class="<?php echo $main_class; ?>">
