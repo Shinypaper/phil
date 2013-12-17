@@ -1,0 +1,1784 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Chariot\n"
+"POT-Creation-Date: 2013-11-08 08:39+0100\n"
+"PO-Revision-Date: 2013-11-08 08:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alessio Atzeni <info@alessioatzeni.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:10
+msgid "Not Found"
+msgstr ""
+
+#: ../comments.php:25
+msgid "0 Comments"
+msgstr ""
+
+#: ../comments.php:25 ../content-meta-header.php:4
+#: ../framework/meta/custom-functions-meta.php:281
+#: ../framework/meta/custom-functions-meta.php:313
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:25 ../content-meta-header.php:4
+#: ../framework/meta/custom-functions-meta.php:281
+#: ../framework/meta/custom-functions-meta.php:313
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: ../comments.php:47
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:72
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:73
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:76
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:78
+msgid "/ Cancel Reply"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Submit Comment"
+msgstr ""
+
+#: ../content-audio.php:15 ../content-audio.php:27 ../content-gallery.php:17
+#: ../content-gallery.php:29 ../content-image.php:23 ../content-image.php:43
+#: ../content-link.php:35 ../content-quote.php:28 ../content-video.php:15
+#: ../content-video.php:27 ../content.php:21 ../content.php:36
+msgid "Continue Reading..."
+msgstr ""
+
+#: ../content-link.php:13 ../content-quote.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../content-meta-footer.php:2
+msgid "Posted in: "
+msgstr ""
+
+#: ../content-meta-footer.php:3
+msgid "Tagged:"
+msgstr ""
+
+#: ../content-meta-header.php:4
+#: ../framework/meta/custom-functions-meta.php:281
+#: ../framework/meta/custom-functions-meta.php:313
+msgid "No Comments"
+msgstr ""
+
+#: ../content-meta-header.php:6 ../functions.php:592
+#: ../framework/meta/custom-functions-meta.php:282
+#: ../framework/meta/custom-functions-meta.php:314
+msgid "Edit"
+msgstr ""
+
+#: ../footer.php:24 ../footer.php:49
+msgid "Copyright "
+msgstr ""
+
+#: ../footer.php:24 ../footer.php:49
+msgid "Powered by"
+msgstr ""
+
+#: ../functions.php:169
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:180
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../functions.php:181
+msgid "Widget area for blog pages."
+msgstr ""
+
+#: ../functions.php:192
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../functions.php:193
+msgid "Widget area for pages."
+msgstr ""
+
+#: ../functions.php:203
+msgid "Footer Area 1"
+msgstr ""
+
+#: ../functions.php:204 ../functions.php:215 ../functions.php:226
+#: ../functions.php:237
+msgid "Widget area for footer area."
+msgstr ""
+
+#: ../functions.php:214
+msgid "Footer Area 2"
+msgstr ""
+
+#: ../functions.php:225
+msgid "Footer Area 3"
+msgstr ""
+
+#: ../functions.php:236
+msgid "Footer Area 4"
+msgstr ""
+
+#: ../functions.php:476 ../functions.php:478
+#, php-format
+msgid "All posts in &#8220;%s&#8221"
+msgstr ""
+
+#: ../functions.php:481 ../functions.php:483 ../functions.php:485
+#, php-format
+msgid "Archive for &#8220;%s&#8221"
+msgstr ""
+
+#: ../functions.php:487
+msgid "Blog Archives"
+msgstr ""
+
+#: ../functions.php:499
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr ""
+
+#: ../functions.php:592
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:595
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../page.php:9
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:122 ../search.php:128
+msgid "Your search did not match any entries!"
+msgstr ""
+
+#: ../search.php:123 ../search.php:129
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../searchform.php:3
+msgid "To search type and hit enter..."
+msgstr ""
+
+#: ../template-archives.php:23 ../template-sitemap.php:30
+msgid "Latest 30 Posts"
+msgstr ""
+
+#: ../template-archives.php:30
+msgid "Archives by Month"
+msgstr ""
+
+#: ../template-archives.php:37
+msgid "Archives by Subject"
+msgstr ""
+
+#: ../template-sitemap.php:23
+msgid "All Pages"
+msgstr ""
+
+#: ../framework/options.php:26
+msgid "A Section added by hook"
+msgstr ""
+
+#: ../framework/options.php:27
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../framework/options.php:165 ../framework/options.php:169
+msgid "Chariot"
+msgstr ""
+
+#: ../framework/options.php:208
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../framework/options.php:209
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/options.php:214
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/options.php:221
+msgid "General Settings"
+msgstr ""
+
+#: ../framework/options.php:222
+msgid ""
+"<p class=\"description\">Welcome to the Chariot Options Panel! Control and "
+"configure the general setup of your theme.</p>"
+msgstr ""
+
+#: ../framework/options.php:227
+msgid "Favicon Upload"
+msgstr ""
+
+#: ../framework/options.php:228
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon."
+msgstr ""
+
+#: ../framework/options.php:234
+msgid "Use Image for Logo?"
+msgstr ""
+
+#: ../framework/options.php:235
+msgid ""
+"Upload a logo for your theme.<br/> Otherwise you will see the Plain Text "
+"Logo."
+msgstr ""
+
+#: ../framework/options.php:244
+msgid "Logo Upload"
+msgstr ""
+
+#: ../framework/options.php:245
+msgid "Upload your logo."
+msgstr ""
+
+#: ../framework/options.php:251
+msgid "Logo Width"
+msgstr ""
+
+#: ../framework/options.php:252
+msgid "Specify the width of the logo. Enter only number value."
+msgstr ""
+
+#: ../framework/options.php:258
+msgid "Logo Height"
+msgstr ""
+
+#: ../framework/options.php:259
+msgid "Specify the height of the logo. Enter only number value."
+msgstr ""
+
+#: ../framework/options.php:265
+msgid "Retina Logo Upload"
+msgstr ""
+
+#: ../framework/options.php:266
+msgid "Upload your Retina Logo for Retina Devices."
+msgstr ""
+
+#: ../framework/options.php:272
+msgid "Accent Color"
+msgstr ""
+
+#: ../framework/options.php:273
+msgid ""
+"Change this color to specify the \"accent\" color for your site.<br/> You "
+"can also choose six different skin."
+msgstr ""
+
+#: ../framework/options.php:280
+msgid "Do you want Preloader?"
+msgstr ""
+
+#: ../framework/options.php:281
+msgid "Enable/Disable preloader page for your site."
+msgstr ""
+
+#: ../framework/options.php:289
+msgid "Do you want Animation Effects on mobile devices?"
+msgstr ""
+
+#: ../framework/options.php:290
+msgid "Enable/Disable animation effects on mobile devices for items."
+msgstr ""
+
+#: ../framework/options.php:298
+msgid "Enable Sticky Header?"
+msgstr ""
+
+#: ../framework/options.php:299
+msgid ""
+"Enable/Disable Sticky Header Feature.<br/>This features not available if "
+"active boxed layout."
+msgstr ""
+
+#: ../framework/options.php:307
+msgid "Back to Top?"
+msgstr ""
+
+#: ../framework/options.php:308
+msgid "Enable/Disable Back to Top Feature."
+msgstr ""
+
+#: ../framework/options.php:316
+msgid "Tracking Code"
+msgstr ""
+
+#: ../framework/options.php:317
+msgid ""
+"Paste your Google Analytics (or other) tracking code here.<br/> It will be "
+"inserted before the closing head tag of your theme."
+msgstr ""
+
+#: ../framework/options.php:323
+msgid "Custom CSS"
+msgstr ""
+
+#: ../framework/options.php:324
+msgid ""
+"If you have any custom CSS you would like added to the site, please enter it "
+"here."
+msgstr ""
+
+#: ../framework/options.php:334
+msgid "Boxed Layout Settings"
+msgstr ""
+
+#: ../framework/options.php:335
+msgid ""
+"<p class=\"description\">Control and configure the general setup of your "
+"boxed layout.</p>"
+msgstr ""
+
+#: ../framework/options.php:340
+msgid "Enable Boxed Layout?"
+msgstr ""
+
+#: ../framework/options.php:341
+msgid "Do you want enable boxed layout?."
+msgstr ""
+
+#: ../framework/options.php:350
+msgid "Background Color"
+msgstr ""
+
+#: ../framework/options.php:351
+msgid ""
+"If you would rather simply use a solid color for your background, select one "
+"here."
+msgstr ""
+
+#: ../framework/options.php:358
+msgid "Background Image"
+msgstr ""
+
+#: ../framework/options.php:359
+msgid ""
+"Upload your background here. You can find sample elements here:<br/><br/>\n"
+"                                  <em>chariot/_include/img/sample_bg_images/"
+"</em><br/>\n"
+"                                  <em>chariot/_include/img/sample_patterns/</"
+"em>"
+msgstr ""
+
+#: ../framework/options.php:367
+msgid "Background Repeat"
+msgstr ""
+
+#: ../framework/options.php:368
+msgid "Do you want your background to repeat? (Turn on when using patterns)"
+msgstr ""
+
+#: ../framework/options.php:377
+msgid "Background Position"
+msgstr ""
+
+#: ../framework/options.php:378
+msgid "How would you like your background image to be aligned?"
+msgstr ""
+
+#: ../framework/options.php:394
+msgid "Background Attachment"
+msgstr ""
+
+#: ../framework/options.php:395
+msgid ""
+"Would you prefer your background to scroll with your site or be fixed and "
+"not move"
+msgstr ""
+
+#: ../framework/options.php:404
+msgid "Auto resize background image to fit window?"
+msgstr ""
+
+#: ../framework/options.php:405
+msgid ""
+"This will ensure your background image always fits no matter what size "
+"screen the user has. (Don't use with patterns)"
+msgstr ""
+
+#: ../framework/options.php:415
+msgid "Footer Settings"
+msgstr ""
+
+#: ../framework/options.php:416
+msgid ""
+"<p class=\"description\">Control and configure the general setup of your "
+"footer area.</p>"
+msgstr ""
+
+#: ../framework/options.php:421
+msgid "Footer Widget Area Columns"
+msgstr ""
+
+#: ../framework/options.php:422
+msgid "Select the columns for footer widget area."
+msgstr ""
+
+#: ../framework/options.php:434
+msgid "Footer Social Area"
+msgstr ""
+
+#: ../framework/options.php:435
+msgid ""
+"Do you want enable social profiles?<br/>You can set your social profile in "
+"<b>Social Options Tabs</b>."
+msgstr ""
+
+#: ../framework/options.php:443
+msgid "Footer Copyright Section Text"
+msgstr ""
+
+#: ../framework/options.php:444
+msgid "Please enter the copyright section text.<br/>HTML is allowed."
+msgstr ""
+
+#: ../framework/options.php:453
+msgid "Portfolio Options"
+msgstr ""
+
+#: ../framework/options.php:454
+msgid ""
+"<p class=\"description\">Control and configure the general setup of your "
+"portfolio.</p>"
+msgstr ""
+
+#: ../framework/options.php:459
+msgid "Enable Comments Template on Single Portfolio Post?"
+msgstr ""
+
+#: ../framework/options.php:460 ../framework/options.php:486
+msgid "Enable/Disable Comments Template."
+msgstr ""
+
+#: ../framework/options.php:468 ../framework/options.php:494
+msgid "Custom Slug"
+msgstr ""
+
+#: ../framework/options.php:469
+msgid ""
+"If you want your portfolio post type to have a custom slug in the url, "
+"please enter it here. <br/><br/> <br>\n"
+"\t\t\t\t\t\t\t\t <b>You will still have to refresh your permalinks after "
+"saving this!</b> <br/><br/>This is done by going to <b>Settings -> "
+"Permalinks</b> and clicking save."
+msgstr ""
+
+#: ../framework/options.php:479
+msgid "Team Options"
+msgstr ""
+
+#: ../framework/options.php:480
+msgid ""
+"<p class=\"description\">Control and configure the general setup of your "
+"team.</p>"
+msgstr ""
+
+#: ../framework/options.php:485
+msgid "Enable Comments Template on Single Team Post?"
+msgstr ""
+
+#: ../framework/options.php:495
+msgid ""
+"If you want your team post type to have a custom slug in the url, please "
+"enter it here. <br/><br/> <br>\n"
+"\t\t\t\t\t\t\t\t <b>You will still have to refresh your permalinks after "
+"saving this!</b> <br/><br/>This is done by going to <b>Settings -> "
+"Permalinks</b> and clicking save."
+msgstr ""
+
+#: ../framework/options.php:505
+msgid "Blog Settings"
+msgstr ""
+
+#: ../framework/options.php:506
+msgid ""
+"<p class=\"description\">Control and configure the general setup of your "
+"blog.</p>"
+msgstr ""
+
+#: ../framework/options.php:511
+msgid "Social Media Sharing Buttons"
+msgstr ""
+
+#: ../framework/options.php:512
+msgid "Activate this to enable social sharing buttons on your blog posts."
+msgstr ""
+
+#: ../framework/options.php:521
+msgid "Facebook"
+msgstr ""
+
+#: ../framework/options.php:529
+msgid "Twitter"
+msgstr ""
+
+#: ../framework/options.php:537
+msgid "Google Plus"
+msgstr ""
+
+#: ../framework/options.php:545
+msgid "Pinterest"
+msgstr ""
+
+#: ../framework/options.php:553
+msgid "Blog Type"
+msgstr ""
+
+#: ../framework/options.php:554
+msgid "Please select your blog format here."
+msgstr ""
+
+#: ../framework/options.php:566
+msgid "Blog Sidebar Layout"
+msgstr ""
+
+#: ../framework/options.php:567
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: ../framework/options.php:580
+msgid "Blog Post Sidebar Layout"
+msgstr ""
+
+#: ../framework/options.php:581
+msgid "Select main content and sidebar alignment for single post."
+msgstr ""
+
+#: ../framework/options.php:594
+msgid "Masonry Layout"
+msgstr ""
+
+#: ../framework/options.php:595
+msgid "Select the column for masonry blog."
+msgstr ""
+
+#: ../framework/options.php:610
+msgid "Contact Map Options"
+msgstr ""
+
+#: ../framework/options.php:611
+msgid ""
+"<p class=\"description\">Control and configure the general setup of your "
+"contact and map page.</p>"
+msgstr ""
+
+#: ../framework/options.php:616
+msgid "Insert your Title Marker"
+msgstr ""
+
+#: ../framework/options.php:617
+msgid "Please Enter here your text of Title Marker."
+msgstr ""
+
+#: ../framework/options.php:623
+msgid "Default Map Zoom Level"
+msgstr ""
+
+#: ../framework/options.php:624
+msgid ""
+"Value should be between 1-18, 1 being the entire earth and 18 being right at "
+"street level."
+msgstr ""
+
+#: ../framework/options.php:631
+msgid "Map Center Latitude"
+msgstr ""
+
+#: ../framework/options.php:632
+msgid "Please enter the latitude for the maps center point."
+msgstr ""
+
+#: ../framework/options.php:639
+msgid "Map Center Longitude"
+msgstr ""
+
+#: ../framework/options.php:640
+msgid "Please enter the longitude for the maps center point."
+msgstr ""
+
+#: ../framework/options.php:647
+msgid "Marker Icon Upload"
+msgstr ""
+
+#: ../framework/options.php:648
+msgid "Please upload an image that will be used for the marker on your map."
+msgstr ""
+
+#: ../framework/options.php:654
+msgid "Map Infowindow Text"
+msgstr ""
+
+#: ../framework/options.php:655
+msgid ""
+"If you would like to display any text in an info window for location, please "
+"enter it here.<br/> HTML is allowed."
+msgstr ""
+
+#: ../framework/options.php:664
+msgid "Social Options"
+msgstr ""
+
+#: ../framework/options.php:665
+msgid ""
+"<p class=\"description\">Control and configure the general setup of your "
+"social profile. <br/>Will be visible in the footer area (if enabled) and the "
+"social profile widget.</p>"
+msgstr ""
+
+#: ../framework/options.php:670
+msgid "500PX URL"
+msgstr ""
+
+#: ../framework/options.php:671
+msgid "Please enter in your 500PX URL."
+msgstr ""
+
+#: ../framework/options.php:677
+msgid "Add This URL"
+msgstr ""
+
+#: ../framework/options.php:678
+msgid "Please enter in your Add This URL."
+msgstr ""
+
+#: ../framework/options.php:684
+msgid "Behance URL"
+msgstr ""
+
+#: ../framework/options.php:685
+msgid "Please enter in your Behance URL."
+msgstr ""
+
+#: ../framework/options.php:691
+msgid "Bebo URL"
+msgstr ""
+
+#: ../framework/options.php:692
+msgid "Please enter in your Bebo URL."
+msgstr ""
+
+#: ../framework/options.php:698
+msgid "Blogger URL"
+msgstr ""
+
+#: ../framework/options.php:699
+msgid "Please enter in your Blogger URL."
+msgstr ""
+
+#: ../framework/options.php:705
+msgid "Deviant Art URL"
+msgstr ""
+
+#: ../framework/options.php:706
+msgid "Please enter in your Deviant Art URL."
+msgstr ""
+
+#: ../framework/options.php:712
+msgid "Digg URL"
+msgstr ""
+
+#: ../framework/options.php:713
+msgid "Please enter in your Digg URL."
+msgstr ""
+
+#: ../framework/options.php:719
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../framework/options.php:720
+msgid "Please enter in your Dribbble URL."
+msgstr ""
+
+#: ../framework/options.php:726
+msgid "Email URL"
+msgstr ""
+
+#: ../framework/options.php:727
+msgid "Please enter in your Email URL."
+msgstr ""
+
+#: ../framework/options.php:733
+msgid "Envato URL"
+msgstr ""
+
+#: ../framework/options.php:734
+msgid "Please enter in your Envato URL."
+msgstr ""
+
+#: ../framework/options.php:740
+msgid "Evernote URL"
+msgstr ""
+
+#: ../framework/options.php:741
+msgid "Please enter in your Envernote URL."
+msgstr ""
+
+#: ../framework/options.php:747
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/options.php:748
+msgid "Please enter in your Facebook URL."
+msgstr ""
+
+#: ../framework/options.php:754
+msgid "Flickr URL"
+msgstr ""
+
+#: ../framework/options.php:755
+msgid "Please enter in your Flickr URL."
+msgstr ""
+
+#: ../framework/options.php:761
+msgid "Forrst URL"
+msgstr ""
+
+#: ../framework/options.php:762
+msgid "Please enter in your Forrst URL."
+msgstr ""
+
+#: ../framework/options.php:768
+msgid "Github URL"
+msgstr ""
+
+#: ../framework/options.php:769
+msgid "Please enter in your Github URL."
+msgstr ""
+
+#: ../framework/options.php:775
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../framework/options.php:776
+msgid "Please enter in your Google Plus URL."
+msgstr ""
+
+#: ../framework/options.php:782
+msgid "Grooveshark URL"
+msgstr ""
+
+#: ../framework/options.php:783
+msgid "Please enter in your Grooveshark URL."
+msgstr ""
+
+#: ../framework/options.php:789
+msgid "Instagram URL"
+msgstr ""
+
+#: ../framework/options.php:790
+msgid "Please enter in your Instagram URL."
+msgstr ""
+
+#: ../framework/options.php:796
+msgid "Last FM URL"
+msgstr ""
+
+#: ../framework/options.php:797
+msgid "Please enter in your Last FM URL."
+msgstr ""
+
+#: ../framework/options.php:803
+msgid "Linked In URL"
+msgstr ""
+
+#: ../framework/options.php:804
+msgid "Please enter in your Linked In URL."
+msgstr ""
+
+#: ../framework/options.php:810
+msgid "My Space URL"
+msgstr ""
+
+#: ../framework/options.php:811
+msgid "Please enter in your My Space URL."
+msgstr ""
+
+#: ../framework/options.php:817
+msgid "Paypal URL"
+msgstr ""
+
+#: ../framework/options.php:818
+msgid "Please enter in your Paypal URL."
+msgstr ""
+
+#: ../framework/options.php:824
+msgid "Photobucket URL"
+msgstr ""
+
+#: ../framework/options.php:825
+msgid "Please enter in your Photobucket URL."
+msgstr ""
+
+#: ../framework/options.php:831
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../framework/options.php:832
+msgid "Please enter in your Pinterest URL."
+msgstr ""
+
+#: ../framework/options.php:838
+msgid "Quora URL"
+msgstr ""
+
+#: ../framework/options.php:839
+msgid "Please enter in your Quora URL."
+msgstr ""
+
+#: ../framework/options.php:845
+msgid "Share This URL"
+msgstr ""
+
+#: ../framework/options.php:846
+msgid "Please enter in your Share This URL."
+msgstr ""
+
+#: ../framework/options.php:852
+msgid "Skype URL"
+msgstr ""
+
+#: ../framework/options.php:853
+msgid "Please enter in your Skype URL."
+msgstr ""
+
+#: ../framework/options.php:859
+msgid "Soundcloud URL"
+msgstr ""
+
+#: ../framework/options.php:860
+msgid "Please enter in your Soundcloud URL."
+msgstr ""
+
+#: ../framework/options.php:866
+msgid "Stumble Upon URL"
+msgstr ""
+
+#: ../framework/options.php:867
+msgid "Please enter in your Stumble Upon URL."
+msgstr ""
+
+#: ../framework/options.php:873
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../framework/options.php:874
+msgid "Please enter in your Tumblr URL."
+msgstr ""
+
+#: ../framework/options.php:880
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/options.php:881
+msgid "Please enter in your Twitter URL."
+msgstr ""
+
+#: ../framework/options.php:887
+msgid "Viddler URL"
+msgstr ""
+
+#: ../framework/options.php:888
+msgid "Please enter in your Viddler URL."
+msgstr ""
+
+#: ../framework/options.php:894
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../framework/options.php:895
+msgid "Please enter in your Vimeo URL."
+msgstr ""
+
+#: ../framework/options.php:901
+msgid "Virb URL"
+msgstr ""
+
+#: ../framework/options.php:902
+msgid "Please enter in your Virb URL."
+msgstr ""
+
+#: ../framework/options.php:908
+msgid "Wordpress URL"
+msgstr ""
+
+#: ../framework/options.php:909
+msgid "Please enter in your Wordpress URL."
+msgstr ""
+
+#: ../framework/options.php:915
+msgid "Yahoo URL"
+msgstr ""
+
+#: ../framework/options.php:916
+msgid "Please enter in your Yahoo URL."
+msgstr ""
+
+#: ../framework/options.php:922
+msgid "Yelp URL"
+msgstr ""
+
+#: ../framework/options.php:923
+msgid "Please enter in your Yelp URL."
+msgstr ""
+
+#: ../framework/options.php:929
+msgid "You Tube URL"
+msgstr ""
+
+#: ../framework/options.php:930
+msgid "Please enter in your You Tube URL."
+msgstr ""
+
+#: ../framework/options.php:936
+msgid "Zerply URL"
+msgstr ""
+
+#: ../framework/options.php:937
+msgid "Please enter in your Zerply URL."
+msgstr ""
+
+#: ../framework/options.php:964
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../framework/options.php:965
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../framework/options.php:966
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../framework/options.php:967
+msgid "Documentation: "
+msgstr ""
+
+#: ../framework/options.php:968
+msgid ""
+"You can find the high quality version of documentation inside the package. "
+"For view this docs you have to be logged in a google account."
+msgstr ""
+
+#: ../framework/options.php:975
+msgid "Theme Information"
+msgstr ""
+
+#: ../framework/meta/footer-meta.php:16 ../framework/meta/footer-meta.php:23
+msgid "Footer Widget Settings"
+msgstr ""
+
+#: ../framework/meta/footer-meta.php:17
+msgid "Here you can configure how your footer widget will appear."
+msgstr ""
+
+#: ../framework/meta/footer-meta.php:24
+msgid "Enable or Disable Footer Widget Area."
+msgstr ""
+
+#: ../framework/meta/meta-config.php:49
+#: ../framework/options/fields/upload/field_upload.php:30
+msgid "Upload"
+msgstr ""
+
+#: ../framework/meta/meta-config.php:50
+#: ../framework/options/fields/upload/field_upload.php:31
+msgid "Remove Upload"
+msgstr ""
+
+#: ../framework/meta/meta-config.php:77
+msgid "None"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:31 ../framework/meta/page-meta.php:38
+msgid "Page Header Settings"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:32 ../framework/meta/portfolio-meta.php:69
+#: ../framework/meta/team-meta.php:35
+msgid "Here you can configure how your page header will appear."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:39 ../framework/meta/portfolio-meta.php:76
+#: ../framework/meta/team-meta.php:42
+msgid "Enable or Disable the Header Page Settings."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:49
+msgid "Page Header Image"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:50 ../framework/meta/portfolio-meta.php:87
+#: ../framework/meta/post-meta.php:48 ../framework/meta/team-meta.php:53
+msgid ""
+"Upload your image should be between 1600px x 800px (or more) for best "
+"results."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:56 ../framework/meta/portfolio-meta.php:93
+#: ../framework/meta/post-meta.php:54 ../framework/meta/team-meta.php:59
+msgid "Page Header Image Overlay"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:57 ../framework/meta/portfolio-meta.php:94
+#: ../framework/meta/post-meta.php:55 ../framework/meta/team-meta.php:60
+msgid "Enable or Disable Overlay Background."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:63
+msgid "Page Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:64 ../framework/meta/portfolio-meta.php:101
+#: ../framework/meta/post-meta.php:62 ../framework/meta/team-meta.php:67
+msgid "Background Image Attachment."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:74 ../framework/meta/portfolio-meta.php:111
+#: ../framework/meta/post-meta.php:72 ../framework/meta/post-meta.php:124
+#: ../framework/meta/team-meta.php:77
+msgid "Revolution Slider Alias"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:75 ../framework/meta/portfolio-meta.php:112
+#: ../framework/meta/post-meta.php:73 ../framework/meta/post-meta.php:125
+#: ../framework/meta/team-meta.php:78
+msgid ""
+"Select your Revolution Slider Alias for the slider that you want to show."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:82
+msgid "Page Title"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:83 ../framework/meta/portfolio-meta.php:120
+msgid "You can insert a custom page title instead of default page title."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:89
+msgid "Page Caption"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:90 ../framework/meta/post-meta.php:88
+msgid "You can insert a custom text caption."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:96
+msgid "Page Title and Caption Align"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:97 ../framework/meta/portfolio-meta.php:134
+#: ../framework/meta/post-meta.php:95 ../framework/meta/team-meta.php:100
+msgid "You can align the text in three different ways."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:18
+msgid "Portfolio Thumbnails Settings"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:19
+msgid ""
+"You can choose if you want use a fancybox gallery or insert a pop-up video."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:25
+msgid "FancyBox Gallery"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:26
+msgid "Please enter gallery name."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:32
+msgid "FancyBox Video"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:33
+msgid "Please enter Video URL."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:68
+#: ../framework/meta/portfolio-meta.php:75
+msgid "Portfolio Page Header Settings"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:86
+msgid "Portfolio Page Header Image"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:100
+msgid "Portfolio Page Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:119
+msgid "Portfolio Page Title"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:126
+msgid "Portfolio Page Caption"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:127
+msgid "You can insert a custom text caption instead of project attributes."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:133
+msgid "Portfolio Page Title and Caption Align"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:29 ../framework/meta/post-meta.php:36
+msgid "Post Header Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:30
+msgid "Here you can configure how your post header will appear."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:37
+msgid "Enable or Disable the Header Post Settings."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:47
+msgid "Post Header Image"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:61
+msgid "Post Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:80
+msgid "Post Title"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:81
+msgid "You can insert a custom page title instead of default post title."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:87
+msgid "Post Caption"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:94
+msgid "Post Title and Caption Align"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:117
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:142
+msgid "Quote Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:149
+msgid "Quote Content"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:150
+msgid "Please type the text for your quote here."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:165
+msgid "Link Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:172
+msgid "Link URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:173
+msgid "Please input the URL for your link."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:188
+msgid "Video Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:195
+msgid "OGV File URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:196
+msgid "Please enter in the URL to your .ogv video file"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:202
+msgid "M4V File URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:203
+msgid "Please enter in the URL to your .m4v video file"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:209
+msgid "Preview Image"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:210
+msgid ""
+"This will be the image displayed when the video has not been played yet."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:216
+msgid "Embedded Code"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:217
+msgid ""
+"If the video is an embed rather than self hosted, enter in a Youtube or "
+"Vimeo embed code here."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:232
+msgid "Audio Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:239
+msgid "MP3 File URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:240
+msgid "Please enter in the URL to the .mp3 file"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:34 ../framework/meta/team-meta.php:41
+msgid "Team Page Header Settings"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:52
+msgid "Team Page Header Image"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:66
+msgid "Team Page Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:85
+msgid "Team Page Title"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:86
+msgid "You can insert a custom page title instead of default title page."
+msgstr ""
+
+#: ../framework/meta/team-meta.php:92
+msgid "Team Page Caption"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:93
+msgid "You can insert a custom text caption instead of attributes."
+msgstr ""
+
+#: ../framework/meta/team-meta.php:99
+msgid "Team Page Title and Caption Align"
+msgstr ""
+
+#: ../framework/options/defaults.php:45 ../framework/options/defaults.php:47
+msgid "Options"
+msgstr ""
+
+#: ../framework/options/defaults.php:57
+msgid "<span id=\"footer-thankyou\">Options panel created using <a href=\""
+msgstr ""
+
+#: ../framework/options/defaults.php:233 ../framework/options/defaults.php:234
+#: ../framework/options/defaults.php:671
+msgid "Import / Export"
+msgstr ""
+
+#: ../framework/options/defaults.php:253 ../framework/options/defaults.php:254
+#: ../framework/options/defaults.php:696 ../framework/options/defaults.php:769
+msgid "Dev Mode Info"
+msgstr ""
+
+#: ../framework/options/defaults.php:355
+msgid "Are you sure? You will lose all custom values."
+msgstr ""
+
+#: ../framework/options/defaults.php:630 ../framework/options/defaults.php:794
+msgid "Reset to Defaults"
+msgstr ""
+
+#: ../framework/options/defaults.php:636
+msgid "<strong>Settings Imported!</strong>"
+msgstr ""
+
+#: ../framework/options/defaults.php:638
+msgid "<strong>Settings Saved!</strong>"
+msgstr ""
+
+#: ../framework/options/defaults.php:643
+msgid "<strong>Settings have changed, you should save them!</strong>"
+msgstr ""
+
+#: ../framework/options/defaults.php:644
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr ""
+
+#: ../framework/options/defaults.php:645
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr ""
+
+#: ../framework/options/defaults.php:714
+msgid "Import / Export Options"
+msgstr ""
+
+#: ../framework/options/defaults.php:715
+msgid "Import Options"
+msgstr ""
+
+#: ../framework/options/defaults.php:716
+msgid "Import from file"
+msgstr ""
+
+#: ../framework/options/defaults.php:716
+msgid "Import from URL"
+msgstr ""
+
+#: ../framework/options/defaults.php:721
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../framework/options/defaults.php:731
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../framework/options/defaults.php:738
+msgid "Import"
+msgstr ""
+
+#: ../framework/options/defaults.php:738
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../framework/options/defaults.php:741
+msgid "Export Options"
+msgstr ""
+
+#: ../framework/options/defaults.php:743
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../framework/options/defaults.php:746
+msgid "Copy"
+msgstr ""
+
+#: ../framework/options/defaults.php:746
+msgid "Copy Link"
+msgstr ""
+
+#: ../framework/options/fields/color_gradient/field_color_gradient.php:28
+#: ../framework/options/fields/color_gradient/field_color_gradient.php:33
+msgid "From:"
+msgstr ""
+
+#: ../framework/options/fields/color_gradient/field_color_gradient.php:29
+msgid "To:"
+msgstr ""
+
+#: ../framework/options/fields/color_gradient/field_color_gradient.php:35
+msgid " To:"
+msgstr ""
+
+#: ../framework/options/fields/google_webfonts/field_google_webfonts.php:25
+msgid ""
+"The fonts provided below are free to use custom fonts from the <a href="
+"\"http://www.google.com/webfonts\" target=\"_blank\">Google Web Fonts "
+"directory</a>"
+msgstr ""
+
+#: ../framework/options/fields/multi_text/field_multi_text.php:31
+#: ../framework/options/fields/multi_text/field_multi_text.php:35
+#: ../framework/options/fields/multi_text/field_multi_text.php:38
+msgid "Remove"
+msgstr ""
+
+#: ../framework/options/fields/multi_text/field_multi_text.php:40
+msgid "Add More"
+msgstr ""
+
+#: ../framework/options/validation/color/validation_color.php:14
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../framework/options/validation/comma_numeric/validation_comma_numeric.php:14
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: ../framework/options/validation/date/validation_date.php:14
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../framework/options/validation/email/validation_email.php:14
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../framework/options/validation/no_html/validation_no_html.php:14
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../framework/options/validation/no_special_chars/validation_no_special_chars.php:14
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ../framework/options/validation/numeric/validation_numeric.php:14
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../framework/options/validation/url/validation_url.php:14
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:164
+#: ../framework/plugin-activation/init.php:126
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:165
+#: ../framework/plugin-activation/init.php:127
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:166
+#: ../framework/plugin-activation/init.php:128
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:178
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:490
+#: ../framework/plugin-activation/init.php:140
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:179
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1846
+#: ../framework/plugin-activation/init.php:141
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:517
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugin-activation/init.php:129
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/plugin-activation/init.php:142
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:9
+msgid "Use this widget to display your Dribbble shots."
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:12
+msgid "Custom Dribbble Widget"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:78
+#: ../framework/widgets/flickr-widget.php:166
+#: ../framework/widgets/social-widget.php:31
+#: ../framework/widgets/twitter-widget.php:94
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:83
+msgid "Dribbble Username:"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:88
+msgid "Number of Shots:"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:17
+msgid "Quick Flickr Widget"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:18
+msgid "Display up to 20 of your latest Flickr submissions in your sidebar."
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:93
+msgid "Could not fetch photos."
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:170
+msgid "Username or RSS:"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:174
+msgid "Tags:"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:178
+msgid "Count:"
+msgstr ""
+
+#: ../framework/widgets/social-widget.php:21
+msgid "Show your social Profiles."
+msgstr ""
+
+#: ../framework/widgets/social-widget.php:24
+msgid "Social Profiles"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:9
+msgid "Use this widget to display your latest tweets."
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:12
+msgid "Custom Twitter Widget"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:99
+msgid "Twitter Username"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:104
+msgid "Number of tweets"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:113
+msgid "Exclude Replies"
+msgstr ""
