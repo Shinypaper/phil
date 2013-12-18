@@ -58,7 +58,7 @@ if( !empty($options['use-logo'])) {
 <!-- RSS & Pingbacks -->
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> RSS Feed" href="<?php bloginfo( 'rss2_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <?php wp_head(); ?>
 
 </head>
@@ -90,10 +90,9 @@ if( !empty($options['enable-sticky-header']) && $options['enable-sticky-header']
 ?>
 
 <div class="social-icons-nav">
-        <img src="http://placehold.it/20&text=T" alt=""/>
-        <img src="http://placehold.it/20&text=FB" alt=""/>
-        <img src="http://placehold.it/20&text=PH" alt=""/>
-        <img src="http://placehold.it/20&text=IN" alt=""/>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
 </div>
 
 
