@@ -5534,50 +5534,49 @@ button.close {
     bottom: 20px;
   }
 }
-.brandcontainer {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .brandcontainer {
-    float: left;
-    width: 100%;
-  }
-}
-.brandcontainer .brandlogo {
-  display: inline-block;
-  padding: 20px 0;
-}
-.brandcontainer .brand {
-  display: inline-block;
-  line-height: 0;
-  padding: 20px 0;
-}
-.brandcontainer .brandcare {
-  color: #00aae7;
-}
-h2 {
-  color: #00aae7;
-}
-.mainslider {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .mainslider {
-    float: left;
-    width: 100%;
-  }
-}
-.mainslider img {
-  display: block;
+img {
   max-width: 100%;
-  height: auto;
 }
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+#show-navigation {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  z-index: 9999;
+}
+.homepage_main {
+  margin-left: 0;
+}
+.link {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .link {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+.home_banner {
+  margin-bottom: 20px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .homepage_main {
+    margin-left: 200px;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
 .clearfix:before,
 .clearfix:after {
   content: " ";

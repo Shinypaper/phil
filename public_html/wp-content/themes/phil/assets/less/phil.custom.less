@@ -1,32 +1,58 @@
+// GLOBAL STYLES
+// -------------
 
-.brandcontainer {
-		.make-sm-column(12);
-	.brandlogo {
-		display: inline-block;
-		padding: @line-height-computed 0;
-	}	
-	.brand {
-		display: inline-block;
-		line-height: 0;
-		padding: @line-height-computed 0;
-	}
-	.brandcare {
-		color: @blue;
-	}
+img {
+	max-width: 100%;
 }
 
-h2 {
-	color: @blue;
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
 }
 
-
-.mainslider {
-	.make-sm-column(12);
-	img {
-		.img-responsive;
-	}
+#show-navigation {
+	position: fixed;
+	top: 50px;
+	left: 20px;
+	z-index: 9999;
 }
 
+// HOMEPAGE STYLES
+// ---------------
+.homepage_main {
+	margin-left: 0;
+}
+.links_wrap {
+	//.make-row();
+}
+.link {
+	.make-sm-column(4);
+}
+.home_banner {
+	margin-bottom: @line-height-computed;
+}
+
+// RESPONSIVE STYLES
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
+	.homepage_main {
+		margin-left: 200px;
+	}
 }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+} 
