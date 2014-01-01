@@ -6,7 +6,7 @@ get_header(); ?>
 
 	<section class="main homepage_main">
 		<div class="home_banner">
-			<img src="http://placehold.it/1000x800" alt="">
+			<img src="http://placehold.it/1200x1000" alt="">
 		</div>
 
 		<section class="main_links">

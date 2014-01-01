@@ -15,8 +15,12 @@
 		  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/navobile.css" type="text/css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		<?php wp_head(); ?>
 	</head>
@@ -25,9 +29,9 @@
 		<!--[if lt IE 7]>
 				<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
-		<div id="#content" class="wrapper">
-			<a href="#" id="show-navigation">X</a>
-			<header class="header">
+		<div id="content" class="wrapper">
+			<a href="#" id="show-navobile"><i class="fa fa-bars"></i></a>
+			<header id="header" class="header">
 				<div class="logo">
 					<a href="#"><img src="http://placehold.it/200" alt=""></a>
 				</div>
