@@ -2,13 +2,6 @@
 // Variables
 // --------------------------------------------------
 
-//Custom Variables
-//---------------------------------------------------
-@blue-light: #61d4fa;
-@blue: #00aae7;
-@blue-dark: #004ba7;
-
-@white: #fff;
 
 // Global values
 // --------------------------------------------------
@@ -25,11 +18,11 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #00aae7;
+@brand-primary:         #428bca;
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
-@brand-info:            #61d4fa;
+@brand-info:            #5bc0de;
 
 // Scaffolding
 // -------------------------
@@ -177,14 +170,14 @@
 // Dropdowns
 // -------------------------
 
-@dropdown-bg:                    rgba(255,255,255,0.7);
-@dropdown-border:                none;
-@dropdown-fallback-border:       none;
+@dropdown-bg:                    #fff;
+@dropdown-border:                rgba(0,0,0,.15);
+@dropdown-fallback-border:       #ccc;
 @dropdown-divider-bg:            #e5e5e5;
 
-@dropdown-link-color:            @blue;
-@dropdown-link-hover-color:      @blue-dark;
-@dropdown-link-hover-bg:         transparent;
+@dropdown-link-color:            @gray-dark;
+@dropdown-link-hover-color:      darken(@gray-dark, 5%);
+@dropdown-link-hover-bg:         #f5f5f5;
 
 @dropdown-link-active-color:     @component-active-color;
 @dropdown-link-active-bg:        @component-active-bg;
@@ -261,22 +254,22 @@
 // -------------------------
 
 // Basics of a navbar
-@navbar-height:                    40px;
+@navbar-height:                    50px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor(@grid-gutter-width / 2);
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 
 @navbar-default-color:             #777;
-@navbar-default-bg:                @blue;
-@navbar-default-border:            @navbar-default-bg;
+@navbar-default-bg:                #f8f8f8;
+@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
-@navbar-default-link-color:                @white;
-@navbar-default-link-hover-color:          @white;
+@navbar-default-link-color:                #777;
+@navbar-default-link-hover-color:          #333;
 @navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         @blue-dark;
-@navbar-default-link-active-bg:            @navbar-default-bg;
+@navbar-default-link-active-color:         #555;
+@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
 
@@ -286,7 +279,7 @@
 @navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
-@navbar-default-toggle-hover-bg:           transparent;
+@navbar-default-toggle-hover-bg:           #ddd;
 @navbar-default-toggle-icon-bar-bg:        #ccc;
 @navbar-default-toggle-border-color:       #ddd;
 
