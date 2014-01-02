@@ -5545,6 +5545,8 @@ img {
   top: 0;
   left: 0;
   bottom: 0;
+  width: 300px;
+  text-align: center;
 }
 #show-navobile {
   position: fixed;
@@ -5613,7 +5615,7 @@ td#show-navobile {
   text-align: center;
 }
 .homepage_main {
-  margin-left: 0;
+  padding-left: 0;
 }
 .link {
   position: relative;
@@ -5712,7 +5714,7 @@ td#show-navobile {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .homepage_main {
-    margin-left: 200px;
+    padding-left: 300px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
