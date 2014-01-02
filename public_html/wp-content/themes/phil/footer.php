@@ -1,6 +1,6 @@
         
         <footer>
-            <p>&copy; Philip Stavrou <?= date('Y');?></p>
+            <!-- <p>&copy; Philip Stavrou <?= date('Y');?></p> -->
         </footer>
     </div> <!-- wrapper -->        
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
