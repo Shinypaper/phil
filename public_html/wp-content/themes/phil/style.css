@@ -5536,6 +5536,10 @@ button.close {
 }
 body {
   background: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.logo {
+  margin: 30px 0 20px;
 }
 img {
   max-width: 100%;
@@ -5545,8 +5549,9 @@ img {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
-  text-align: center;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
 }
 #show-navobile {
   position: fixed;
@@ -5608,14 +5613,64 @@ td#show-navobile {
     display: table-cell !important;
   }
 }
-#content {
-  background: #ffffff;
+.wrapper {
+  margin-left: 200px;
 }
-.nav {
-  text-align: center;
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.wrapper:after {
+  clear: both;
+}
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.wrapper:after {
+  clear: both;
+}
+.nav li a {
+  color: #444;
+}
+footer {
+  background: #444;
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
 }
 .homepage_main {
   padding-left: 0;
+}
+.links_wrap {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.links_wrap:before,
+.links_wrap:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.links_wrap:after {
+  clear: both;
+}
+.links_wrap:before,
+.links_wrap:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.links_wrap:after {
+  clear: both;
 }
 .link {
   position: relative;
@@ -5631,6 +5686,21 @@ td#show-navobile {
 }
 .home_banner {
   margin-bottom: 20px;
+  position: relative;
+}
+.call_to_action {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+.call_to_action .btn {
+  width: 100%;
+  text-transform: uppercase;
+}
+.action_link {
+  color: #fff;
+  font-size: 10em;
 }
 .navobile-mobile-only {
   display: none;
@@ -5713,8 +5783,9 @@ td#show-navobile {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .homepage_main {
-    padding-left: 300px;
+  .main {
+    position: relative;
+    z-index: -1;
   }
 }
 /* Medium devices (desktops, 992px and up) */
