@@ -1,31 +1,225 @@
+// VARIABLES AND MIXINS
+// --------------------
 
-.brandcontainer {
-		.make-sm-column(12);
-	.brandlogo {
-		display: inline-block;
-		padding: @line-height-computed 0;
-	}	
-	.brand {
-		display: inline-block;
-		line-height: 0;
-		padding: @line-height-computed 0;
-	}
-	.brandcare {
-		color: blue;
+@white: #fff;
+
+// GLOBAL STYLES
+// -------------
+body {
+	background: @white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.logo {
+	margin: 30px 0 20px;
+}
+img {
+	max-width: 100%;
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+	background: rgba(255, 255, 255, 0.5);
+	text-transform: uppercase;
+	//text-align: center;
+}
+
+#show-navobile {
+	position: fixed;
+	top: 50px;
+	left: 20px;
+	z-index: 9999;
+	.visible-xs;
+}
+#content {
+	//background: @white;
+}
+.wrapper {
+	margin-left: 200px;
+	.clearfix;
+}
+// NAV STYLES
+// ----------
+
+.nav {
+	//text-align: center;
+	li a {
+		color: #444;
 	}
 }
 
-h2 {
-	color: blue;
+// FOOTER STYLES
+// -------------
+
+footer {
+	background: #444;
+	padding: 20px;
+	margin-top: @line-height-computed;
+	color: @white;
 }
+
+// HOMEPAGE STYLES
+// ---------------
+.homepage_main {
+	padding-left: 0;
+}
+.links_wrap {
+	.make-row();
+}
+.link {
+	.make-sm-column(4);
+}
+.home_banner {
+	margin-bottom: @line-height-computed;
+	position: relative;
+}
+.call_to_action {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	.btn {
+		width: 100%;
+		text-transform: uppercase;
+	}
+}
+.action_link {
+	color: #fff;
+	font-size: 10em; 
+}
+// NAVOBILE STYLES
+// ---------------
+
 
 .mainslider {
 	.make-sm-column(12);
 	img {
 		.img-responsive;
 	}
+
+.navobile-mobile-only {
+    display: none;
 }
 
+#navobile-device-pixel {
+  width: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: @screen-sm-min) {
+    html,
+    .navobile-bound {
+      overflow-x: hidden;
+      overflow-y: scroll;
+      height: auto;
+      width: 100%;
+    }
+
+    .overflowscrolling {
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    #navobile-device-pixel {
+      width: 1px;
+    }
+
+    .navobile-mobile-only {
+      display: block;
+    }
+
+    .navobile-desktop-only {
+      display: none;
+    }
+
+    .navobile-navigation {
+      height: 100%;
+      left: -100%;
+      overflow: auto;
+      position: absolute;
+      top: -100%;
+      width: 80%;
+      z-index: -1;
+      
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+    }
+
+    .navobile-bound .navobile-navigation {
+        left: 0;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    .navobile-navigation ul {
+      overflow: hidden;
+    }
+
+    .navobile-navigation li {
+      float: none;
+      overflow: hidden;
+    }
+
+    .navobile-content {
+      position: relative;
+      z-index: 3;
+
+      -webkit-transition: -webkit-transform 0.2s linear;
+      -moz-transition: -moz-transform 0.2s linear;
+      -o-transition: -ms-transform 0.2s linear;
+      -ms-transition: -o-transform 0.2s linear;
+      transition: transform 0.2s linear;
+    }
+
+    .csstransforms #content.navobile-content-hidden {
+      -webkit-transform: translateX(80%);
+      -moz-transform: translateX(80%);
+      -ms-transform: translateX(80%);
+      -o-transform: translateX(80%);
+      transform: translateX(80%);
+    }
+
+    .csstransforms #content.navobile-content-hidden {
+      -webkit-transform: translate3d(80%,0,0);
+      -moz-transform: translate3d(80%,0,0);
+      -ms-transform: translate3d(80%,0,0);
+      -o-transform: translate3d(80%,0,0);
+      transform: translate3d(80%,0,0);
+    }
+}
+
+
+
+// RESPONSIVE STYLES
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
+
+	.homepage_main {
+		//padding-left: 200px;
+	}
+	.main {
+		position: relative;
+		z-index: -1;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+} 
 }

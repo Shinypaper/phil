@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php get_header(); ?>
 
 		<div class="main">
 			<div class="container">
@@ -12,4 +12,4 @@
 			</div>
 		</div>
 
-<?php include('footer.php') ?>
+<?php get_footer(); ?>
