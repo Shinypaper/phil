@@ -1,0 +1,23 @@
+The web site license allows you to use of all of the SoldPress features for a single fully qualified domain on one server.
+
+Domain Format Requirements:
+
+The web site license requires a valid fully qualified domain in the format of xyz.domain.ext.  For any licensed domain it will also work with and without the www subdomain at no additional charge.
+
+Additional subdomains or fully qualified domains would require an additional license.
+
+Valid Web Site License Examples:
+
+domain.com / www.domain.com / subdomain.domain.com / sub1.sub2.domain.com / www.sub.domain.com
+
+Invalid Examples:
+
+192.125.28.25 / servername / server.name
+
+Usage with SSL / https web sites:
+
+Your single web site license will work with or without SSL for your licensed domain so a license for www.domain.com will work for both http://www.domain.com and https://www.domain.com
+
+Note: A single web site license may only be used or installed on one server. 
+
+http://support.sanskript.com/customer/portal/articles/1203132-web-site-license-requirements-limitations
