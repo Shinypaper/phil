@@ -1,0 +1,38 @@
+
+#callout { background: none repeat scroll 0 0 #289DCC; color: #FFFFFF; display: block; font-size: 22px; line-height: normal; height: 100px; position: relative; box-shadow: 0 0 30px #067BAA inset; }
+
+#callout > strong { color: #FFFFFF; display: inline-block; font-weight: 300; text-align: center; width: 739px; }
+
+#callout > strong span { font-weight: 800; }
+
+#callout > span { background: #333333; /* for non-css3 browsers */
+background: -moz-linear-gradient(top, #333333,  #232323); /* for firefox 3.6+ */ 
+background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#232323)); /* Safari 4+, Chrome */
+background: -webkit-linear-gradient(left top, left bottom, #333333, #232323); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+background: -o-linear-gradient(top, #333333,#232323); /* Opera 11.10+ */
+background: -ms-filter:"progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#333333, EndColorStr=#232323, GradientType=0)";
+background: linear-gradient(to bottom, #333333,#232323); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#232323', GradientType='0'); /* for IE */
+ display: inline-block; padding: 35px 0; position: relative; text-align: center; width: 195px; }
+
+#callout > strong, #callout > span { text-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+#callout > span:before { background: url("../images/callout-signup-bg-overlay.png") no-repeat scroll 0 0 transparent; content: ""; height: 100px; left: -35px; position: absolute; top: 0; width: 35px; }
+
+#callout:hover { text-decoration: none; }
+
+.fullwidth #left-area { margin: 0; width: 100%; }
+
+.info-box { background: url("../images/pattern-stripes.png") repeat scroll 0 0 #FFFFFF !important; border: 1px solid #E4E4E4; -moz-border-radius: 3px;/*Firefox*/ -webkit-border-radius: 3px;/*Safari, Chrome*/ border-radius: 3px; margin: 40px 0 0; padding: 8px; -moz-box-shadow: 1px 1px 3px 0 rgba(180, 180, 180, 0.2);/*FF 3.5+*/ -webkit-box-shadow: 1px 1px 3px 0 rgba(180, 180, 180, 0.2);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#eeeeee)";/*IE 8*/ box-shadow: 1px 1px 3px 0 rgba(180, 180, 180, 0.2);  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#eeeeee);/*IE 5.5-7*/
+}
+
+.info-box-inner { background-image: -moz-linear-gradient(center bottom, #FAFAFA 0%, #FFFFFF 100%); border: 1px solid #E4E4E4; -moz-border-radius: 3px;/*Firefox*/ -webkit-border-radius: 3px;/*Safari, Chrome*/ border-radius: 3px; padding: 17px; }
+
+.info-box p { margin: 0; }
+
+.info-box h4 { color: #289DCC; font-size: 24px; line-height: 26px; margin: 0; }
+
+.info-box a { margin: 6px 0 0; }
+
+.info-content { float: left; }
+
