@@ -11,3 +11,9 @@
 [03/Jan/2014:16:32:08] (admin) sp_52c6e608f3ca4-listing
 [03/Jan/2014:16:40:32] (wp-cron) sp_52c6e800b7155-geo
 [03/Jan/2014:17:11:20] (wp-cron) sp_52c6ef3864071-cleanup
+[03/Jan/2014:17:58:07] (wp-cron) sp_52c6fa2fa4cb5-pictures
+[03/Jan/2014:17:59:14] (wp-cron) sp_52c6fa72665c2-geo
+[03/Jan/2014:17:59:14] (wp-cron) sp_52c6fa72adab1-cleanup
+[03/Jan/2014:18:24:35] (wp-cron) sp_52c70063ed1ae-pictures
+[03/Jan/2014:18:25:59] (wp-cron) sp_52c700b7b9b85-geo
+[03/Jan/2014:18:26:00] (wp-cron) sp_52c700b818134-cleanup
