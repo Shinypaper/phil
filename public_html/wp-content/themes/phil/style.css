@@ -5543,7 +5543,7 @@ body {
   margin: 30px 0 20px;
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
 .header {
   position: fixed;
@@ -5551,7 +5551,7 @@ img {
   left: 0;
   bottom: 0;
   width: 200px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
 #show-navobile {
@@ -5638,12 +5638,14 @@ td#show-navobile {
   clear: both;
 }
 .nav li a {
-  color: #444;
+  color: #ffffff;
+}
+.navobile-desktop-only {
+  z-index: 999;
 }
 footer {
   background: #444;
   padding: 20px;
-  margin-top: 20px;
   color: #ffffff;
 }
 .homepage_main {
@@ -5652,6 +5654,9 @@ footer {
 .links_wrap {
   margin-left: -15px;
   margin-right: -15px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 0;
 }
 .links_wrap:before,
 .links_wrap:after {
@@ -5686,7 +5691,6 @@ footer {
   }
 }
 .home_banner {
-  margin-bottom: 20px;
   position: relative;
 }
 .call_to_action {
@@ -5700,7 +5704,7 @@ footer {
   text-transform: uppercase;
 }
 .action_link {
-  color: #fff;
+  color: #2a6496;
   font-size: 10em;
 }
 .mainslider {
