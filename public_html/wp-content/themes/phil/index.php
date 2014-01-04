@@ -1,14 +1,15 @@
 <?php get_header(); ?>
 
 		<div class="main">
-			<div class="container">
-				<div class="brandcontainer">  
-					<img src="http://placehold.it/100x60&text=Logo" alt="" class="brandlogo">
-					<h1 class="brand">Wind&#333;<span class="brandcare">care</span></h1>
-				</div>
-				<div class="mainslider">
-					<img src="http://placehold.it/1200x400&text=Sliding+Banner" alt="">
-				</div>
+			<div class="wrapper">
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<article class="<?php post_class(); ?>">
+						<h2><?php the_title(); ?></h2>
+						<p><?php the_excerpt(); ?></p>
+					</article>
+				<?php endwhile; else: ?>
+				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+				<?php endif; ?>
 			</div>
 		</div>
 

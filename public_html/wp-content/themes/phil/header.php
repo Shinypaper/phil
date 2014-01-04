@@ -33,7 +33,7 @@
 			<a href="#" id="show-navobile"><i class="fa fa-bars"></i></a>
 			<header id="header" class="header">
 				<div class="logo">
-					<a href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt=""></a>
+					<a href="/"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
 				</div>
 				<nav class="menu">
 					<ul class="nav">
@@ -44,5 +44,7 @@
 						<li><a href="#">Contact</a></li>
 					</ul>
 				</nav>
-				<?//php wp_nav_menu( array('menu' => 'Primary Menu', 'container'=> 'nav', 'container_class' => 'menu', 'menu_class' => 'nav')); ?>
+				
+				<?php wp_nav_menu( array('theme_location' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav' ) ); ?>
+
 			</header>
