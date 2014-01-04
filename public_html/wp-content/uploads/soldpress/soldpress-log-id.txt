@@ -17,3 +17,7 @@
 [03/Jan/2014:18:24:35] (wp-cron) sp_52c70063ed1ae-pictures
 [03/Jan/2014:18:25:59] (wp-cron) sp_52c700b7b9b85-geo
 [03/Jan/2014:18:26:00] (wp-cron) sp_52c700b818134-cleanup
+[04/Jan/2014:00:42:31] (wp-cron) sp_52c758f73b104-pictures
+[04/Jan/2014:00:42:31] (wp-cron) sp_52c758f7d4ae3-geo
+[04/Jan/2014:00:42:32] (wp-cron) sp_52c758f825169-cleanup
+[04/Jan/2014:00:42:32] (wp-cron) sp_52c758f877c9c-listing
