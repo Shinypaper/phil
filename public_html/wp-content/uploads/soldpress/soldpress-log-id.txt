@@ -21,3 +21,4 @@
 [04/Jan/2014:00:42:31] (wp-cron) sp_52c758f7d4ae3-geo
 [04/Jan/2014:00:42:32] (wp-cron) sp_52c758f825169-cleanup
 [04/Jan/2014:00:42:32] (wp-cron) sp_52c758f877c9c-listing
+[04/Jan/2014:00:50:38] (wp-cron) sp_52c75adeb0425-cleanup

@@ -1,8 +1,4 @@
-<?php 
-
-	//Template Name: Home Page
-
-get_header(); ?>
+<?php get_header(); ?>
 
 	<section class="main homepage_main">
 		<div class="home_banner">
