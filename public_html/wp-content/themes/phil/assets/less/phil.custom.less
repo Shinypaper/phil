@@ -6,7 +6,6 @@
 // GLOBAL STYLES
 // -------------
 body {
-	background: @white;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .logo {
@@ -34,15 +33,14 @@ img {
 	.visible-xs;
 }
 #content {
-	//background: @white;
+	background: @white;
 }
 .wrapper {
-	margin-left: 200px;
+	margin-left: 0px;
 	.clearfix;
 }
 .wrapper_inner {
-  width: 95%;
-  margin: 0 auto;
+  padding: 0 @line-height-computed;
 }
 // NAV STYLES
 // ----------
@@ -106,7 +104,7 @@ footer {
 	img {
 		.img-responsive;
 	}
-
+}
 .navobile-mobile-only {
     display: none;
 }
@@ -200,8 +198,117 @@ footer {
     }
 }
 
+// SOLPRESS STYLE OVERRIDES
+// ------------------------
 
-
+.wrapper_inner .sp {
+  .listing-wrapper {
+    background: @white;
+  }
+  .price-wrapper {
+    padding: 0 @line-height-computed @line-height-computed;
+    float: none;
+  }
+  .properties {
+    .listing {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      &.featured-list {
+        figure {
+          height: auto;
+          margin: 0;
+        }
+        .top {
+          padding-left: 0;
+        }
+      }
+      .bottom{
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+        background: @white;
+        text-align: left;
+        padding: 0 @line-height-computed;
+        p {
+          padding: 0;
+        }
+      }
+      .top {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;        
+      }
+      .inner-border {
+        border: 0;
+      }
+      .inner-padding {
+        padding: 0;
+      }
+      figure {
+        margin-left: 0;
+        border: 0;
+        width: 100%;
+        height: auto;
+        &:hover {
+          img {
+            -webkit-transform: none;
+            -moz-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+          }
+        }
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+      h3 {
+        padding: 0 @line-height-computed;
+      }
+      p {
+        padding: 0 @line-height-computed;
+        margin: 0;
+      }
+    }
+  }
+  .search-bar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;    
+  }
+  .search-title {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    background: @white;
+  }
+  .search-bottom {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+  }
+  .flex-direction-nav  {
+    .flex-prev, .flex-next {
+        padding-top: 10px;
+    }
+  }
+}
 // RESPONSIVE STYLES
 
 /* Extra small devices (phones, less than 768px) */
@@ -209,15 +316,9 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
-
-
-	.homepage_main {
-		//padding-left: 200px;
-	}
-	.main {
-		position: relative;
-		z-index: -1;
-	}
+  .wrapper {
+    margin-left: 200px;
+  }
 
 }
 
@@ -230,4 +331,4 @@ footer {
 @media (min-width: @screen-lg-min) {
 
 } 
-}
+
