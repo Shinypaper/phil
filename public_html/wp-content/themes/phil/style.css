@@ -5536,14 +5536,13 @@ button.close {
   }
 }
 body {
-  background: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
 }
 .logo {
   margin: 30px 0 20px;
 }
 img {
-  width: 100%;
+  max-width: 100%;
 }
 .header {
   position: fixed;
@@ -5614,8 +5613,11 @@ td#show-navobile {
     display: table-cell !important;
   }
 }
+#content {
+  background: #ffffff;
+}
 .wrapper {
-  margin-left: 200px;
+  margin-left: 0px;
 }
 .wrapper:before,
 .wrapper:after {
@@ -5636,6 +5638,9 @@ td#show-navobile {
 }
 .wrapper:after {
   clear: both;
+}
+.wrapper_inner {
+  padding: 0 20px;
 }
 .nav li a {
   color: #ffffff;
@@ -5712,11 +5717,6 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  /* Extra small devices (phones, less than 768px) */
-  /* No media query since this is the default in Bootstrap */
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
 }
 @media (min-width: 768px) {
   .mainslider {
@@ -5729,33 +5729,33 @@ footer {
   max-width: 100%;
   height: auto;
 }
-.mainslider .navobile-mobile-only {
+.navobile-mobile-only {
   display: none;
 }
-.mainslider #navobile-device-pixel {
+#navobile-device-pixel {
   width: 0;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
-  .mainslider html,
-  .mainslider .navobile-bound {
+  html,
+  .navobile-bound {
     overflow-x: hidden;
     overflow-y: scroll;
     height: auto;
     width: 100%;
   }
-  .mainslider .overflowscrolling {
+  .overflowscrolling {
     -webkit-overflow-scrolling: touch;
   }
-  .mainslider #navobile-device-pixel {
+  #navobile-device-pixel {
     width: 1px;
   }
-  .mainslider .navobile-mobile-only {
+  .navobile-mobile-only {
     display: block;
   }
-  .mainslider .navobile-desktop-only {
+  .navobile-desktop-only {
     display: none;
   }
-  .mainslider .navobile-navigation {
+  .navobile-navigation {
     height: 100%;
     left: -100%;
     overflow: auto;
@@ -5769,20 +5769,20 @@ footer {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-  .mainslider .navobile-bound .navobile-navigation {
+  .navobile-bound .navobile-navigation {
     left: 0;
     position: fixed;
     top: 0;
     z-index: 1;
   }
-  .mainslider .navobile-navigation ul {
+  .navobile-navigation ul {
     overflow: hidden;
   }
-  .mainslider .navobile-navigation li {
+  .navobile-navigation li {
     float: none;
     overflow: hidden;
   }
-  .mainslider .navobile-content {
+  .navobile-content {
     position: relative;
     z-index: 3;
     -webkit-transition: -webkit-transform 0.2s linear;
@@ -5791,14 +5791,14 @@ footer {
     -ms-transition: -o-transform 0.2s linear;
     transition: transform 0.2s linear;
   }
-  .mainslider .csstransforms #content.navobile-content-hidden {
+  .csstransforms #content.navobile-content-hidden {
     -webkit-transform: translateX(80%);
     -moz-transform: translateX(80%);
     -ms-transform: translateX(80%);
     -o-transform: translateX(80%);
     transform: translateX(80%);
   }
-  .mainslider .csstransforms #content.navobile-content-hidden {
+  .csstransforms #content.navobile-content-hidden {
     -webkit-transform: translate3d(80%, 0, 0);
     -moz-transform: translate3d(80%, 0, 0);
     -ms-transform: translate3d(80%, 0, 0);
@@ -5806,12 +5806,115 @@ footer {
     transform: translate3d(80%, 0, 0);
   }
 }
+.wrapper_inner .sp .listing-wrapper {
+  background: #ffffff;
+}
+.wrapper_inner .sp .price-wrapper {
+  padding: 0 20px 20px;
+  float: none;
+}
+.wrapper_inner .sp .properties .listing {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.wrapper_inner .sp .properties .listing.featured-list figure {
+  height: auto;
+  margin: 0;
+}
+.wrapper_inner .sp .properties .listing.featured-list .top {
+  padding-left: 0;
+}
+.wrapper_inner .sp .properties .listing .bottom {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: #ffffff;
+  text-align: left;
+  padding: 0 20px;
+}
+.wrapper_inner .sp .properties .listing .bottom p {
+  padding: 0;
+}
+.wrapper_inner .sp .properties .listing .top {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.wrapper_inner .sp .properties .listing .inner-border {
+  border: 0;
+}
+.wrapper_inner .sp .properties .listing .inner-padding {
+  padding: 0;
+}
+.wrapper_inner .sp .properties .listing figure {
+  margin-left: 0;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+.wrapper_inner .sp .properties .listing figure:hover img {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.wrapper_inner .sp .properties .listing figure img {
+  width: auto;
+  height: auto;
+}
+.wrapper_inner .sp .properties .listing h3 {
+  padding: 0 20px;
+}
+.wrapper_inner .sp .properties .listing p {
+  padding: 0 20px;
+  margin: 0;
+}
+.wrapper_inner .sp .search-bar {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.wrapper_inner .sp .search-title {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: #ffffff;
+}
+.wrapper_inner .sp .search-bottom {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.wrapper_inner .sp .flex-direction-nav .flex-prev,
+.wrapper_inner .sp .flex-direction-nav .flex-next {
+  padding-top: 10px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .mainslider .main {
-    position: relative;
-    z-index: -1;
+  .wrapper {
+    margin-left: 200px;
   }
 }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
 .clearfix:before,
 .clearfix:after {
   content: " ";

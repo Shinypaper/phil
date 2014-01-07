@@ -15,14 +15,13 @@
 		  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/navobile.css" type="text/css" />
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		<?php wp_head(); ?>
+		
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -33,16 +32,11 @@
 			<a href="#" id="show-navobile"><i class="fa fa-bars"></i></a>
 			<header id="header" class="header">
 				<div class="logo">
-					<a href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt=""></a>
+					<a href="/"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
 				</div>
-				<nav class="menu">
-					<ul class="nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Property Search</a></li>
-						<li><a href="#">Listings</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-				<?php wp_nav_menu( array('menu' => 'Primary Menu', 'container'=> 'nav', 'container_class' => 'menu', 'menu_class' => 'nav')); ?>
+
+			<?php wp_nav_menu( array('theme_location' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav' ) ); ?>
+
+				
+
 			</header>
