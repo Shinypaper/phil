@@ -1,8 +1,0 @@
-[03/Jan/2014:23:23:33] (wp-cron) ///// Begin Sync sp_52c74675ef72c
-
-[03/Jan/2014:23:23:34] (wp-cron) ///// Start Cleanup Sync sp_52c74675ef72c
-
-[03/Jan/2014:23:23:34] (wp-cron) Delete Logs 
-
-[03/Jan/2014:23:23:34] (wp-cron) ///// End Syncsp_52c74675ef72c
-
