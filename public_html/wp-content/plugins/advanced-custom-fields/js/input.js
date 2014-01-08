@@ -3217,8 +3217,6 @@ var acf = {
 		
 		toggle : function( $a ){
 			
-			console.log( $a );
-			
 			// vars
 			var $wrap	= $a.closest('.acf-tab-wrap').parent(),
 				key		= $a.attr('data-key');
@@ -3272,9 +3270,13 @@ var acf = {
 			
 			
 			// trigger
-			$el.find('.acf-tab-group .acf-tab-button:first').each(function(){
+			$el.find('.acf-tab-group').each(function(){
 				
-				_this.toggle( $(this) );
+				$(this).find('.acf-tab-button:first').each(function(){
+					
+					_this.toggle( $(this) );
+					
+				});
 				
 			});
 			

@@ -5618,6 +5618,7 @@ td#show-navobile {
 }
 .wrapper {
   margin-left: 0px;
+  margin-top: 40px;
 }
 .wrapper:before,
 .wrapper:after {
