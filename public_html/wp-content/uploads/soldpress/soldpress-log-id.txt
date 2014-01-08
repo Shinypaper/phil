@@ -30,6 +30,16 @@
 [03/Jan/2014:18:51:30] (wp-cron) sp_52c706b2161c8-pictures
 [03/Jan/2014:18:53:38] (wp-cron) sp_52c7073242513-geo
 [03/Jan/2014:18:53:38] (wp-cron) sp_52c707326ae1a-cleanup
+<<<<<<< HEAD
+[03/Jan/2014:23:23:00] (wp-cron) sp_52c746543122c-pictures
+[03/Jan/2014:23:23:33] (wp-cron) sp_52c7467519646-geo
+[03/Jan/2014:23:23:33] (wp-cron) sp_52c74675ef72c-cleanup
+[07/Jan/2014:21:26:40] (wp-cron) sp_52cc7110e6087-pictures
+[07/Jan/2014:21:27:43] (wp-cron) sp_52cc714f29631-geo
+[07/Jan/2014:21:27:43] (wp-cron) sp_52cc714f62375-cleanup
+[07/Jan/2014:21:27:43] (wp-cron) sp_52cc714faceea-listing
+[07/Jan/2014:21:30:32] (wp-cron) sp_52cc71f860e1e-pictures
+=======
 >>>>>>> origin/manfred
 [04/Jan/2014:01:30:45] (wp-cron) sp_52c76445b0df4-pictures
 [04/Jan/2014:01:40:39] (wp-cron) sp_52c766977f57b-geo
@@ -51,6 +61,7 @@
 [06/Jan/2014:22:51:27] (wp-cron) sp_52cb336f125b5-cleanup
 [06/Jan/2014:22:51:27] (wp-cron) sp_52cb336f37c69-cleanup
 [06/Jan/2014:23:32:06] (wp-cron) sp_52cb3cf66e269-pictures
+<<<<<<< HEAD
 [07/Jan/2014:20:45:16] (wp-cron) sp_52cc675c585db-geo
 [07/Jan/2014:20:45:17] (wp-cron) sp_52cc675d56841-cleanup
 [07/Jan/2014:20:45:17] (wp-cron) sp_52cc675d7bfa0-listing
@@ -67,3 +78,8 @@
 [07/Jan/2014:23:44:38] (wp-cron) sp_52cc916606b20-geo
 [07/Jan/2014:23:55:07] (wp-cron) sp_52cc93db0acd5-cleanup
 [07/Jan/2014:23:59:27] (wp-cron) sp_52cc94df2c4db-listing
+=======
+>>>>>>> origin/dillon
+[07/Jan/2014:21:43:40] (wp-cron) sp_52cc750c4d803-geo
+[07/Jan/2014:21:50:38] (wp-cron) sp_52cc76ae5666f-cleanup
+>>>>>>> origin/manfred
