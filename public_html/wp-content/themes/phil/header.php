@@ -35,7 +35,7 @@
 					<a href="/"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
 				</div>
 
-			<?php wp_nav_menu( array('theme_location' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav' ) ); ?>
+				<?php wp_nav_menu( array('menu' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav') ); ?>
 
 				
 

@@ -1,6 +1,7 @@
 .htaccess
 wp-config.php
 wp-content/uploads/
+wp-content/uploads/soldpress
 wp-content/blogs.dir/
 wp-content/upgrade/
 wp-content/backup-db/
