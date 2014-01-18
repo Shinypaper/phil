@@ -83,3 +83,13 @@
 [07/Jan/2014:21:43:40] (wp-cron) sp_52cc750c4d803-geo
 [07/Jan/2014:21:50:38] (wp-cron) sp_52cc76ae5666f-cleanup
 >>>>>>> origin/manfred
+[13/Jan/2014:14:32:24] (wp-cron) sp_52d3f8f8e29aa-pictures
+[13/Jan/2014:14:33:40] (wp-cron) sp_52d3f94419993-geo
+[13/Jan/2014:14:33:40] (wp-cron) sp_52d3f94459edd-cleanup
+[13/Jan/2014:14:33:42] (wp-cron) sp_52d3f946ba54a-listing
+[13/Jan/2014:17:08:49] (wp-cron) sp_52d41da142185-geo
+[13/Jan/2014:17:08:49] (wp-cron) sp_52d41da17707a-cleanup
+[13/Jan/2014:17:08:56] (wp-cron) sp_52d41da87caef-pictures
+[13/Jan/2014:20:47:07] (wp-cron) sp_52d450cb8aa13-pictures
+[13/Jan/2014:20:47:36] (wp-cron) sp_52d450e806f0a-geo
+[13/Jan/2014:20:47:36] (wp-cron) sp_52d450e83595f-cleanup

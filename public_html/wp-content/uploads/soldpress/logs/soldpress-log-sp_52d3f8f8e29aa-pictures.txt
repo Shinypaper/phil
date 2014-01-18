@@ -1,0 +1,1458 @@
+[13/Jan/2014:14:32:24] (wp-cron) ///// Begin Sync sp_52d3f8f8e29aa
+
+[13/Jan/2014:14:32:25] (wp-cron) ///// Start Picture Sync sp_52d3f8f8e29aa
+
+[13/Jan/2014:14:32:25] (wp-cron) Begin Picture Sync
+
+[13/Jan/2014:14:32:30] (wp-cron) Total Photo Records: 275
+
+[13/Jan/2014:14:32:30] (wp-cron) Begin Listings Picture Sync - PostId:4323 - $listingkey:13943066Record1
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943066-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:32] (wp-cron) Begin Listings Picture Sync - PostId:4325 - $listingkey:13947282Record2
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13947282-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:33] (wp-cron) Begin Listings Picture Sync - PostId:1332 - $listingkey:13913857Record3
+
+[13/Jan/2014:14:32:34] (wp-cron) Zero Picture Issue Detected13913857
+
+[13/Jan/2014:14:32:34] (wp-cron) Begin Listings Picture Sync - PostId:4329 - $listingkey:13940832Record4
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940832-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:37] (wp-cron) Begin Listings Picture Sync - PostId:4331 - $listingkey:13946883Record5
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946883-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946883-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946883-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946883-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) Begin Listings Picture Sync - PostId:1529 - $listingkey:13785740Record6
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13785740-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13785740-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13785740-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13785740-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:38] (wp-cron) Begin Listings Picture Sync - PostId:4334 - $listingkey:13946703Record7
+
+[13/Jan/2014:14:32:39] (wp-cron) Zero Picture Issue Detected13946703
+
+[13/Jan/2014:14:32:39] (wp-cron) Begin Listings Picture Sync - PostId:4336 - $listingkey:13946682Record8
+
+[13/Jan/2014:14:32:39] (wp-cron) Zero Picture Issue Detected13946682
+
+[13/Jan/2014:14:32:39] (wp-cron) Begin Listings Picture Sync - PostId:130 - $listingkey:13924902Record9
+
+[13/Jan/2014:14:32:39] (wp-cron) Zero Picture Issue Detected13924902
+
+[13/Jan/2014:14:32:39] (wp-cron) Begin Listings Picture Sync - PostId:4340 - $listingkey:13946425Record10
+
+[13/Jan/2014:14:32:40] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946425-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:40] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946425-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:40] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946425-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:40] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946425-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:40] (wp-cron) Begin Listings Picture Sync - PostId:4341 - $listingkey:13946376Record11
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946376-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:41] (wp-cron) Begin Listings Picture Sync - PostId:4342 - $listingkey:13946217Record12
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946217-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:42] (wp-cron) Begin Listings Picture Sync - PostId:4343 - $listingkey:13946215Record13
+
+[13/Jan/2014:14:32:43] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946215-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:43] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946215-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:43] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946215-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:43] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946215-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:43] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946215-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:43] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946215-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:43] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946215-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:43] (wp-cron) Begin Listings Picture Sync - PostId:4345 - $listingkey:13946200Record14
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946200-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:44] (wp-cron) Begin Listings Picture Sync - PostId:4346 - $listingkey:13946184Record15
+
+[13/Jan/2014:14:32:45] (wp-cron) Zero Picture Issue Detected13946184
+
+[13/Jan/2014:14:32:45] (wp-cron) Begin Listings Picture Sync - PostId:4347 - $listingkey:13946178Record16
+
+[13/Jan/2014:14:32:45] (wp-cron) Zero Picture Issue Detected13946178
+
+[13/Jan/2014:14:32:45] (wp-cron) Begin Listings Picture Sync - PostId:3799 - $listingkey:13934270Record17
+
+[13/Jan/2014:14:32:45] (wp-cron) Zero Picture Issue Detected13934270
+
+[13/Jan/2014:14:32:45] (wp-cron) Begin Listings Picture Sync - PostId:4351 - $listingkey:13946153Record18
+
+[13/Jan/2014:14:32:46] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946153-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:46] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946153-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:46] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946153-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:46] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946153-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:46] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946153-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:46] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946153-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:46] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13946153-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:46] (wp-cron) Begin Listings Picture Sync - PostId:4359 - $listingkey:13946008Record19
+
+[13/Jan/2014:14:32:46] (wp-cron) Zero Picture Issue Detected13946008
+
+[13/Jan/2014:14:32:47] (wp-cron) Begin Listings Picture Sync - PostId:4361 - $listingkey:13945993Record20
+
+[13/Jan/2014:14:32:47] (wp-cron) Zero Picture Issue Detected13945993
+
+[13/Jan/2014:14:32:47] (wp-cron) Begin Listings Picture Sync - PostId:4362 - $listingkey:13942808Record21
+
+[13/Jan/2014:14:32:47] (wp-cron) Zero Picture Issue Detected13942808
+
+[13/Jan/2014:14:32:47] (wp-cron) Begin Listings Picture Sync - PostId:4380 - $listingkey:13943027Record22
+
+[13/Jan/2014:14:32:47] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943027-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:47] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943027-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:47] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943027-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:47] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943027-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:47] (wp-cron) Begin Listings Picture Sync - PostId:4381 - $listingkey:13943875Record23
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943875-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:49] (wp-cron) Begin Listings Picture Sync - PostId:4382 - $listingkey:13943847Record24
+
+[13/Jan/2014:14:32:51] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943847-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:51] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943847-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:51] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943847-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:51] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943847-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:51] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943847-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:51] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943847-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:51] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13943847-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:51] (wp-cron) Begin Listings Picture Sync - PostId:2592 - $listingkey:13936418Record25
+
+[13/Jan/2014:14:32:51] (wp-cron) Zero Picture Issue Detected13936418
+
+[13/Jan/2014:14:32:51] (wp-cron) Begin Listings Picture Sync - PostId:541 - $listingkey:13882075Record26
+
+[13/Jan/2014:14:32:51] (wp-cron) Zero Picture Issue Detected13882075
+
+[13/Jan/2014:14:32:51] (wp-cron) Begin Listings Picture Sync - PostId:3541 - $listingkey:13842128Record27
+
+[13/Jan/2014:14:32:51] (wp-cron) Zero Picture Issue Detected13842128
+
+[13/Jan/2014:14:32:51] (wp-cron) Begin Listings Picture Sync - PostId:3740 - $listingkey:13906952Record28
+
+[13/Jan/2014:14:32:51] (wp-cron) Zero Picture Issue Detected13906952
+
+[13/Jan/2014:14:32:51] (wp-cron) Begin Listings Picture Sync - PostId:4409 - $listingkey:13943015Record29
+
+[13/Jan/2014:14:32:51] (wp-cron) Zero Picture Issue Detected13943015
+
+[13/Jan/2014:14:32:51] (wp-cron) Begin Listings Picture Sync - PostId:4412 - $listingkey:13942953Record30
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942953-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:52] (wp-cron) Begin Listings Picture Sync - PostId:4413 - $listingkey:13942952Record31
+
+[13/Jan/2014:14:32:53] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942952-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:53] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942952-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:53] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942952-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:53] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942952-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:53] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942952-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:53] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942952-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:53] (wp-cron) Begin Listings Picture Sync - PostId:4416 - $listingkey:13942931Record32
+
+[13/Jan/2014:14:32:56] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942931-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:56] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942931-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:56] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942931-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:56] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942931-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:56] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942931-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:56] (wp-cron) Begin Listings Picture Sync - PostId:4417 - $listingkey:13942873Record33
+
+[13/Jan/2014:14:32:56] (wp-cron) Zero Picture Issue Detected13942873
+
+[13/Jan/2014:14:32:56] (wp-cron) Begin Listings Picture Sync - PostId:444 - $listingkey:13898952Record34
+
+[13/Jan/2014:14:32:56] (wp-cron) Zero Picture Issue Detected13898952
+
+[13/Jan/2014:14:32:56] (wp-cron) Begin Listings Picture Sync - PostId:4418 - $listingkey:13942838Record35
+
+[13/Jan/2014:14:32:56] (wp-cron) Zero Picture Issue Detected13942838
+
+[13/Jan/2014:14:32:56] (wp-cron) Begin Listings Picture Sync - PostId:4419 - $listingkey:13942819Record36
+
+[13/Jan/2014:14:32:57] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942819-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:57] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942819-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:57] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942819-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:57] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13942819-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:57] (wp-cron) Begin Listings Picture Sync - PostId:4464 - $listingkey:13940967Record37
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-0.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-1.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-2.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-3.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-4.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-5.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-6.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-7.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940967-LargePhoto-8.jpg
+
+[13/Jan/2014:14:32:59] (wp-cron) Begin Listings Picture Sync - PostId:4465 - $listingkey:13940871Record38
+
+[13/Jan/2014:14:32:59] (wp-cron) Zero Picture Issue Detected13940871
+
+[13/Jan/2014:14:32:59] (wp-cron) Begin Listings Picture Sync - PostId:2079 - $listingkey:13937700Record39
+
+[13/Jan/2014:14:32:59] (wp-cron) Zero Picture Issue Detected13937700
+
+[13/Jan/2014:14:32:59] (wp-cron) Begin Listings Picture Sync - PostId:3796 - $listingkey:13936453Record40
+
+[13/Jan/2014:14:32:59] (wp-cron) Zero Picture Issue Detected13936453
+
+[13/Jan/2014:14:32:59] (wp-cron) Begin Listings Picture Sync - PostId:2155 - $listingkey:13937544Record41
+
+[13/Jan/2014:14:32:59] (wp-cron) Zero Picture Issue Detected13937544
+
+[13/Jan/2014:14:32:59] (wp-cron) Begin Listings Picture Sync - PostId:4466 - $listingkey:13940435Record42
+
+[13/Jan/2014:14:32:59] (wp-cron) Zero Picture Issue Detected13940435
+
+[13/Jan/2014:14:32:59] (wp-cron) Begin Listings Picture Sync - PostId:4467 - $listingkey:13940421Record43
+
+[13/Jan/2014:14:33:00] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940421-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:00] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940421-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:00] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940421-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:00] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13940421-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:4468 - $listingkey:13940364Record44
+
+[13/Jan/2014:14:33:00] (wp-cron) Zero Picture Issue Detected13940364
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:1771 - $listingkey:13938181Record45
+
+[13/Jan/2014:14:33:00] (wp-cron) Zero Picture Issue Detected13938181
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:3417 - $listingkey:13934921Record46
+
+[13/Jan/2014:14:33:00] (wp-cron) Zero Picture Issue Detected13934921
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:1016 - $listingkey:13937796Record47
+
+[13/Jan/2014:14:33:00] (wp-cron) Zero Picture Issue Detected13937796
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:2078 - $listingkey:13937731Record48
+
+[13/Jan/2014:14:33:00] (wp-cron) Zero Picture Issue Detected13937731
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:643 - $listingkey:13778156Record49
+
+[13/Jan/2014:14:33:00] (wp-cron) Zero Picture Issue Detected13778156
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:3121 - $listingkey:13937614Record50
+
+[13/Jan/2014:14:33:00] (wp-cron) Zero Picture Issue Detected13937614
+
+[13/Jan/2014:14:33:00] (wp-cron) Begin Listings Picture Sync - PostId:2595 - $listingkey:13936480Record51
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-5.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-6.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13936480-LargePhoto-7.jpg
+
+[13/Jan/2014:14:33:02] (wp-cron) Begin Listings Picture Sync - PostId:2367 - $listingkey:13785519Record52
+
+[13/Jan/2014:14:33:02] (wp-cron) Zero Picture Issue Detected13785519
+
+[13/Jan/2014:14:33:02] (wp-cron) Begin Listings Picture Sync - PostId:3050 - $listingkey:13935606Record53
+
+[13/Jan/2014:14:33:02] (wp-cron) Zero Picture Issue Detected13935606
+
+[13/Jan/2014:14:33:02] (wp-cron) Begin Listings Picture Sync - PostId:2596 - $listingkey:13869163Record54
+
+[13/Jan/2014:14:33:02] (wp-cron) Zero Picture Issue Detected13869163
+
+[13/Jan/2014:14:33:02] (wp-cron) Begin Listings Picture Sync - PostId:1847 - $listingkey:13825889Record55
+
+[13/Jan/2014:14:33:02] (wp-cron) Zero Picture Issue Detected13825889
+
+[13/Jan/2014:14:33:02] (wp-cron) Begin Listings Picture Sync - PostId:2000 - $listingkey:13920970Record56
+
+[13/Jan/2014:14:33:02] (wp-cron) Zero Picture Issue Detected13920970
+
+[13/Jan/2014:14:33:02] (wp-cron) Begin Listings Picture Sync - PostId:4018 - $listingkey:13815910Record57
+
+[13/Jan/2014:14:33:02] (wp-cron) Zero Picture Issue Detected13815910
+
+[13/Jan/2014:14:33:02] (wp-cron) Begin Listings Picture Sync - PostId:3423 - $listingkey:13934872Record58
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-5.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-6.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-7.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934872-LargePhoto-8.jpg
+
+[13/Jan/2014:14:33:05] (wp-cron) Begin Listings Picture Sync - PostId:3722 - $listingkey:13934296Record59
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-5.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-6.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-7.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13934296-LargePhoto-8.jpg
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:1101 - $listingkey:13931117Record60
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13931117
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:3959 - $listingkey:13933947Record61
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13933947
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:55 - $listingkey:13933387Record62
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13933387
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:124 - $listingkey:13933317Record63
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13933317
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:198 - $listingkey:13933017Record64
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13933017
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:2821 - $listingkey:13582412Record65
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13582412
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:574 - $listingkey:13932373Record66
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13932373
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:648 - $listingkey:13918216Record67
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13918216
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:1111 - $listingkey:13931148Record68
+
+[13/Jan/2014:14:33:07] (wp-cron) Zero Picture Issue Detected13931148
+
+[13/Jan/2014:14:33:07] (wp-cron) Begin Listings Picture Sync - PostId:1112 - $listingkey:13931112Record69
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-5.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-6.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-7.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13931112-LargePhoto-8.jpg
+
+[13/Jan/2014:14:33:09] (wp-cron) Begin Listings Picture Sync - PostId:1403 - $listingkey:13930596Record70
+
+[13/Jan/2014:14:33:09] (wp-cron) Zero Picture Issue Detected13930596
+
+[13/Jan/2014:14:33:09] (wp-cron) Begin Listings Picture Sync - PostId:129 - $listingkey:13924805Record71
+
+[13/Jan/2014:14:33:09] (wp-cron) Zero Picture Issue Detected13924805
+
+[13/Jan/2014:14:33:09] (wp-cron) Begin Listings Picture Sync - PostId:1851 - $listingkey:13866723Record72
+
+[13/Jan/2014:14:33:09] (wp-cron) Zero Picture Issue Detected13866723
+
+[13/Jan/2014:14:33:09] (wp-cron) Begin Listings Picture Sync - PostId:2301 - $listingkey:13928720Record73
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-5.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-6.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-7.jpg
+
+[13/Jan/2014:14:33:10] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13928720-LargePhoto-8.jpg
+
+[13/Jan/2014:14:33:11] (wp-cron) Begin Listings Picture Sync - PostId:2385 - $listingkey:13928505Record74
+
+[13/Jan/2014:14:33:11] (wp-cron) Zero Picture Issue Detected13928505
+
+[13/Jan/2014:14:33:11] (wp-cron) Begin Listings Picture Sync - PostId:2451 - $listingkey:13928434Record75
+
+[13/Jan/2014:14:33:11] (wp-cron) Zero Picture Issue Detected13928434
+
+[13/Jan/2014:14:33:12] (wp-cron) Begin Listings Picture Sync - PostId:3436 - $listingkey:13328681Record76
+
+[13/Jan/2014:14:33:12] (wp-cron) Zero Picture Issue Detected13328681
+
+[13/Jan/2014:14:33:12] (wp-cron) Begin Listings Picture Sync - PostId:203 - $listingkey:13924730Record77
+
+[13/Jan/2014:14:33:12] (wp-cron) Zero Picture Issue Detected13924730
+
+[13/Jan/2014:14:33:12] (wp-cron) Begin Listings Picture Sync - PostId:141 - $listingkey:13924842Record78
+
+[13/Jan/2014:14:33:14] (wp-cron) Zero Picture Issue Detected13924842
+
+[13/Jan/2014:14:33:14] (wp-cron) Begin Listings Picture Sync - PostId:142 - $listingkey:13924841Record79
+
+[13/Jan/2014:14:33:14] (wp-cron) Zero Picture Issue Detected13924841
+
+[13/Jan/2014:14:33:14] (wp-cron) Begin Listings Picture Sync - PostId:1935 - $listingkey:13878945Record80
+
+[13/Jan/2014:14:33:14] (wp-cron) Zero Picture Issue Detected13878945
+
+[13/Jan/2014:14:33:14] (wp-cron) Begin Listings Picture Sync - PostId:1114 - $listingkey:13872174Record81
+
+[13/Jan/2014:14:33:14] (wp-cron) Zero Picture Issue Detected13872174
+
+[13/Jan/2014:14:33:14] (wp-cron) Begin Listings Picture Sync - PostId:69 - $listingkey:13882258Record82
+
+[13/Jan/2014:14:33:14] (wp-cron) Zero Picture Issue Detected13882258
+
+[13/Jan/2014:14:33:16] (wp-cron) Begin Listings Picture Sync - PostId:1040 - $listingkey:13922801Record83
+
+[13/Jan/2014:14:33:16] (wp-cron) Zero Picture Issue Detected13922801
+
+[13/Jan/2014:14:33:16] (wp-cron) Begin Listings Picture Sync - PostId:880 - $listingkey:13881226Record84
+
+[13/Jan/2014:14:33:16] (wp-cron) Zero Picture Issue Detected13881226
+
+[13/Jan/2014:14:33:16] (wp-cron) Begin Listings Picture Sync - PostId:3132 - $listingkey:13921356Record85
+
+[13/Jan/2014:14:33:16] (wp-cron) Zero Picture Issue Detected13921356
+
+[13/Jan/2014:14:33:16] (wp-cron) Begin Listings Picture Sync - PostId:1856 - $listingkey:13921173Record86
+
+[13/Jan/2014:14:33:18] (wp-cron) Zero Picture Issue Detected13921173
+
+[13/Jan/2014:14:33:18] (wp-cron) Begin Listings Picture Sync - PostId:1857 - $listingkey:13921159Record87
+
+[13/Jan/2014:14:33:18] (wp-cron) Zero Picture Issue Detected13921159
+
+[13/Jan/2014:14:33:18] (wp-cron) Begin Listings Picture Sync - PostId:4107 - $listingkey:13908344Record88
+
+[13/Jan/2014:14:33:18] (wp-cron) Zero Picture Issue Detected13908344
+
+[13/Jan/2014:14:33:18] (wp-cron) Begin Listings Picture Sync - PostId:728 - $listingkey:13918027Record89
+
+[13/Jan/2014:14:33:18] (wp-cron) Zero Picture Issue Detected13918027
+
+[13/Jan/2014:14:33:18] (wp-cron) Begin Listings Picture Sync - PostId:582 - $listingkey:13915603Record90
+
+[13/Jan/2014:14:33:18] (wp-cron) Zero Picture Issue Detected13915603
+
+[13/Jan/2014:14:33:18] (wp-cron) Begin Listings Picture Sync - PostId:1555 - $listingkey:13702945Record91
+
+[13/Jan/2014:14:33:18] (wp-cron) Zero Picture Issue Detected13702945
+
+[13/Jan/2014:14:33:18] (wp-cron) Begin Listings Picture Sync - PostId:2982 - $listingkey:13916179Record92
+
+[13/Jan/2014:14:33:18] (wp-cron) Zero Picture Issue Detected13916179
+
+[13/Jan/2014:14:33:18] (wp-cron) Begin Listings Picture Sync - PostId:285 - $listingkey:13916060Record93
+
+[13/Jan/2014:14:33:19] (wp-cron) Zero Picture Issue Detected13916060
+
+[13/Jan/2014:14:33:19] (wp-cron) Begin Listings Picture Sync - PostId:1706 - $listingkey:13915981Record94
+
+[13/Jan/2014:14:33:19] (wp-cron) Zero Picture Issue Detected13915981
+
+[13/Jan/2014:14:33:19] (wp-cron) Begin Listings Picture Sync - PostId:3736 - $listingkey:13833305Record95
+
+[13/Jan/2014:14:33:19] (wp-cron) Zero Picture Issue Detected13833305
+
+[13/Jan/2014:14:33:19] (wp-cron) Begin Listings Picture Sync - PostId:1477 - $listingkey:13913644Record96
+
+[13/Jan/2014:14:33:20] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13913644-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:20] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13913644-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:20] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13913644-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:20] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13913644-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:20] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13913644-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:20] (wp-cron) Begin Listings Picture Sync - PostId:1253 - $listingkey:13913955Record97
+
+[13/Jan/2014:14:33:20] (wp-cron) Zero Picture Issue Detected13913955
+
+[13/Jan/2014:14:33:20] (wp-cron) Begin Listings Picture Sync - PostId:2174 - $listingkey:13684846Record98
+
+[13/Jan/2014:14:33:20] (wp-cron) Zero Picture Issue Detected13684846
+
+[13/Jan/2014:14:33:20] (wp-cron) Begin Listings Picture Sync - PostId:1339 - $listingkey:13913861Record99
+
+[13/Jan/2014:14:33:20] (wp-cron) Zero Picture Issue Detected13913861
+
+[13/Jan/2014:14:33:20] (wp-cron) Begin Listings Picture Sync - PostId:2538 - $listingkey:13911489Record100
+
+[13/Jan/2014:14:33:20] (wp-cron) Zero Picture Issue Detected13911489
+
+[13/Jan/2014:14:33:20] (wp-cron) Begin Listings Picture Sync - PostId:2985 - $listingkey:13826356Record101
+
+[13/Jan/2014:14:33:21] (wp-cron) Zero Picture Issue Detected13826356
+
+[13/Jan/2014:14:33:21] (wp-cron) Begin Listings Picture Sync - PostId:2618 - $listingkey:13911201Record102
+
+[13/Jan/2014:14:33:21] (wp-cron) Zero Picture Issue Detected13911201
+
+[13/Jan/2014:14:33:21] (wp-cron) Begin Listings Picture Sync - PostId:216 - $listingkey:13910940Record103
+
+[13/Jan/2014:14:33:21] (wp-cron) Zero Picture Issue Detected13910940
+
+[13/Jan/2014:14:33:21] (wp-cron) Begin Listings Picture Sync - PostId:3139 - $listingkey:13741597Record104
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-5.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-6.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13741597-LargePhoto-7.jpg
+
+[13/Jan/2014:14:33:22] (wp-cron) Begin Listings Picture Sync - PostId:3813 - $listingkey:13908881Record105
+
+[13/Jan/2014:14:33:22] (wp-cron) Zero Picture Issue Detected13908881
+
+[13/Jan/2014:14:33:22] (wp-cron) Begin Listings Picture Sync - PostId:2838 - $listingkey:13908504Record106
+
+[13/Jan/2014:14:33:22] (wp-cron) Zero Picture Issue Detected13908504
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:3446 - $listingkey:13833896Record107
+
+[13/Jan/2014:14:33:24] (wp-cron) Zero Picture Issue Detected13833896
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:365 - $listingkey:13908417Record108
+
+[13/Jan/2014:14:33:24] (wp-cron) Zero Picture Issue Detected13908417
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:1489 - $listingkey:13908341Record109
+
+[13/Jan/2014:14:33:24] (wp-cron) Zero Picture Issue Detected13908341
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:3521 - $listingkey:13907362Record110
+
+[13/Jan/2014:14:33:24] (wp-cron) Zero Picture Issue Detected13907362
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:827 - $listingkey:13906659Record111
+
+[13/Jan/2014:14:33:24] (wp-cron) Zero Picture Issue Detected13906659
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:3297 - $listingkey:13904744Record112
+
+[13/Jan/2014:14:33:24] (wp-cron) Zero Picture Issue Detected13904744
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:738 - $listingkey:13884571Record113
+
+[13/Jan/2014:14:33:24] (wp-cron) Zero Picture Issue Detected13884571
+
+[13/Jan/2014:14:33:24] (wp-cron) Begin Listings Picture Sync - PostId:1807 - $listingkey:13904485Record114
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13904485
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:451 - $listingkey:13899000Record115
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13899000
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:2466 - $listingkey:13858256Record116
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13858256
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:2178 - $listingkey:13890601Record117
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13890601
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:895 - $listingkey:12736169Record118
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected12736169
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:1427 - $listingkey:13736895Record119
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13736895
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:2622 - $listingkey:13827043Record120
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13827043
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:3662 - $listingkey:13528538Record121
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13528538
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:595 - $listingkey:13848155Record122
+
+[13/Jan/2014:14:33:25] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13848155-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:1046 - $listingkey:13872352Record123
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13872352
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:2920 - $listingkey:13868514Record124
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13868514
+
+[13/Jan/2014:14:33:25] (wp-cron) Begin Listings Picture Sync - PostId:4183 - $listingkey:13866170Record125
+
+[13/Jan/2014:14:33:25] (wp-cron) Zero Picture Issue Detected13866170
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:154 - $listingkey:13865939Record126
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13865939
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:1951 - $listingkey:13634858Record127
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13634858
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:2472 - $listingkey:13008295Record128
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13008295
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:3890 - $listingkey:13862817Record129
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13862817
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:1428 - $listingkey:13854844Record130
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13854844
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:3524 - $listingkey:13884276Record131
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13884276
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:2114 - $listingkey:13878434Record132
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13878434
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:2026 - $listingkey:13323244Record133
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13323244
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:2246 - $listingkey:13406956Record134
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13406956
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:86 - $listingkey:13360849Record135
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13360849
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:3223 - $listingkey:13896652Record136
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13896652
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:1496 - $listingkey:13785818Record137
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13785818
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:3748 - $listingkey:13446076Record138
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13446076
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:4184 - $listingkey:13857676Record139
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13857676
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:1352 - $listingkey:13812821Record140
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13812821
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:1718 - $listingkey:13643745Record141
+
+[13/Jan/2014:14:33:26] (wp-cron) Zero Picture Issue Detected13643745
+
+[13/Jan/2014:14:33:26] (wp-cron) Begin Listings Picture Sync - PostId:158 - $listingkey:13899610Record142
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13899610
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:3451 - $listingkey:13875995Record143
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13875995
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:4120 - $listingkey:13841011Record144
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13841011
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:3301 - $listingkey:13872003Record145
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13872003
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:2552 - $listingkey:13717811Record146
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13717811
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:1954 - $listingkey:13719037Record147
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13719037
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:2476 - $listingkey:13473753Record148
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13473753
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:1057 - $listingkey:13721871Record149
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13721871
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:1262 - $listingkey:13888811Record150
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13888811
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:3084 - $listingkey:13464149Record151
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13464149
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:3453 - $listingkey:13741292Record152
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13741292
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:2787 - $listingkey:13546481Record153
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13546481
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:742 - $listingkey:13755336Record154
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13755336
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:1432 - $listingkey:13736973Record155
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13736973
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:676 - $listingkey:12930379Record156
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected12930379
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:743 - $listingkey:13881584Record157
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13881584
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:1658 - $listingkey:13862723Record158
+
+[13/Jan/2014:14:33:27] (wp-cron) Zero Picture Issue Detected13862723
+
+[13/Jan/2014:14:33:27] (wp-cron) Begin Listings Picture Sync - PostId:3594 - $listingkey:13851814Record159
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13851814
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:3302 - $listingkey:13825702Record160
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13825702
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:3988 - $listingkey:13854476Record161
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13854476
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:2250 - $listingkey:13833378Record162
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13833378
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:1192 - $listingkey:13838313Record163
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13838313
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:4189 - $listingkey:13837728Record164
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13837728
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:1883 - $listingkey:13879085Record165
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13879085
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:3005 - $listingkey:13660386Record166
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13660386
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:2851 - $listingkey:13540415Record167
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13540415
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:3152 - $listingkey:13539773Record168
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13539773
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:161 - $listingkey:13865948Record169
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13865948
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:600 - $listingkey:13688255Record170
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13688255
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:3671 - $listingkey:13851654Record171
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13851654
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:3458 - $listingkey:13871750Record172
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13871750
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:457 - $listingkey:13841977Record173
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13841977
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:2325 - $listingkey:13857703Record174
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13857703
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:231 - $listingkey:13596331Record175
+
+[13/Jan/2014:14:33:28] (wp-cron) Zero Picture Issue Detected13596331
+
+[13/Jan/2014:14:33:28] (wp-cron) Begin Listings Picture Sync - PostId:1195 - $listingkey:13703715Record176
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13703715
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:3900 - $listingkey:13656169Record177
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13656169
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:2187 - $listingkey:13752194Record178
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13752194
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:3154 - $listingkey:13884217Record179
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13884217
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:1438 - $listingkey:13871660Record180
+
+[13/Jan/2014:14:33:29] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13871660-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:2033 - $listingkey:13592682Record181
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13592682
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:234 - $listingkey:13781512Record182
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13781512
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:3992 - $listingkey:13854525Record183
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13854525
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:1268 - $listingkey:13829859Record184
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13829859
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:1060 - $listingkey:13721864Record185
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13721864
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:3672 - $listingkey:13373402Record186
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13373402
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:311 - $listingkey:13812782Record187
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13812782
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:3753 - $listingkey:13883914Record188
+
+[13/Jan/2014:14:33:29] (wp-cron) Zero Picture Issue Detected13883914
+
+[13/Jan/2014:14:33:29] (wp-cron) Begin Listings Picture Sync - PostId:1198 - $listingkey:13787823Record189
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13787823
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:1359 - $listingkey:13773609Record190
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13773609
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:905 - $listingkey:13569600Record191
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13569600
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:2255 - $listingkey:13634255Record192
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13634255
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:3006 - $listingkey:13851569Record193
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13851569
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:906 - $listingkey:13712894Record194
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13712894
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:376 - $listingkey:13250927Record195
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13250927
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:2855 - $listingkey:13717829Record196
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13717829
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:2702 - $listingkey:13506956Record197
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13506956
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:3902 - $listingkey:13774067Record198
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13774067
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:3231 - $listingkey:13876126Record199
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13876126
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:165 - $listingkey:13646949Record200
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13646949
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:238 - $listingkey:13649550Record201
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13649550
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:2789 - $listingkey:13304792Record202
+
+[13/Jan/2014:14:33:30] (wp-cron) Zero Picture Issue Detected13304792
+
+[13/Jan/2014:14:33:30] (wp-cron) Begin Listings Picture Sync - PostId:2036 - $listingkey:13899065Record203
+
+[13/Jan/2014:14:33:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13899065-LargePhoto-0.jpg
+
+[13/Jan/2014:14:33:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13899065-LargePhoto-1.jpg
+
+[13/Jan/2014:14:33:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13899065-LargePhoto-2.jpg
+
+[13/Jan/2014:14:33:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13899065-LargePhoto-3.jpg
+
+[13/Jan/2014:14:33:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13899065-LargePhoto-4.jpg
+
+[13/Jan/2014:14:33:32] (wp-cron) /Users/manfredheadley/Sites/phil/public_html/wp-content/uploads/soldpress/13899065-LargePhoto-5.jpg
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:607 - $listingkey:13561906Record204
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13561906
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:1582 - $listingkey:13826482Record205
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13826482
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:461 - $listingkey:13840036Record206
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13840036
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:240 - $listingkey:13789946Record207
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13789946
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:2931 - $listingkey:13531807Record208
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13531807
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:1272 - $listingkey:13139491Record209
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13139491
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:3599 - $listingkey:13639944Record210
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13639944
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:2331 - $listingkey:13684549Record211
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13684549
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:2037 - $listingkey:13895765Record212
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13895765
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:3826 - $listingkey:13898913Record213
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13898913
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:2258 - $listingkey:13718387Record214
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13718387
+
+[13/Jan/2014:14:33:32] (wp-cron) Begin Listings Picture Sync - PostId:611 - $listingkey:13713553Record215
+
+[13/Jan/2014:14:33:32] (wp-cron) Zero Picture Issue Detected13713553
+
+[13/Jan/2014:14:33:34] (wp-cron) Begin Listings Picture Sync - PostId:839 - $listingkey:13763555Record216
+
+[13/Jan/2014:14:33:34] (wp-cron) Zero Picture Issue Detected13763555
+
+[13/Jan/2014:14:33:34] (wp-cron) Begin Listings Picture Sync - PostId:2038 - $listingkey:13718903Record217
+
+[13/Jan/2014:14:33:34] (wp-cron) Zero Picture Issue Detected13718903
+
+[13/Jan/2014:14:33:34] (wp-cron) Begin Listings Picture Sync - PostId:382 - $listingkey:13553901Record218
+
+[13/Jan/2014:14:33:34] (wp-cron) Zero Picture Issue Detected13553901
+
+[13/Jan/2014:14:33:34] (wp-cron) Begin Listings Picture Sync - PostId:3600 - $listingkey:13842059Record219
+
+[13/Jan/2014:14:33:34] (wp-cron) Zero Picture Issue Detected13842059
+
+[13/Jan/2014:14:33:34] (wp-cron) Begin Listings Picture Sync - PostId:1731 - $listingkey:13899645Record220
+
+[13/Jan/2014:14:33:34] (wp-cron) Zero Picture Issue Detected13899645
+
+[13/Jan/2014:14:33:34] (wp-cron) Begin Listings Picture Sync - PostId:3758 - $listingkey:13841723Record221
+
+[13/Jan/2014:14:33:34] (wp-cron) Zero Picture Issue Detected13841723
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:1966 - $listingkey:13895851Record222
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13895851
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:1586 - $listingkey:13890698Record223
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13890698
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:467 - $listingkey:13890599Record224
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13890599
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:3306 - $listingkey:13893024Record225
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13893024
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:2260 - $listingkey:13865940Record226
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13865940
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:99 - $listingkey:13891296Record227
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13891296
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:1133 - $listingkey:13745958Record228
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13745958
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:390 - $listingkey:13890703Record229
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13890703
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:3310 - $listingkey:13884679Record230
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13884679
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:3469 - $listingkey:13884403Record231
+
+[13/Jan/2014:14:33:35] (wp-cron) Zero Picture Issue Detected13884403
+
+[13/Jan/2014:14:33:35] (wp-cron) Begin Listings Picture Sync - PostId:392 - $listingkey:13789747Record232
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13789747
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:1212 - $listingkey:13872080Record233
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13872080
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:4138 - $listingkey:13874750Record234
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13874750
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:3243 - $listingkey:13872232Record235
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13872232
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:3912 - $listingkey:13774104Record236
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13774104
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:3548 - $listingkey:13871645Record237
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13871645
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:1593 - $listingkey:13871445Record238
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13871445
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:1218 - $listingkey:13838321Record239
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13838321
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:3246 - $listingkey:13833657Record240
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13833657
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:323 - $listingkey:13865528Record241
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13865528
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:1289 - $listingkey:13769878Record242
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13769878
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:2275 - $listingkey:13844697Record243
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13844697
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:2879 - $listingkey:13725565Record244
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13725565
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:1228 - $listingkey:13838334Record245
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13838334
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:4007 - $listingkey:13647604Record246
+
+[13/Jan/2014:14:33:36] (wp-cron) Zero Picture Issue Detected13647604
+
+[13/Jan/2014:14:33:36] (wp-cron) Begin Listings Picture Sync - PostId:4072 - $listingkey:13764590Record247
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13764590
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:2574 - $listingkey:13644935Record248
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13644935
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:2132 - $listingkey:13120952Record249
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13120952
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:2352 - $listingkey:13524714Record250
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13524714
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:1299 - $listingkey:13794431Record251
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13794431
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:927 - $listingkey:13738153Record252
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13738153
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:409 - $listingkey:13722308Record253
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13722308
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:4074 - $listingkey:13837970Record254
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13837970
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:3849 - $listingkey:13816343Record255
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13816343
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:3328 - $listingkey:13286913Record256
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13286913
+
+[13/Jan/2014:14:33:37] (wp-cron) Begin Listings Picture Sync - PostId:2134 - $listingkey:13685099Record257
+
+[13/Jan/2014:14:33:37] (wp-cron) Zero Picture Issue Detected13685099
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:1002 - $listingkey:13745936Record258
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13745936
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:1602 - $listingkey:13812457Record259
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13812457
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:4009 - $listingkey:13571826Record260
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13571826
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:2730 - $listingkey:13178655Record261
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13178655
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:631 - $listingkey:13713482Record262
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13713482
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:707 - $listingkey:12930433Record263
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected12930433
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:3634 - $listingkey:13833645Record264
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13833645
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:2810 - $listingkey:13624649Record265
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13624649
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:1237 - $listingkey:13578942Record266
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13578942
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:3635 - $listingkey:13789851Record267
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13789851
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:1162 - $listingkey:13830097Record268
+
+[13/Jan/2014:14:33:38] (wp-cron) Zero Picture Issue Detected13830097
+
+[13/Jan/2014:14:33:38] (wp-cron) Begin Listings Picture Sync - PostId:3038 - $listingkey:13815461Record269
+
+[13/Jan/2014:14:33:39] (wp-cron) Zero Picture Issue Detected13815461
+
+[13/Jan/2014:14:33:39] (wp-cron) Begin Listings Picture Sync - PostId:1311 - $listingkey:13737185Record270
+
+[13/Jan/2014:14:33:39] (wp-cron) Zero Picture Issue Detected13737185
+
+[13/Jan/2014:14:33:39] (wp-cron) Begin Listings Picture Sync - PostId:2889 - $listingkey:13821355Record271
+
+[13/Jan/2014:14:33:39] (wp-cron) Zero Picture Issue Detected13821355
+
+[13/Jan/2014:14:33:39] (wp-cron) Begin Listings Picture Sync - PostId:2289 - $listingkey:13777382Record272
+
+[13/Jan/2014:14:33:39] (wp-cron) Zero Picture Issue Detected13777382
+
+[13/Jan/2014:14:33:39] (wp-cron) Begin Listings Picture Sync - PostId:3114 - $listingkey:13839885Record273
+
+[13/Jan/2014:14:33:39] (wp-cron) Zero Picture Issue Detected13839885
+
+[13/Jan/2014:14:33:39] (wp-cron) Begin Listings Picture Sync - PostId:1165 - $listingkey:13270057Record274
+
+[13/Jan/2014:14:33:39] (wp-cron) Zero Picture Issue Detected13270057
+
+[13/Jan/2014:14:33:39] (wp-cron) Begin Listings Picture Sync - PostId:4090 - $listingkey:13633882Record275
+
+[13/Jan/2014:14:33:39] (wp-cron) Zero Picture Issue Detected13633882
+
+[13/Jan/2014:14:33:39] (wp-cron) End Picture Sync
+
+[13/Jan/2014:14:33:39] (wp-cron) Begin Xml Sync
+
+[13/Jan/2014:14:33:39] (wp-cron) End Xml Sync
+
+[13/Jan/2014:14:33:39] (wp-cron) ///// End Syncsp_52d3f8f8e29aa
+
