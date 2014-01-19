@@ -5553,6 +5553,13 @@ img {
   background: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
+.banner {
+  height: 300px;
+  overflow: hidden;
+}
+.banner img {
+  width: auto;
+}
 #show-navobile {
   position: fixed;
   top: 50px;
