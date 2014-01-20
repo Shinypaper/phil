@@ -93,3 +93,7 @@
 [13/Jan/2014:20:47:07] (wp-cron) sp_52d450cb8aa13-pictures
 [13/Jan/2014:20:47:36] (wp-cron) sp_52d450e806f0a-geo
 [13/Jan/2014:20:47:36] (wp-cron) sp_52d450e83595f-cleanup
+[17/Jan/2014:22:05:46] (wp-cron) sp_52d9a93a50b11-pictures
+[17/Jan/2014:22:05:46] (wp-cron) sp_52d9a93a71582-geo
+[17/Jan/2014:22:05:46] (wp-cron) sp_52d9a93a86c08-cleanup
+[17/Jan/2014:22:05:46] (wp-cron) sp_52d9a93a9ca58-listing
