@@ -32,7 +32,7 @@ function register_my_menus() {
 add_action( 'init', 'register_my_menus' );
 // Register Custom Navigation Walker
 // docs at https://github.com/twittem/wp-bootstrap-navwalker
-//require_once('wp_bootstrap_navwalker.php');
+require_once('wp_bootstrap_navwalker.php');
 
 
 

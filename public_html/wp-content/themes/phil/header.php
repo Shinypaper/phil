@@ -31,11 +31,13 @@
 		<div id="content">
 			<a href="#" id="show-navobile"><i class="fa fa-bars"></i></a>
 			<header id="header" class="header">
-				<div class="logo">
-					<a href="/"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
-				</div>
+				<h1>
+					<div class="logo">
+						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
+					</div>
+				</h1>
 
-			<?php wp_nav_menu( array('theme_location' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav' ) ); ?>
+				<?php wp_nav_menu( array('menu' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav') ); ?>
 
 				
 

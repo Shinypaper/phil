@@ -258,7 +258,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
+  color: #222222;
   background-color: #ffffff;
 }
 input,
@@ -1828,7 +1828,7 @@ textarea.input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #626262;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3393,13 +3393,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
 }
-.nav > li > a {
+.nav > li > a,
+.sub-menu .menu-item a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
 .nav > li > a:hover,
-.nav > li > a:focus {
+.nav > li > a:focus,
+.sub-menu .menu-item a:hover {
   text-decoration: none;
   background-color: #eeeeee;
 }
@@ -4444,7 +4446,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #222222;
 }
 .alert {
   padding: 15px;
@@ -5553,6 +5555,16 @@ img {
   background: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
+.main {
+  background: #ffffff;
+}
+.page_banner {
+  height: 300px;
+  overflow: hidden;
+}
+.page_banner img {
+  width: auto;
+}
 #show-navobile {
   position: fixed;
   top: 50px;
@@ -5613,12 +5625,9 @@ td#show-navobile {
     display: table-cell !important;
   }
 }
-#content {
-  background: #ffffff;
-}
 .wrapper {
   margin-left: 0px;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 .wrapper:before,
 .wrapper:after {
@@ -5646,8 +5655,31 @@ td#show-navobile {
 .nav li a {
   color: #ffffff;
 }
+.nav li a:hover .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.nav .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+  margin-left: 5px;
+}
 .navobile-desktop-only {
   z-index: 999;
+}
+.nav .menu-item a:hover {
+  background-color: #222222;
+}
+.sub-menu {
+  list-style: none;
+  padding-left: 0;
+  display: none;
+}
+.sub-menu .menu-item a {
+  padding-left: 40px;
+}
+.menu-item-has-children a:after {
+  content: "";
 }
 footer {
   background: #444;
@@ -5712,6 +5744,17 @@ footer {
 .action_link {
   color: #2a6496;
   font-size: 10em;
+}
+.testimonials_posts .category-testimonials {
+  text-align: center;
+}
+.post {
+  background: #fbfbfb;
+  padding: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 2px 1px -1px #cccccc;
+  -moz-box-shadow: 0 2px 1px -1px #cccccc;
+  box-shadow: 0 2px 1px -1px #cccccc;
 }
 .mainslider {
   position: relative;
