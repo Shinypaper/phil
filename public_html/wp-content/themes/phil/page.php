@@ -10,7 +10,7 @@
 				<div class="wrapper_inner">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						<article class="<?php post_class(); ?>">
-							<h2><?php the_title(); ?></h2>
+							<h2 class="post_title"><?php the_title(); ?></h2>
 							<?php the_content(); ?>
 						</article>
 					<?php endwhile; else: ?>

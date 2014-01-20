@@ -1,5 +1,5 @@
 <?php
-	// Template Name: Testimonials Page
+	// Template Name: Press Page
 get_header(); ?>
 
 		<div class="main">
@@ -10,15 +10,15 @@ get_header(); ?>
 			</header>		
 			<div class="wrapper">
 				<div class="wrapper_inner">
-					<h2 class="page_title">Testimonials</h2>
+					<h2 class="page_title">Press</h2>
 					<section class="testimonials_posts">
-						<?php $postlist = get_posts(array('category_name' => 'testimonials')); ?>
+						<?php $postlist = get_posts(array('category_name' => 'press')); ?>
 						<?php 
 						if ($postlist):
 						foreach ($postlist as $post):
 						setup_postdata($post); ?>
 							<article <?php post_class(); ?>>
-								<h3 class="post_title"><?php the_title(); ?> -</h3>
+								<h3 class="post_title"><?php the_title(); ?></h3>
 								<?php the_content(); ?>
 							</article>
 						<?php endforeach; else: ?>

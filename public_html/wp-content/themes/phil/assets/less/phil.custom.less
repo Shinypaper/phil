@@ -24,7 +24,10 @@ img {
 	text-transform: uppercase;
 	//text-align: center;
 }
-.banner {
+.main {
+  background: @body-bg;
+}
+.page_banner {
   height: 300px;
   overflow: hidden;
   img {
@@ -54,15 +57,46 @@ img {
 // ----------
 
 .nav {
-	//text-align: center;
-	li a {
-		color: @white;
-	}
+  //text-align: center;
+  li a {
+    color: @white;
+    &:hover {
+      .caret {
+        border-top-color: @white;
+        border-bottom-color: @white;
+      }
+    }
+  }
+  .caret {
+    border-top-color: @white;
+    border-bottom-color: @white;
+    margin-left: 5px;
+  }
 }
 .navobile-desktop-only {
     z-index: 999;
 }
-
+.nav {
+  .menu-item {
+    a:hover {
+      background-color: @gray-darker;
+    }
+  }
+}
+.sub-menu {
+  list-style: none;
+  padding-left: 0;
+  display: none;
+  .menu-item {
+    a {
+      &:extend(.nav > li > a);
+      padding-left: (@line-height-computed * 2);
+    }
+    a:hover {
+      &:extend(.nav > li > a:hover);
+    }
+  }
+}
 // FOOTER STYLES
 // -------------
 
@@ -104,7 +138,22 @@ footer {
 	font-size: 10em; 
 }
 
+// PAGE STYLES
+// -----------
 
+.testimonials_posts {
+  .category-testimonials {
+    text-align: center;
+  }
+}
+.post {
+  background: lighten(@gray-lighter, 5%);
+  padding: @line-height-computed;
+  margin-bottom: @line-height-computed;
+  -webkit-box-shadow: 0 2px 1px -1px lighten(@gray-light, 20%);
+  -moz-box-shadow: 0 2px 1px -1px lighten(@gray-light, 20%);
+  box-shadow: 0 2px 1px -1px lighten(@gray-light, 20%);
+}
 // NAVOBILE STYLES
 // ---------------
 .mainslider {

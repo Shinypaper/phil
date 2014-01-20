@@ -8,9 +8,10 @@
 			</header>
 
 			<div class="wrapper">
+				<h2 class="page_title"><?php the_title(); ?></h2>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<article class="<?php post_class(); ?>">
-						<h2><?php the_title(); ?></h2>
+						<h3 class="podt_title"><?php the_title(); ?></h3>
 						<p><?php the_content(); ?></p>
 					</article>
 				<?php endwhile; else: ?>
