@@ -5678,6 +5678,9 @@ td#show-navobile {
 .sub-menu .menu-item a {
   padding-left: 40px;
 }
+.menu-item-has-children a:after {
+  content: "";
+}
 footer {
   background: #444;
   padding: 20px;

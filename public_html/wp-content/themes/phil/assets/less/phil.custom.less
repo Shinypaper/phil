@@ -97,6 +97,14 @@ img {
     }
   }
 }
+.menu-item-has-children {
+  a {
+    &:after {
+      content: "";
+      &:extend(.carat);
+    }
+  }
+}
 // FOOTER STYLES
 // -------------
 
