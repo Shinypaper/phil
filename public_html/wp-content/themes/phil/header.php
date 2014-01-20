@@ -33,7 +33,7 @@
 			<header id="header" class="header">
 				<h1>
 					<div class="logo">
-						<a href="/"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
+						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
 					</div>
 				</h1>
 
