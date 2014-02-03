@@ -3,11 +3,7 @@
 get_header(); ?>
 
 		<div class="main">
-			<header class="banner">
-				<figure>
-					<img src="http://placehold.it/1200x400/eeeeee/eeeeee" alt="">
-				</figure>
-			</header>		
+			<?php get_template_part('banner') ?>		
 			<div class="wrapper">
 				<div class="wrapper_inner">
 					<h2 class="page_title">Press</h2>

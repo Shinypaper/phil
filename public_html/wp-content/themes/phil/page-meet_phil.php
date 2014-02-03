@@ -3,34 +3,29 @@
 get_header(); ?>
 
 		<div class="main">
-			<header class="page_banner">
-				<figure>
-					<img src="http://placehold.it/1200x400/eeeeee/eeeeee" alt="">
-				</figure>
-			</header>
+			<?php get_template_part('banner') ?>
 			<div class="wrapper">
 				<div class="wrapper_inner">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						<article <?php post_class(); ?>>
-							<h2 class="post_title"><?php the_title(); ?></h2>
-							<?php the_content(); ?>
+							<h2 class="page_title"><?php the_title(); ?></h2>
+							<div class="profile-wrap">
+								<div class="profile">
+									<figure class="profile-image">
+										<img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1aabwXcddXXXSdo.1_042645.jpg" alt="">
+									</figure>
+									
+									<div class="profile-text">
+										<?php the_content(); ?>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, autem, totam, animi beatae alias perspiciatis fugiat impedit atque ea placeat dolorum in illum perferendis reiciendis quisquam omnis eaque sequi enim recusandae cupiditate consequatur laudantium esse vitae labore maxime eius deserunt hic tempora ex consectetur laborum qui est nostrum. Dolorum at aut recusandae sapiente eaque. Commodi, excepturi molestias sint a assumenda dicta harum fugit qui hic quis quibusdam vitae rem voluptates aut perspiciatis dolorum eaque! Expedita, quisquam, doloremque soluta culpa ipsa fugiat atque quia eum est alias! Tempore, reiciendis, nostrum dicta voluptas animi nulla aliquam? Error, provident quisquam ab tempora iusto.</p>
+										<a href="<?php bloginfo('url'); ?>/phils-team" class="btn btn-primary">Meet the team</a>
+									</div>
+								</div>
+							</div>
 						</article>
 					<?php endwhile; else: ?>
 					<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 					<?php endif; ?>
-
-					<article>
-						<div class="row">
-							
-							<figure class="col-md-6">
-								<img src="http://placehold.it/500/ccc" alt="">
-							</figure>
-							<div class="col-md-6">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, autem, totam, animi beatae alias perspiciatis fugiat impedit atque ea placeat dolorum in illum perferendis reiciendis quisquam omnis eaque sequi enim recusandae cupiditate consequatur laudantium esse vitae labore maxime eius deserunt hic tempora ex consectetur laborum qui est nostrum. Dolorum at aut recusandae sapiente eaque. Commodi, excepturi molestias sint a assumenda dicta harum fugit qui hic quis quibusdam vitae rem voluptates aut perspiciatis dolorum eaque! Expedita, quisquam, doloremque soluta culpa ipsa fugiat atque quia eum est alias! Tempore, reiciendis, nostrum dicta voluptas animi nulla aliquam? Error, provident quisquam ab tempora iusto.</p>
-							</div>
-						</div>
-						<a href="<?php bloginfo('url'); ?>/phils-team" class="btn btn-primary">Meet the team</a>
-					</article>
 				</div>
 			</div>
 		</div>
