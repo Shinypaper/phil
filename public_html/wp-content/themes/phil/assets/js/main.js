@@ -14,3 +14,120 @@ $('.menu-item-has-children > a').click(function() {
 	$(this).siblings('.sub-menu').slideToggle();
 	return false;
 });
+
+
+var styles = [
+	{
+		"featureType": "landscape",
+		"stylers": [
+			{
+				"hue": "#FF0300"
+			},
+			{
+				"saturation": -100
+			},
+			{
+				"lightness": 30.66666666666663
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "road.highway",
+		"stylers": [
+			{
+				"hue": "#FFA200"
+			},
+			{
+				"saturation": 100
+			},
+			{
+				"lightness": -10.756862745098047
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "road.arterial",
+		"stylers": [
+			{
+				"hue": "#FBFF00"
+			},
+			{
+				"saturation": 0
+			},
+			{
+				"lightness": 0
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "road.local",
+		"stylers": [
+			{
+				"hue": "#00FFFD"
+			},
+			{
+				"saturation": 0
+			},
+			{
+				"lightness": 47
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "water",
+		"stylers": [
+			{
+				"hue": "#0078FF"
+			},
+			{
+				"saturation": 0
+			},
+			{
+				"lightness": 0
+			},
+			{
+				"gamma": 1
+			}
+		]
+	},
+	{
+		"featureType": "poi",
+		"stylers": [
+			{
+				"hue": "#9FFF00"
+			},
+			{
+				"saturation": 0
+			},
+			{
+				"lightness": 0
+			},
+			{
+				"gamma": 1
+			}
+		]
+	}
+];
+
+var latlong = new google.maps.LatLng(43.65323, -79.38318);
+
+var myOptions = {
+	zoom: 15,
+	center: latlong,
+	mapTypeId: google.maps.MapTypeId.ROADMAP,
+	styles: styles
+};
+
+map = new google.maps.Map(document.getElementById(MAP_DIV_ID), myOptions);
