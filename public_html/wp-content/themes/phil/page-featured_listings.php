@@ -3,10 +3,10 @@
 get_header(); ?>
 
 		<div class="main">
-			<?php get_template_part('banner') ?>	
+			<?php get_template_part('banner') ?>
 			<div class="wrapper">
 				<div class="wrapper_inner">
-				
+					<?php echo "asdf"; ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						<h2 class="page_title"><?php the_title(); ?></h2>
 						<?php the_content(); ?>
@@ -28,7 +28,12 @@ get_header(); ?>
 					?>
 						<article class="post <?php post_class(); ?>">
 							<?php $images = sp_get_property_images(); ?>
-							<?php print_r($images); ?>
+							<?php 
+							foreach ($images as &$sp_slideshowimage) 
+							{
+								echo '<div class="flexslider sp-no-print"><ul class="thumbnails"><li class="thumbnail"><a href="' . $sp_slideshowimage . '" class="swipebox"><img itemprop="image" class="sp-gallery-image" src="' . $sp_slideshowimage . '" alt="'. $image_description .'" /></a></li></ul></div>';					
+							} 
+							?>
 							<h2 class="post_title"><?php the_title(); ?></h2>
 							<?php the_content(); ?>
 						</article>

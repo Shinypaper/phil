@@ -67,3 +67,5 @@
 [03/Feb/2014:02:30:37] (wp-cron) sp_52eeff4d9d522-pictures
 [03/Feb/2014:02:40:39] (wp-cron) sp_52ef01a700f36-geo
 [03/Feb/2014:02:50:39] (wp-cron) sp_52ef03ff213b0-cleanup
+[03/Feb/2014:03:30:50] (wp-cron) sp_52ef0d6a4d4e7-pictures
+[03/Feb/2014:03:41:36] (wp-cron) sp_52ef0ff06c477-geo
