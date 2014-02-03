@@ -1,5 +1,7 @@
         
         <footer>
+            <?php // wp_nav_menu( array('menu' => 'Primary Menu', 'container' => '', 'container_class' => 'menu', 'menu_class' => '') ); ?>
+
             <!-- <p>&copy; Philip Stavrou <?= date('Y');?></p> -->
         </footer>
     </div> <!-- wrapper -->        

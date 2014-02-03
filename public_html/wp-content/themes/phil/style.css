@@ -3394,14 +3394,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: block;
 }
 .nav > li > a,
-.sub-menu .menu-item a {
+.header .sub-menu .menu-item a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus,
-.sub-menu .menu-item a:hover {
+.header .sub-menu .menu-item a:hover {
   text-decoration: none;
   background-color: #eeeeee;
 }
@@ -5537,6 +5537,11 @@ button.close {
     bottom: 20px;
   }
 }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -5552,17 +5557,21 @@ img {
   left: 0;
   bottom: 0;
   width: 200px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(20, 20, 20, 0.9);
   text-transform: uppercase;
+  z-index: 100;
 }
 .main {
   background: #ffffff;
 }
-.page_banner {
-  height: 300px;
-  overflow: hidden;
+.banner {
+  max-width: 1400px;
 }
-.page_banner img {
+.banner-figure {
+  overflow: hidden;
+  position: relative;
+}
+.banner-figure img {
   width: auto;
 }
 #show-navobile {
@@ -5627,7 +5636,8 @@ td#show-navobile {
 }
 .wrapper {
   margin-left: 0px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+  max-width: 1000px;
 }
 .wrapper:before,
 .wrapper:after {
@@ -5650,35 +5660,44 @@ td#show-navobile {
   clear: both;
 }
 .wrapper_inner {
-  padding: 0 20px;
+  padding: 0 30px;
 }
-.nav li a {
+.page_title {
+  padding: 10px 0;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+.header .nav li a {
   color: #ffffff;
 }
-.nav li a:hover .caret {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
+.header .nav li a:hover {
+  color: #555555;
+  background: #ffffff;
 }
-.nav .caret {
+.header .nav li a:hover .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+.header .nav .caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
   margin-left: 5px;
 }
-.navobile-desktop-only {
+.header .navobile-desktop-only {
   z-index: 999;
 }
-.nav .menu-item a:hover {
-  background-color: #222222;
+.header .nav .menu-item a:hover {
+  background-color: #ffffff;
 }
-.sub-menu {
+.header .sub-menu {
   list-style: none;
   padding-left: 0;
   display: none;
 }
-.sub-menu .menu-item a {
+.header .sub-menu .menu-item a {
   padding-left: 40px;
 }
-.menu-item-has-children a:after {
+.header .menu-item-has-children a:after {
   content: "";
 }
 footer {
@@ -5748,13 +5767,101 @@ footer {
 .testimonials_posts .category-testimonials {
   text-align: center;
 }
-.post {
+.post,
+.profile-wrap,
+.member-wrap {
   background: #fbfbfb;
   padding: 20px;
   margin-bottom: 20px;
   -webkit-box-shadow: 0 2px 1px -1px #cccccc;
   -moz-box-shadow: 0 2px 1px -1px #cccccc;
   box-shadow: 0 2px 1px -1px #cccccc;
+}
+.profile {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.profile:before,
+.profile:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.profile:after {
+  clear: both;
+}
+.profile:before,
+.profile:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.profile:after {
+  clear: both;
+}
+.profile-image,
+.profile-text {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .profile-image,
+  .profile-text {
+    float: left;
+    width: 50%;
+  }
+}
+.members-wrap {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.members-wrap:before,
+.members-wrap:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.members-wrap:after {
+  clear: both;
+}
+.members-wrap:before,
+.members-wrap:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.members-wrap:after {
+  clear: both;
+}
+.team_member {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .team_member {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+@media (max-width: 480px) {
+  .team_member {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 .mainslider {
   position: relative;
