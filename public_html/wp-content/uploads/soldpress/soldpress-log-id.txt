@@ -115,3 +115,4 @@
 [04/Feb/2014:01:50:51] (wp-cron) sp_52f0477bcc922-cleanup
 [04/Feb/2014:02:30:45] (wp-cron) sp_52f050d553dcf-pictures
 [04/Feb/2014:02:41:46] (wp-cron) sp_52f0536a6db3a-geo
+[04/Feb/2014:02:51:46] (wp-cron) sp_52f055c24d7cd-cleanup
