@@ -1,9 +1,11 @@
 <?php get_header(); ?>
 
 	<section class="main homepage_main">
+		<?php $background = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'full' );?>
+		 <input class="backgroundimage" type="hidden" value="<?=$background[0]; ?>">
 		<div class="home_banner">
 			<figure>
-				<img src="<?php bloginfo('template_url'); ?>/assets/img/AURA75_LIVINGREZ.jpg" alt="">
+				<!-- <img class="banner_img" src="<?php bloginfo('template_url'); ?>/assets/img/AURA75_LIVINGREZ.jpg" alt=""> -->
 			</figure>
 			<div class="call_to_action">
 				<div class="wrapper">
