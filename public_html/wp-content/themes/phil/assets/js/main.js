@@ -15,6 +15,17 @@ $('.menu-item-has-children > a').click(function() {
 	return false;
 });
 
+$('.home_banner').height($(window).height());
+
+$(window).resize(function() {
+	$('.home_banner').height($(window).height());
+});
+
+$('.home_banner').backstretch($('.backgroundimage').val());
+
+$('.action_link').click(function() {
+	$('.main_links').slideToggle();
+});
 
 var styles = [
 	{
@@ -135,3 +146,4 @@ var myOptions = {
 };
 
 map = new google.maps.Map(document.getElementById("map"), myOptions);
+
