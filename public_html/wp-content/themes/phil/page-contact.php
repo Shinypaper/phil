@@ -3,7 +3,7 @@
 get_header(); ?>
 
 <div class="main">
-			
+		<?php get_template_part('banner') ?>
 			<div class="wrapper">
 				<div class="wrapper_inner">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -18,7 +18,7 @@ get_header(); ?>
 					<article>
 						<div class="row">
 							
-							<figure class="col-md-6">
+							<figure class="map" id="map">
 								<img src="http://placehold.it/500/ccc" alt="">
 							</figure>
 							<div class="col-md-6">
@@ -40,6 +40,8 @@ get_header(); ?>
 										<input type="text" class="form-control" id="Telephone">
 										<label for="">Email Address</label>
 										<input type="text" class="form-control" id="Email">
+										<label for="">Message</label>
+										<textarea class="form-control" id="Message"></textarea>
 									</div>
 								
 									

@@ -35,5 +35,13 @@ add_action( 'init', 'register_my_menus' );
 require_once('wp_bootstrap_navwalker.php');
 
 
+// search filter
+function search_filter($query) {
+if ( !$query->is_admin && $query->is_search) {
+$query->set('post_type', array('post') ); // id of page or post
+}
+return $query;
+}
+add_filter( 'pre_get_posts', 'search_filter' );
 
 ?>

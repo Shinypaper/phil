@@ -100,7 +100,7 @@ var styles = [
 		"featureType": "water",
 		"stylers": [
 			{
-				"hue": "#0078FF"
+				"hue": "#5c80da"
 			},
 			{
 				"saturation": 0
@@ -129,16 +129,21 @@ var styles = [
 				"gamma": 1
 			}
 		]
-	}
+	},{
+    "featureType": "road.highway",
+    "stylers": [
+      { "weight": 0.1 }
+    ]
+  }
 ];
 
 var latlong = new google.maps.LatLng(43.65323, -79.38318);
 
 var myOptions = {
-	zoom: 15,
+	zoom: 13,
 	center: latlong,
-	mapTypeId: google.maps.MapTypeId.ROADMAP,
 	styles: styles
 };
 
-map = new google.maps.Map(document.getElementById(MAP_DIV_ID), myOptions);
+map = new google.maps.Map(document.getElementById("map"), myOptions);
+

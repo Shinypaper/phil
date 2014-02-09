@@ -106,6 +106,24 @@
 [09/Feb/2014:15:01:25] (wp-cron) sp_52f79845eba6d-listing
 =======
 >>>>>>> origin/dillon
+<<<<<<< HEAD
+[03/Feb/2014:23:04:07] (wp-cron) sp_52f02067a3edb-pictures
+[03/Feb/2014:23:04:07] (wp-cron) sp_52f02067e08df-geo
+[03/Feb/2014:23:04:08] (wp-cron) sp_52f020680d365-cleanup
+[04/Feb/2014:00:05:02] (wp-cron) sp_52f02eaed8d7e-pictures
+[04/Feb/2014:00:05:03] (wp-cron) sp_52f02eaf1201b-geo
+[04/Feb/2014:00:05:03] (wp-cron) sp_52f02eaf35155-cleanup
+[04/Feb/2014:00:05:03] (wp-cron) sp_52f02eaf541d6-listing
+[04/Feb/2014:00:31:50] (wp-cron) sp_52f034f680ebc-pictures
+[04/Feb/2014:00:40:48] (wp-cron) sp_52f0371010f35-geo
+[04/Feb/2014:00:50:38] (wp-cron) sp_52f0395e78264-cleanup
+[04/Feb/2014:01:31:20] (wp-cron) sp_52f042e8a6e85-pictures
+[04/Feb/2014:01:47:58] (wp-cron) sp_52f046cecccbe-geo
+[04/Feb/2014:01:50:51] (wp-cron) sp_52f0477bcc922-cleanup
+[04/Feb/2014:02:30:45] (wp-cron) sp_52f050d553dcf-pictures
+[04/Feb/2014:02:41:46] (wp-cron) sp_52f0536a6db3a-geo
+[04/Feb/2014:02:51:46] (wp-cron) sp_52f055c24d7cd-cleanup
+=======
 [04/Feb/2014:01:04:31] (wp-cron) sp_52f03c9f616a3-pictures
 [04/Feb/2014:01:04:31] (wp-cron) sp_52f03c9f92e7d-geo
 [04/Feb/2014:01:04:31] (wp-cron) sp_52f03c9fc5b89-cleanup

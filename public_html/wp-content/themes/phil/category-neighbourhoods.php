@@ -1,22 +1,21 @@
 <?php
-	// Template Name: Press Page
+	// Template Name: Neighbourhoods Page
 get_header(); ?>
 
 		<div class="main">
-			<?php get_template_part('banner') ?>		
+			<?php get_template_part('banner') ?>	
 			<div class="wrapper">
 				<div class="wrapper_inner">
-					<h2 class="page_title">Press</h2>
+					<h2 class="page_title">Neighbourhoods</h2>
 					<div class="blogwrap">
-						
-						<section class="testimonials_posts main_blog">
-							<?php $postlist = get_posts(array('category_name' => 'press')); ?>
+						<section class="neighbourhoods_posts main_blog">
+							<?php $postlist = get_posts(array('category_name' => 'neighbourhoods')); ?>
 							<?php 
 							if ($postlist):
 							foreach ($postlist as $post):
 							setup_postdata($post); ?>
 								<article <?php post_class(); ?>>
-									<h3 class="post_title"><?php the_title(); ?></h3>
+									<h3 class="post_title"><?php the_title(); ?> -</h3>
 									<?php the_content(); ?>
 								</article>
 							<?php endforeach; else: ?>
