@@ -1,5 +1,5 @@
         
-        <footer>
+        <footer class="<?=is_front_page()?'home_footer':''; ?>">
             <?php // wp_nav_menu( array('menu' => 'Primary Menu', 'container' => '', 'container_class' => 'menu', 'menu_class' => '') ); ?>
 
             <!-- <p>&copy; Philip Stavrou <?= date('Y');?></p> -->
@@ -10,6 +10,7 @@
 
         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/vendor/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/vendor/jquery.navobile.min.js"></script>
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/vendor/backstretch.js"></script>
 
         <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
         <script>
