@@ -29,8 +29,15 @@
 				<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 		<div id="content">
-			<a href="#" id="show-navobile"><i class="fa fa-bars"></i></a>
-			<header id="header" class="header">
+			<header class="masthead">
+				<h1>
+					<div class="logo">
+						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
+					</div>
+				</h1>
+				<a href="#" id="show-nav"><i class="fa fa-bars"></i></a>
+			</header>
+			<aside id="sidebar" class="sidebar">
 				<h1>
 					<div class="logo">
 						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
@@ -39,6 +46,9 @@
 
 				<?php wp_nav_menu( array('menu' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav') ); ?>
 
-				
-
-			</header>
+			</aside>
+			<div class="page_image">
+				<figure>
+					<img class="banner_img" src="<?php bloginfo('template_url'); ?>/assets/img/AURA75_LIVINGREZ.jpg" alt="">
+				</figure>
+			</div>

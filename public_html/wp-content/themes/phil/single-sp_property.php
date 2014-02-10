@@ -24,8 +24,8 @@ include_once(SOLDPRESS_TEMPLATE_DIR.'/sp_property_section.php');
 	
 <?php if(get_option('sc-layout-header',false) == false){ get_header(); } ?>	
 <?php echo apply_filters('soldpress_template_single_start', '');?>
-<div class="wrapper">
-	<div class="wrapper_inner">
+<div class="container">
+	<div class="main">
 		<?php soldpress_template_single();?>	
 	</div>
 </div>

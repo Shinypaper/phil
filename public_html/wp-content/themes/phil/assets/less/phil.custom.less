@@ -20,19 +20,24 @@ body {
 img {
 	max-width: 100%;
 }
-.header {
+.masthead {
+	text-align: center;
+}
+.sidebar {
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: -200px;
 	bottom: 0;
 	width: 200px;
 	background: @opaqueblack;
 	text-transform: uppercase;
-  z-index: 100;
+	z-index: 100;
 	//text-align: center;
 }
 .main {
-  background: @body-bg;
+  background: @opaqueblack;
+  padding: @grid-gutter-width;
+  margin-bottom: @grid-gutter-width;
 }
 .banner {
   max-width: 1400px;
@@ -70,7 +75,7 @@ img {
 }
 // NAV STYLES
 // ----------
-.header {   
+.sidebar {  
   .nav {
 	//text-align: center;
 	li a {
@@ -136,7 +141,7 @@ footer {
 // HOMEPAGE STYLES
 // ---------------
 .homepage_main {
-	padding-left: 0;
+	padding: 0;
 }
 .links_wrap {
 	.make-row();
@@ -147,38 +152,40 @@ footer {
 .link {
 	.make-sm-column(4);
 }
-.home_banner {
-	position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 100%;
-  figure {
-    width: 200%; 
-    top: -50%; 
-    left: -50%; 
-    @media (min-width: @screen-sm) {
-      height: 200%;
-      position: fixed; 
-    }
-  }
+.page_image {
+	position: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+	z-index: -1;
+	figure {
+		width: 200%; 
+		top: -50%; 
+		left: -50%; 
+		position: fixed;
+		height: 200%;
+		@media (min-width: @screen-sm) {
+		}
+	}
   .banner_img {
     top: 0; 
     left: 0; 
     right: 0; 
     bottom: 0; 
+	position: absolute; 
+	margin: auto; 
+	min-width: 50%;
+	min-height: 50%;
     @media (min-width: @screen-sm) {
-      position: absolute; 
-      margin: auto; 
-      min-width: 50%;
-      min-height: 50%;
     }
   }
 }
 .call_to_action {
 	position: absolute;
 	bottom: 0px;
+	left: 0;
 	width: 100%;
 	text-align: center;
 	.btn {
@@ -251,7 +258,7 @@ footer {
   .make-sm-column(6);
 }
 .profile-wrap {
-  &:extend(.post);
+  //&:extend(.post);
 }
 // Team page
 .members-wrap {

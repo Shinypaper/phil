@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-		<div class="main">
-			<?php get_template_part('banner') ?>
+		<div class="container">
+			<?php //get_template_part('banner') ?>
 
-			<div class="wrapper">
+			<div class="main">
 				<div class="wrapper_inner">
 					<h2 class="page_title">Blog</h2>
 					<div class="blogwrap">

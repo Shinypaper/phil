@@ -135,3 +135,8 @@
 [04/Feb/2014:02:41:59] (wp-cron) sp_52f0537735c21-geo
 [04/Feb/2014:02:50:48] (wp-cron) sp_52f055883c6bf-cleanup
 >>>>>>> origin/workdillon
+[09/Feb/2014:23:25:39] (wp-cron) sp_52f80e7365988-pictures
+[09/Feb/2014:23:25:39] (wp-cron) sp_52f80e73bb181-geo
+[09/Feb/2014:23:25:39] (wp-cron) sp_52f80e73ed255-cleanup
+[09/Feb/2014:23:37:11] (wp-cron) sp_52f81127b62c7-pictures
+[09/Feb/2014:23:41:52] (wp-cron) sp_52f8124075b09-geo
