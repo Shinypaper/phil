@@ -48,7 +48,16 @@
 
 			</aside>
 			<div class="page_image">
-				<figure>
-					<img class="banner_img" src="<?php bloginfo('template_url'); ?>/assets/img/AURA75_LIVINGREZ.jpg" alt="">
+				<figure class="banner_img">
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+						<?php print_r(get_the_ID()); ?>
+						<?php if (is_page('blog') || has_post_thumbnail()) {
+							the_post_thumbnail();
+						} else { ?>
+							<img src="<?php bloginfo('template_url'); ?>/assets/img/AURA75_LIVINGREZ.jpg" alt="">
+						<? } ?>
+					<?php endwhile; else: ?>
+					<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+					<?php endif; ?>
 				</figure>
 			</div>

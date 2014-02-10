@@ -2,7 +2,7 @@
 // --------------------
 
 @white: #fff;
-@opaqueblack: rgba(20, 20, 20, 0.9);
+@opaqueblack: rgba(20, 20, 20, 0.7);
 
 // GLOBAL STYLES
 // -------------
@@ -160,7 +160,7 @@ footer {
 	background-size: cover;
 	min-height: 100%;
 	z-index: -1;
-	figure {
+	.banner_img {
 		width: 200%; 
 		top: -50%; 
 		left: -50%; 
@@ -169,7 +169,7 @@ footer {
 		@media (min-width: @screen-sm) {
 		}
 	}
-  .banner_img {
+  .banner_img img {
     top: 0; 
     left: 0; 
     right: 0; 
@@ -250,16 +250,13 @@ footer {
   -webkit-box-shadow: 0 2px 1px -1px lighten(@gray-light, 20%);
   -moz-box-shadow: 0 2px 1px -1px lighten(@gray-light, 20%);
   box-shadow: 0 2px 1px -1px lighten(@gray-light, 20%);
+  color: @gray-darker;
 }
 .profile {
-  .make-row();
+	.make-sm-column(6);
+	.make-sm-column-push(6);
 }
-.profile-image, .profile-text {
-  .make-sm-column(6);
-}
-.profile-wrap {
-  //&:extend(.post);
-}
+
 // Team page
 .members-wrap {
   .make-row();
@@ -275,8 +272,10 @@ footer {
   &:extend(.post);
 }
 .map {
-	.make-sm-column(6);
-	height: 500px;
+	.make-md-column(6);
+	img {
+		width: 100%;
+	}
 }
 // NAVOBILE STYLES
 // ---------------

@@ -28,9 +28,9 @@ get_header(); ?>
 					<article class="post <?php post_class(); ?>">
 						<?php $images = sp_get_property_images(); ?>
 						<?php 
-						foreach ($images as &$sp_slideshowimage) 
+						foreach ($images as $sp_slideshowimage) 
 						{
-							//echo '<div class="flexslider sp-no-print"><ul class="thumbnails"><li class="thumbnail"><a href="' . $sp_slideshowimage . '" class="swipebox"><img itemprop="image" class="sp-gallery-image" src="' . $sp_slideshowimage . '" alt="'. $image_description .'" /></a></li></ul></div>';					
+							echo '<div class="flexslider sp-no-print"><ul class="thumbnails"><li class="thumbnail"><a href="' . $sp_slideshowimage . '" class="swipebox"><img itemprop="image" class="sp-gallery-image" src="' . $sp_slideshowimage . '" alt="'. $image_description .'" /></a></li></ul></div>';					
 						} 
 						?>
 						<h2 class="post_title"><?php the_title(); ?></h2>
