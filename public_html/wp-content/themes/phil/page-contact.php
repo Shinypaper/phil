@@ -19,7 +19,6 @@ get_header(); ?>
 						<div class="row">
 							
 							<figure class="map" id="map">
-								<img src="http://placehold.it/500/ccc" alt="">
 							</figure>
 							<div class="col-md-6">
 								

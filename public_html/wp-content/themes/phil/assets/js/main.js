@@ -15,17 +15,6 @@ $('.menu-item-has-children > a').click(function() {
 	return false;
 });
 
-$('.home_banner').height($(window).height());
-
-$(window).resize(function() {
-	$('.home_banner').height($(window).height());
-});
-
-$('.home_banner').backstretch($('.backgroundimage').val());
-
-$('.action_link').click(function() {
-	$('.main_links').slideToggle();
-});
 
 var styles = [
 	{
@@ -140,10 +129,10 @@ var styles = [
 var latlong = new google.maps.LatLng(43.65323, -79.38318);
 
 var myOptions = {
-	zoom: 13,
+	zoom: 12,
 	center: latlong,
+	mapTypeId: google.maps.MapTypeId.ROADMAP,
 	styles: styles
 };
 
 map = new google.maps.Map(document.getElementById("map"), myOptions);
-
