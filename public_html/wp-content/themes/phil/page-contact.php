@@ -14,43 +14,15 @@ get_header(); ?>
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 				<?php endif; ?>
 
-				<article>
-					<div class="row">
+				<section>
+					<div class="contact_container">
 						
-						<figure class="map" id="map">
-							<img src="http://placehold.it/500/ccc" alt="">
-						</figure>
-						<div class="col-md-6">
-							
-							<div class="contactinfo">
-								<h1></h1>
-								<address> 453 Keas Str. <br>
-								Toronto, ON <br>
-								T: +30-6977664062 <br>
-								F: +30-2106398905</address>
-							</div>
-							<form action="" method="POST" role="form">
-								<legend>Contact Me</legend>
-							
-								<div class="form-group">
-									<label for="">Name</label>
-									<input type="text" class="form-control" id="Name">
-									<label for="">Telephone</label>
-									<input type="text" class="form-control" id="Telephone">
-									<label for="">Email Address</label>
-									<input type="text" class="form-control" id="Email">
-									<label for="">Message</label>
-									<textarea class="form-control" id="Message"></textarea>
-								</div>
-							
-								
-							
-								<button type="submit" class="btn btn-primary">Submit</button>
-							</form>
+						<div class="contactinfo">
+							<h1>PHONE: 444-444-4444</h1>
+							<h1>EMAIL: PHILIPSTAVROU@PHIL.COM</h1>
 						</div>
-
 					</div>
-				</article>
+				</section>
 			</div>
 		</div>
 

@@ -5706,7 +5706,6 @@ td#show-navobile {
 }
 footer {
   background: #444;
-  padding: 20px;
   color: #ffffff;
 }
 .homepage_main {
@@ -5962,6 +5961,54 @@ footer {
 }
 .map img {
   width: 100%;
+}
+.contact_container {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.contact_container:before,
+.contact_container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.contact_container:after {
+  clear: both;
+}
+.contact_container:before,
+.contact_container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.contact_container:after {
+  clear: both;
+}
+.contactinfo {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .contactinfo {
+    float: left;
+    width: 50%;
+  }
+}
+.contact_form {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .contact_form {
+    float: left;
+    width: 50%;
+  }
 }
 .mainslider {
   position: relative;

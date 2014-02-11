@@ -31,11 +31,13 @@
 		<div id="content">
 			<header class="masthead">
 				<h1>
+					<a href="#" id="show-nav">
 					<div class="logo">
-						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
+						<img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt="">
 					</div>
+					<i class="fa fa-angle-up"></i>
+					</a>
 				</h1>
-				<a href="#" id="show-nav"><i class="fa fa-bars"></i></a>
 			</header>
 			<aside id="sidebar" class="sidebar">
 				<h1>
