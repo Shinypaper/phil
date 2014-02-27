@@ -13,7 +13,7 @@ global $active_tab
 	<div class="top">
 		<div class="inner-border">
 			<div class="inner-padding">
-			   <?php  echo '<figure><a href="' . get_permalink($post->ID) . '"><image width="244" height="163" src="' . sp_get_default_listing_image($post->post_excerpt) . '" class="attachment-property-thumb-image wp-post-image" alt="14 Steed Crt, Brantford" title="14 Steed Crt, Brantford"/></a></figure>';
+			   <?php  echo '<figure><a href="' . get_permalink($post->ID) . '"><image width="244" height="163" src="' . sp_get_default_listing_image(get_post_meta($post->ID,'dfd_ListingKey',true)) . '" class="attachment-property-thumb-image wp-post-image" alt="14 Steed Crt, Brantford" title="14 Steed Crt, Brantford"/></a></figure>';
 			   ?> 
 				<div class="right">
 					<h3><a href="<?php echo get_permalink($post->ID); ?>"> <?php echo $post->post_title; ?></a></h3>									

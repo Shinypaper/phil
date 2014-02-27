@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 				<div class="top">
 					<div class="inner-border">
 						<div class="inner-padding">
-							  <?php 
+							  <?php
 							  /*
 					$photos = get_children( array('post_parent' => get_the_ID(), 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID') );
 					if ($photos) {

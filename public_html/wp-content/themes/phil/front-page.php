@@ -9,9 +9,9 @@
 				<section class="main_links">
 						
 					<div class="links_wrap">
-						<div class="link"><img src="http://placehold.it/200x100&text=Buy" alt=""></div>
-						<div class="link"><img src="http://placehold.it/200x100&text=Sell" alt=""></div>
-						<div class="link"><img src="http://placehold.it/200x100&text=Contact" alt=""></div>
+						<div class="link"><a href="<?php bloginfo('url') ?>/featured-listings"><img src="http://placehold.it/600&text=Buy" alt=""></a></div>
+						<div class="link"><a href="<?php bloginfo('url') ?>/sell"><img src="http://placehold.it/600&text=Sell" alt=""></a></div>
+						<div class="link"><a href="<?php bloginfo('url') ?>/neighbourhoods"><img src="http://placehold.it/600&text=Neighbourhoods" alt=""></a></div>
 					</div>
 
 				</section>
