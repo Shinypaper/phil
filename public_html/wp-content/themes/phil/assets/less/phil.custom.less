@@ -56,6 +56,9 @@ img {
 	z-index: 9999;
 	.visible-xs;
 }
+#show-nav {
+	color: @white;
+}
 #content {
 	//background: @white;
 }
@@ -107,6 +110,7 @@ img {
   }
   .sub-menu {
 	list-style: none;
+	margin-left: 0;
 	padding-left: 0;
 	display: none;
 	.menu-item {
@@ -142,14 +146,19 @@ footer {
 .homepage_main {
 	padding: 0;
 }
+.main_links {
+	display: none;
+	background: rgba(0, 0, 0, 0.5);
+	.clearfix;
+}
 .links_wrap {
-	.make-row();
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  margin: 0;
+	margin: 0;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .link {
-	.make-sm-column(4);
+	float: left;
+	width: 33.33333%;
 }
 .page_image {
 	position: fixed;
@@ -195,9 +204,6 @@ footer {
 .action_link {
 	color: #2a6496;
 	font-size: 10em; 
-}
-.main_links {
-  display: none;
 }
 .home_footer {
   display: none;

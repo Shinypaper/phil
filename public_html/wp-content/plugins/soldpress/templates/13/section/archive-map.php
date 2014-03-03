@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 <article rel='<?php echo $tag?>'>
 <?php 
-	echo '<figure><a href="' . get_permalink() . '"><image src="' . sp_get_default_listing_image($post->post_excerpt) . '" /></a></figure>';
+	echo '<figure><a href="' . get_permalink() . '"><image src="' . sp_get_default_listing_image(get_post_meta($post->ID,'dfd_ListingKey',true)) . '" /></a></figure>';
 ?>
 <div class='text'>
 	<h3><?php echo esc_html( get_post_meta($post->ID,'dfd_UnparsedAddress',true)) ?></h3>

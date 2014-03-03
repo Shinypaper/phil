@@ -140,6 +140,7 @@
 [09/Feb/2014:23:25:39] (wp-cron) sp_52f80e73ed255-cleanup
 [09/Feb/2014:23:37:11] (wp-cron) sp_52f81127b62c7-pictures
 [09/Feb/2014:23:41:52] (wp-cron) sp_52f8124075b09-geo
+<<<<<<< HEAD
 [10/Feb/2014:16:50:41] (wp-cron) sp_52f90361f372c-pictures
 [10/Feb/2014:16:50:42] (wp-cron) sp_52f9036253a4a-geo
 [10/Feb/2014:16:50:42] (wp-cron) sp_52f9036272828-cleanup
@@ -194,3 +195,21 @@
 [20/Feb/2014:00:59:48] (wp-cron) sp_53055384d6dd6-pictures
 [20/Feb/2014:00:59:49] (wp-cron) sp_530553851dcdb-geo
 [20/Feb/2014:00:59:49] (wp-cron) sp_530553853fcaa-cleanup
+=======
+[26/Feb/2014:23:38:42] (wp-cron) sp_530e7b0200258-pictures
+[26/Feb/2014:23:38:43] (wp-cron) sp_530e7b0370f82-geo
+[26/Feb/2014:23:38:43] (wp-cron) sp_530e7b03f063b-cleanup
+[26/Feb/2014:23:38:44] (wp-cron) sp_530e7b04edcd9-listing
+[27/Feb/2014:00:19:32] (wp-cron) sp_530e84941aeb9-geo
+[27/Feb/2014:00:19:32] (wp-cron) sp_530e84946220c-cleanup
+[27/Feb/2014:00:19:32] (wp-cron) sp_530e84947c6b5-listing
+[27/Feb/2014:00:39:23] (wp-cron) sp_530e893b42405-pictures
+[27/Feb/2014:00:41:37] (wp-cron) sp_530e89c1ce501-geo
+[27/Feb/2014:00:53:10] (wp-cron) sp_530e8c76446dc-cleanup
+[27/Feb/2014:01:30:31] (wp-cron) sp_530e953789a03-pictures
+[27/Feb/2014:01:41:04] (wp-cron) sp_530e97b0b1810-geo
+[27/Feb/2014:01:51:58] (wp-cron) sp_530e9a3e6bc5c-cleanup
+[27/Feb/2014:02:30:40] (wp-cron) sp_530ea35051b9d-pictures
+[27/Feb/2014:02:40:32] (wp-cron) sp_530ea5a050627-geo
+[27/Feb/2014:02:50:57] (wp-cron) sp_530ea8111efe2-cleanup
+>>>>>>> origin/dillon

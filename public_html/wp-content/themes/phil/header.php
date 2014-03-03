@@ -38,6 +38,10 @@
 					<i class="fa fa-angle-up"></i>
 					</a>
 				</h1>
+<<<<<<< HEAD
+=======
+				<a href="#" id="show-nav"><?php if (is_front_page()) {?>MENU <? } ?><i class="fa fa-bars"></i></a>
+>>>>>>> origin/dillon
 			</header>
 			<aside id="sidebar" class="sidebar">
 				<h1>
