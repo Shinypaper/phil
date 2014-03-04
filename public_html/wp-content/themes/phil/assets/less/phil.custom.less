@@ -138,7 +138,6 @@ img {
 
 footer {
 	background: #444;
-	padding: 20px;
 	color: @white;
 }
 
@@ -187,6 +186,7 @@ footer {
 	margin: auto; 
 	min-width: 50%;
 	min-height: 50%;
+	max-width: none;
     @media (min-width: @screen-sm) {
     }
   }
@@ -264,11 +264,27 @@ footer {
 }
 
 // Team page
+
+.phil_team_wrapper {
+	&:extend(.post);
+	padding: 0;
+}
+.phil_team {
+	.make-row();
+	img {
+		.make-sm-column(5);
+	}
+}
+.phil_member_wrap {
+	.make-sm-column(7);
+}
+
+
 .members-wrap {
   .make-row();
 }
 .team_member {
-  .make-sm-column(4);
+  .make-sm-column(3);
   .make-xs-column(6);
   @media (max-width: @screen-xs-min) {
   .make-xs-column(12);
@@ -294,6 +310,52 @@ footer {
 }
 .search_map {
 	margin-top: 20px;
+}
+// Contact page
+//-------------
+
+.contact_container {
+	.make-row();
+	a {
+		color: @white;
+	}
+}
+
+.contactinfo {
+	.make-sm-column(6);
+	h1 {
+		margin: 10px;
+		margin-left: 0;
+		font-size: 26px;
+		@media (min-width : @screen-sm) {
+			font-size: 36px;
+		}
+	}
+	p {
+		margin: 0;
+		font-size: 18px;
+	}
+	.phone, .email, .address {
+		margin-bottom: 10px;
+		border-bottom: 1px solid @gray-lighter;
+	}
+}
+
+.social_buttons {
+	text-align: center;
+	i {
+		color: @white;
+		padding: 20px;
+		font-size: 18px;
+		background-color: @brand-primary;
+		border-radius: 100px;
+		min-width: 58px;
+		margin: 10px;
+		&:hover {
+			background-color: @white;
+			color: @brand-primary;
+		}
+	}
 }
 
 // NAVOBILE STYLES

@@ -14,43 +14,31 @@ get_header(); ?>
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 				<?php endif; ?>
 
-				<article>
-					<div class="row">
+				<section>
+					<div class="contact_container">
 						
-						<figure class="map" id="map">
-							<img src="http://placehold.it/500/ccc" alt="">
-						</figure>
-						<div class="col-md-6">
-							
-							<div class="contactinfo">
-								<h1></h1>
-								<address> 453 Keas Str. <br>
-								Toronto, ON <br>
-								T: +30-6977664062 <br>
-								F: +30-2106398905</address>
+						<div class="contactinfo">
+							<div class="phone">
+								<p>Phone</p>
+								<h1>444-444-4444</h1>
 							</div>
-							<form action="" method="POST" role="form">
-								<legend>Contact Me</legend>
-							
-								<div class="form-group">
-									<label for="">Name</label>
-									<input type="text" class="form-control" id="Name">
-									<label for="">Telephone</label>
-									<input type="text" class="form-control" id="Telephone">
-									<label for="">Email Address</label>
-									<input type="text" class="form-control" id="Email">
-									<label for="">Message</label>
-									<textarea class="form-control" id="Message"></textarea>
-								</div>
-							
-								
-							
-								<button type="submit" class="btn btn-primary">Submit</button>
-							</form>
+							<div class="email">
+								<p>Email</p>
+								<a href="mailto:philipstavrou@phil.com"><h1>philipstavrou@phil.com</h1></a>
+							</div>
+							<div class="address">
+								<p>Address</p>
+								<h1>1605-30 Harrison Garden Blvd Toronto ON M2N 7A9</h1>
+							</div>
 						</div>
-
 					</div>
-				</article>
+					<div class="social_buttons">
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-instagram"></i></a>
+					</div>
+				</section>
+
 			</div>
 		</div>
 
