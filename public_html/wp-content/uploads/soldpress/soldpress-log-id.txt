@@ -213,3 +213,11 @@
 [27/Feb/2014:02:40:32] (wp-cron) sp_530ea5a050627-geo
 [27/Feb/2014:02:50:57] (wp-cron) sp_530ea8111efe2-cleanup
 >>>>>>> origin/dillon
+[03/Mar/2014:23:51:57] (wp-cron) sp_5315159ddf8b0-cleanup
+[04/Mar/2014:00:00:02] (wp-cron) sp_53151782b809b-listing
+[04/Mar/2014:00:30:51] (wp-cron) sp_53151ebb2f0cd-pictures
+[04/Mar/2014:00:41:00] (wp-cron) sp_5315211cc4673-geo
+[04/Mar/2014:00:50:31] (wp-cron) sp_531523579d168-cleanup
+[04/Mar/2014:01:31:51] (wp-cron) sp_53152d07d843f-pictures
+[04/Mar/2014:01:42:11] (wp-cron) sp_53152f739ca3f-geo
+[04/Mar/2014:01:52:11] (wp-cron) sp_531531cba9419-cleanup

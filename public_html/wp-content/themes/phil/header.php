@@ -33,15 +33,12 @@
 				<h1>
 					<a href="#" id="show-nav">
 					<div class="logo">
-						<img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt="Philip Stavrou">
 					</div>
-					<i class="fa fa-angle-up"></i>
+					<?php if (is_front_page()) {?>MENU <? } ?><i class="fa fa-bars"></i>
 					</a>
 				</h1>
-<<<<<<< HEAD
-=======
-				<a href="#" id="show-nav"><?php if (is_front_page()) {?>MENU <? } ?><i class="fa fa-bars"></i></a>
->>>>>>> origin/dillon
+
 			</header>
 			<aside id="sidebar" class="sidebar">
 				<h1>

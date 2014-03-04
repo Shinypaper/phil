@@ -18,11 +18,27 @@ get_header(); ?>
 					<div class="contact_container">
 						
 						<div class="contactinfo">
-							<h1>PHONE: 444-444-4444</h1>
-							<h1>EMAIL: PHILIPSTAVROU@PHIL.COM</h1>
+							<div class="phone">
+								<p>Phone</p>
+								<h1>444-444-4444</h1>
+							</div>
+							<div class="email">
+								<p>Email</p>
+								<a href="mailto:philipstavrou@phil.com"><h1>philipstavrou@phil.com</h1></a>
+							</div>
+							<div class="address">
+								<p>Address</p>
+								<h1>1605-30 Harrison Garden Blvd Toronto ON M2N 7A9</h1>
+							</div>
 						</div>
 					</div>
+					<div class="social_buttons">
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-instagram"></i></a>
+					</div>
 				</section>
+
 			</div>
 		</div>
 

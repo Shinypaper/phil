@@ -14,26 +14,9 @@ get_header(); ?>
 				<?php endwhile; else: ?>
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 				<?php endif; ?>
-
-				<form action="" method="POST" role="form">
-					<legend>Contact Me</legend>
-				
-					<div class="form-group">
-						<label for="">Name</label>
-						<input type="text" class="form-control" id="Name">
-						<label for="">Telephone</label>
-						<input type="text" class="form-control" id="Telephone">
-						<label for="">Email Address</label>
-						<input type="text" class="form-control" id="Email">
-						<label for="">Message</label>
-						<textarea class="form-control" id="Message"></textarea>
-					</div>
-										
 			
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
+				<a href="<?php bloginfo('url'); ?>/contact" class="btn btn-primary">Contact Me</a>
 
-				
 			</div>
 		</div>
 

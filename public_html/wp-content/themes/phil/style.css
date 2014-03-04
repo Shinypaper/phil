@@ -5773,6 +5773,7 @@ footer {
   margin: auto;
   min-width: 50%;
   min-height: 50%;
+  max-width: none;
 }
 .call_to_action {
   position: absolute;
@@ -5868,6 +5869,7 @@ footer {
   text-align: center;
 }
 .post,
+.phil_team_wrapper,
 .member-wrap {
   background: #fbfbfb;
   padding: 20px;
@@ -5892,6 +5894,57 @@ footer {
 @media (min-width: 768px) {
   .profile {
     left: 50%;
+  }
+}
+.phil_team_wrapper {
+  padding: 0;
+}
+.phil_team {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.phil_team:before,
+.phil_team:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.phil_team:after {
+  clear: both;
+}
+.phil_team:before,
+.phil_team:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.phil_team:after {
+  clear: both;
+}
+.phil_team img {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .phil_team img {
+    float: left;
+    width: 41.66666666666667%;
+  }
+}
+.phil_member_wrap {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .phil_member_wrap {
+    float: left;
+    width: 58.333333333333336%;
   }
 }
 .members-wrap {
@@ -5929,7 +5982,7 @@ footer {
 @media (min-width: 768px) {
   .team_member {
     float: left;
-    width: 33.33333333333333%;
+    width: 25%;
   }
 }
 @media (max-width: 480px) {
@@ -5981,6 +6034,9 @@ footer {
 .contact_container:after {
   clear: both;
 }
+.contact_container a {
+  color: #ffffff;
+}
 .contactinfo {
   position: relative;
   min-height: 1px;
@@ -5993,17 +6049,41 @@ footer {
     width: 50%;
   }
 }
-.contact_form {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+.contactinfo h1 {
+  margin: 10px;
+  margin-left: 0;
+  font-size: 26px;
 }
 @media (min-width: 768px) {
-  .contact_form {
-    float: left;
-    width: 50%;
+  .contactinfo h1 {
+    font-size: 36px;
   }
+}
+.contactinfo p {
+  margin: 0;
+  font-size: 18px;
+}
+.contactinfo .phone,
+.contactinfo .email,
+.contactinfo .address {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+.social_buttons {
+  text-align: center;
+}
+.social_buttons i {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #2980b9;
+  border-radius: 100px;
+  min-width: 58px;
+  margin: 10px;
+}
+.social_buttons i:hover {
+  background-color: #ffffff;
+  color: #2980b9;
 }
 .mainslider {
   position: relative;
