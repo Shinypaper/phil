@@ -51,16 +51,12 @@
 
 			</aside>
 			<div class="page_image">
-				<figure class="banner_img">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<?php print_r(get_the_ID()); ?>
-						<?php if (is_page('blog') || has_post_thumbnail()) {
-							the_post_thumbnail();
-						} else { ?>
-							<img src="<?php bloginfo('template_url'); ?>/assets/img/AURA75_LIVINGREZ.jpg" alt="">
-						<? } ?>
-					<?php endwhile; else: ?>
-					<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-					<?php endif; ?>
-				</figure>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<?php $feature_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full'); ?>
+				<?php if (!$feature_image) 
+					$feature_image[0] = get_bloginfo('template_url')."/assets/img/AURA75_LIVINGREZ.jpg";
+				?>
+					<figure class="banner_img" style="background: url('<?php echo $feature_image[0]; ?>') no-repeat center center fixed; background-size: cover;"> </figure>
+				<?php endwhile; ?>
+				<?php endif; ?>
 			</div>

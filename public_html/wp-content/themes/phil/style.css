@@ -6010,6 +6010,47 @@ footer {
 .map img {
   width: 100%;
 }
+.search_content {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.search_content:before,
+.search_content:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.search_content:after {
+  clear: both;
+}
+.search_content:before,
+.search_content:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.search_content:after {
+  clear: both;
+}
+.search_map,
+.search_form {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .search_map,
+  .search_form {
+    float: left;
+    width: 50%;
+  }
+}
+.search_map {
+  margin-top: 20px;
+}
 .contact_container {
   margin-left: -15px;
   margin-right: -15px;
@@ -6311,18 +6352,99 @@ footer {
 @media (min-width: 768px) {
   .featured_container .carousel {
     float: left;
-    width: 50%;
+    width: 41.66666666666667%;
   }
 }
 .featured_container .carousel .fa-chevron-left,
 .featured_container .carousel .fa-chevron-right {
   position: absolute;
   top: 50%;
+  left: 25px;
   z-index: 5;
   display: inline-block;
+  color: #2980b9;
+}
+.featured_container .carousel .fa-chevron-left,
+.featured_container .carousel .fa-chevron-right,
+tr.featured_container .carousel .fa-chevron-left,
+tr.featured_container .carousel .fa-chevron-right,
+th.featured_container .carousel .fa-chevron-left,
+th.featured_container .carousel .fa-chevron-right,
+td.featured_container .carousel .fa-chevron-left,
+td.featured_container .carousel .fa-chevron-right {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .featured_container .carousel .fa-chevron-left.visible-xs,
+  .featured_container .carousel .fa-chevron-right.visible-xs {
+    display: block !important;
+  }
+  tr.featured_container .carousel .fa-chevron-left.visible-xs,
+  tr.featured_container .carousel .fa-chevron-right.visible-xs {
+    display: table-row !important;
+  }
+  th.featured_container .carousel .fa-chevron-left.visible-xs,
+  th.featured_container .carousel .fa-chevron-right.visible-xs,
+  td.featured_container .carousel .fa-chevron-left.visible-xs,
+  td.featured_container .carousel .fa-chevron-right.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .featured_container .carousel .fa-chevron-left.visible-sm,
+  .featured_container .carousel .fa-chevron-right.visible-sm {
+    display: block !important;
+  }
+  tr.featured_container .carousel .fa-chevron-left.visible-sm,
+  tr.featured_container .carousel .fa-chevron-right.visible-sm {
+    display: table-row !important;
+  }
+  th.featured_container .carousel .fa-chevron-left.visible-sm,
+  th.featured_container .carousel .fa-chevron-right.visible-sm,
+  td.featured_container .carousel .fa-chevron-left.visible-sm,
+  td.featured_container .carousel .fa-chevron-right.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .featured_container .carousel .fa-chevron-left.visible-md,
+  .featured_container .carousel .fa-chevron-right.visible-md {
+    display: block !important;
+  }
+  tr.featured_container .carousel .fa-chevron-left.visible-md,
+  tr.featured_container .carousel .fa-chevron-right.visible-md {
+    display: table-row !important;
+  }
+  th.featured_container .carousel .fa-chevron-left.visible-md,
+  th.featured_container .carousel .fa-chevron-right.visible-md,
+  td.featured_container .carousel .fa-chevron-left.visible-md,
+  td.featured_container .carousel .fa-chevron-right.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  .featured_container .carousel .fa-chevron-left,
+  .featured_container .carousel .fa-chevron-right {
+    display: block !important;
+  }
+  tr.featured_container .carousel .fa-chevron-left,
+  tr.featured_container .carousel .fa-chevron-right {
+    display: table-row !important;
+  }
+  th.featured_container .carousel .fa-chevron-left,
+  th.featured_container .carousel .fa-chevron-right,
+  td.featured_container .carousel .fa-chevron-left,
+  td.featured_container .carousel .fa-chevron-right {
+    display: table-cell !important;
+  }
+}
+.featured_container .carousel .carousel-control.right,
+.featured_container .carousel .carousel-control.left {
+  background-image: none;
 }
 .featured_container .carousel .item img {
   margin: 0 auto;
+  max-height: 210px;
 }
 .featured_container .featured_text {
   position: relative;
@@ -6333,12 +6455,8 @@ footer {
 @media (min-width: 768px) {
   .featured_container .featured_text {
     float: left;
-    width: 50%;
+    width: 58.333333333333336%;
   }
-}
-.carousel-control.right,
-.carousel-control.left {
-  background-image: none;
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */

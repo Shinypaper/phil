@@ -212,6 +212,32 @@
 [27/Feb/2014:02:30:40] (wp-cron) sp_530ea35051b9d-pictures
 [27/Feb/2014:02:40:32] (wp-cron) sp_530ea5a050627-geo
 [27/Feb/2014:02:50:57] (wp-cron) sp_530ea8111efe2-cleanup
+<<<<<<< HEAD
+[27/Feb/2014:04:58:17] (wp-cron) sp_530ec5e9dc761-pictures
+[27/Feb/2014:04:58:18] (wp-cron) sp_530ec5ea26067-geo
+[27/Feb/2014:04:58:18] (wp-cron) sp_530ec5ea76412-cleanup
+[27/Feb/2014:14:08:05] (wp-cron) sp_530f46c598a48-pictures
+[27/Feb/2014:14:08:06] (wp-cron) sp_530f46c65c5e6-geo
+[27/Feb/2014:14:08:06] (wp-cron) sp_530f46c69ca27-cleanup
+[03/Mar/2014:22:33:35] (wp-cron) sp_5315033fcbe39-pictures
+[03/Mar/2014:22:33:36] (wp-cron) sp_531503402acf4-geo
+[03/Mar/2014:22:33:36] (wp-cron) sp_5315034051378-cleanup
+[03/Mar/2014:22:33:49] (wp-cron) sp_5315034d3195e-listing
+[03/Mar/2014:22:49:39] (wp-cron) sp_53150703852cc-geo
+[03/Mar/2014:22:51:48] (wp-cron) sp_53150784e542d-cleanup
+[03/Mar/2014:23:30:49] (wp-cron) sp_531510a9cbb88-pictures
+[03/Mar/2014:23:41:11] (wp-cron) sp_531513177e18e-geo
+[03/Mar/2014:23:51:21] (wp-cron) sp_5315157964619-cleanup
+[03/Mar/2014:23:59:29] (wp-cron) sp_5315176177018-listing
+[04/Mar/2014:00:02:33] (admin) sp_53151819187e8-geo
+[04/Mar/2014:00:31:32] (wp-cron) sp_53151ee478d50-pictures
+[04/Mar/2014:00:41:32] (wp-cron) sp_5315213cb64ef-geo
+[04/Mar/2014:00:50:58] (wp-cron) sp_531523725b062-cleanup
+[04/Mar/2014:01:30:32] (wp-cron) sp_53152cb8677b8-pictures
+[04/Mar/2014:01:40:32] (wp-cron) sp_53152f10ebe5d-geo
+[04/Mar/2014:01:40:33] (wp-cron) sp_53152f11dcdf2-geo
+[04/Mar/2014:01:50:46] (wp-cron) sp_53153176a93a1-cleanup
+=======
 >>>>>>> origin/dillon
 [03/Mar/2014:23:51:57] (wp-cron) sp_5315159ddf8b0-cleanup
 [04/Mar/2014:00:00:02] (wp-cron) sp_53151782b809b-listing
@@ -221,6 +247,7 @@
 [04/Mar/2014:01:31:51] (wp-cron) sp_53152d07d843f-pictures
 [04/Mar/2014:01:42:11] (wp-cron) sp_53152f739ca3f-geo
 [04/Mar/2014:01:52:11] (wp-cron) sp_531531cba9419-cleanup
+<<<<<<< HEAD
 [04/Mar/2014:02:56:50] (wp-cron) sp_531540f2088dd-pictures
 [04/Mar/2014:02:56:50] (wp-cron) sp_531540f20c2b3-geo
 [04/Mar/2014:02:56:50] (wp-cron) sp_531540f20e454-cleanup
@@ -229,3 +256,6 @@
 [07/Mar/2014:23:56:56] (wp-cron) sp_531a5cc855eef-cleanup
 [07/Mar/2014:23:56:58] (wp-cron) sp_531a5cca82932-listing
 [07/Mar/2014:23:59:56] (wp-cron) sp_531a5d7c46ac1-listing
+=======
+>>>>>>> origin/dillonmanfredmerge
+>>>>>>> origin/dillon

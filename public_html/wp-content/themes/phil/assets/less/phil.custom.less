@@ -300,6 +300,17 @@ footer {
 	}
 }
 
+// Search Page
+
+.search_content {
+	.make-row();
+}
+.search_map, .search_form {
+	.make-sm-column(6);
+}
+.search_map {
+	margin-top: 20px;
+}
 // Contact page
 //-------------
 
@@ -563,26 +574,29 @@ footer {
 .featured_container {
 	.make-row;
 	.carousel {
-		.make-sm-column(6);
+		.make-sm-column(5);
 		.fa-chevron-left, .fa-chevron-right {
+			.visible-lg;
 			position: absolute;
 			top: 50%;
+			left: 25px;
 			z-index: 5;
 			display: inline-block;
+			color: @brand-primary;
+		}
+		.carousel-control.right, .carousel-control.left {
+			background-image: none;
 		}
 		.item {
 			img {
 				margin: 0 auto;
+				max-height: 210px;
 			}
 		}
 	}
 	.featured_text {
-		.make-sm-column(6);
+		.make-sm-column(7);
 	}
-}
-
-.carousel-control.right, .carousel-control.left {
-	background-image: none;
 }
 
 
