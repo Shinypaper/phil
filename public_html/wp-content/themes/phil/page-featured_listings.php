@@ -45,7 +45,8 @@ get_header(); ?>
 
 				?>
 					<article class="post <?php post_class(); ?>">
-
+					<div class="featured_container">
+						
 						<div id="carousel-<?php echo $post->ID; ?>" class="carousel slide" data-ride="carousel">
 
 							<!-- Wrapper for slides -->
@@ -68,9 +69,11 @@ get_header(); ?>
 								<span><i class="fa fa-chevron-right"></i></span>
 							</a>
 						</div>
-
-						<h2 class="post_title"><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h2>
-						<?php the_content(); ?>
+						<div class="featured_text">
+							<h2 class="post_title"><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h2>
+							<?php the_content(); ?>
+						</div>
+					</div>
 					</article>
 					
 				<?php } ?>
@@ -78,5 +81,6 @@ get_header(); ?>
 				
 			</div>
 		</div>
+
 
 <?php get_footer(); ?>

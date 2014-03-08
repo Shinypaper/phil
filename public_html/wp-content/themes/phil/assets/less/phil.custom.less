@@ -559,6 +559,34 @@ footer {
 	}
   }
 }
+
+.featured_container {
+	.make-row;
+	.carousel {
+		.make-sm-column(6);
+		.fa-chevron-left, .fa-chevron-right {
+			position: absolute;
+			top: 50%;
+			z-index: 5;
+			display: inline-block;
+		}
+		.item {
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+	.featured_text {
+		.make-sm-column(6);
+	}
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+}
+
+
+
 // RESPONSIVE STYLES
 
 /* Extra small devices (phones, less than 768px) */

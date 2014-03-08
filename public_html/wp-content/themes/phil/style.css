@@ -6278,6 +6278,68 @@ footer {
 .wrapper_inner .sp .flex-direction-nav .flex-next {
   padding-top: 10px;
 }
+.featured_container {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.featured_container:before,
+.featured_container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.featured_container:after {
+  clear: both;
+}
+.featured_container:before,
+.featured_container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.featured_container:after {
+  clear: both;
+}
+.featured_container .carousel {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .featured_container .carousel {
+    float: left;
+    width: 50%;
+  }
+}
+.featured_container .carousel .fa-chevron-left,
+.featured_container .carousel .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.featured_container .carousel .item img {
+  margin: 0 auto;
+}
+.featured_container .featured_text {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .featured_container .featured_text {
+    float: left;
+    width: 50%;
+  }
+}
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
