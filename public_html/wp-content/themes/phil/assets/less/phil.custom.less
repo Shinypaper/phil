@@ -570,6 +570,37 @@ footer {
 	}
   }
 }
+
+.featured_container {
+	.make-row;
+	.carousel {
+		.make-sm-column(5);
+		.fa-chevron-left, .fa-chevron-right {
+			.visible-lg;
+			position: absolute;
+			top: 50%;
+			left: 25px;
+			z-index: 5;
+			display: inline-block;
+			color: @brand-primary;
+		}
+		.carousel-control.right, .carousel-control.left {
+			background-image: none;
+		}
+		.item {
+			img {
+				margin: 0 auto;
+				max-height: 210px;
+			}
+		}
+	}
+	.featured_text {
+		.make-sm-column(7);
+	}
+}
+
+
+
 // RESPONSIVE STYLES
 
 /* Extra small devices (phones, less than 768px) */
