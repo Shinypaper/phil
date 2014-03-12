@@ -155,7 +155,6 @@ function sp_get_default_listing_image($postid) {
 				$fileurl =  $default_image;
 			}
 		}
-		
 		return $fileurl ;
 }
 
@@ -649,7 +648,7 @@ function sp_get_property_images()
 		$photoindex = $photosCount - 1;
 		for ($i=0; $i<=$photoindex; $i++)
 		{
-			$filename      = $post->post_excerpt . '-' . $type . '-' . $i . '.jpg';
+			$filename      = get_post_meta($post->ID,'dfd_ListingKey',true) . '-' . $type . '-' . $i . '.jpg';
 			$fileurl      = $wp_upload_dir['baseurl'] . '/soldpress/' . $filename;		
 			$filepath     = $wp_upload_dir['basedir'] . '/soldpress/' . $filename;
 

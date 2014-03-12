@@ -14,8 +14,8 @@
 
 <?php if(get_option('sc-layout-header',false) == false){ get_header(); } ?>	
 <?php echo apply_filters('soldpress_template_archive_start', ''); ?>
-<div class="wrapper">
-	<div class="wrapper_inner">
+<div class="container">
+	<div class="main">
 		<?php soldpress_template_archive();?>	
 	</div>
 </div>
