@@ -14,6 +14,7 @@ get_header(); ?>
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 				<?php endif; ?>
 
+
 				<section>
 					<div class="contact_container">
 						

@@ -3,6 +3,9 @@
  * @author 		Sanskript Solutions
  * @version     1.3.0
  */
+ 
+
+ 
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
@@ -28,6 +31,27 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 <?php while ( have_posts() ) : the_post(); ?>
 
+<?php // check if the repeater field has rows of data
+	$images = array();
+
+	$featured_image = sp_get_default_listing_image($listing_key);
+	if( have_rows('custom_images') ):
+	 
+	 	// loop through the rows of data
+	    while ( have_rows('custom_images') ) : the_row();
+	 
+	        // display a sub field value
+	        $images[] = get_sub_field('custom_image');
+	    endwhile;
+	  
+	endif; 
+
+		if (strpos($featured_image,'nophoto') AND (count($images) > 0 )) {
+			$featured_image = $images[0];
+		}
+
+?>
+
 <?php
 	if($item_grid_count == 0){
 		echo '<div class="' . sp_responsive_css_row() . '" >';
@@ -41,7 +65,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 							<figure>
 							  <?php $postmeta = get_post_meta($post->ID);
 							  $listing_key = $postmeta['dfd_ListingKey'][0];
-					echo '<a href="' . get_permalink() . '"><img alt="'. get_post_meta(get_the_ID(),'dfd_UnparsedAddress',true) .'" src="' . sp_get_default_listing_image($listing_key) . '" /></a>';
+					echo '<a href="' . get_permalink() . '"><img alt="'. get_post_meta(get_the_ID(),'dfd_UnparsedAddress',true) .'" src="' . $featured_image . '" /></a>';
 					?>
 							<?php if(get_post_meta($post->ID,'dfd_ListPrice',true) == 0) {?>
 							<div class="banner"> <?php _e('For Rent','soldpress') ?></div>
@@ -79,6 +103,7 @@ else
 }
 
 ?>	
+<?php wp_reset_postdata(); ?>
 <?php endwhile; ?>
 <?php
 if($item_grid_count != ($max_per_row+1)){

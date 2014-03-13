@@ -4,7 +4,7 @@
 
             <!-- <p>&copy; Philip Stavrou <?= date('Y');?></p> -->
         </footer>
-    </div> <!-- wrapper -->        
+    </div>      
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script src="<?php bloginfo("template_url"); ?>/assets/js/vendor/jquery-1.10.1.min.js"></script>
 

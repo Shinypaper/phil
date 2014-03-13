@@ -3,9 +3,10 @@
 get_header(); ?>
 
 		<div class="container">
-			<?php// get_template_part('banner') ?>
 			<div class="main">
 				
+
+
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<h2 class="page_title"><?php the_title(); ?></h2>
 					<?php the_content(); ?>
@@ -42,7 +43,24 @@ get_header(); ?>
 								$sp_slideshow[]    = $fileurl;			
 							}						
 						}
+					 // check if the repeater field has rows of data
+						$images = array();
 
+						$featured_image = sp_get_property_images();
+						if( have_rows('custom_images') ):
+						 
+						 	// loop through the rows of data
+						    while ( have_rows('custom_images') ) : the_row();
+						 
+						        // display a sub field value
+						        $images[] = get_sub_field('custom_image');
+						    endwhile;
+						  
+						endif; 
+
+							if (count($featured_image) < 1 AND count($images) > 0 ) {
+								$featured_image = $images;
+							}
 				?>
 					<article class="post <?php post_class(); ?>">
 					<div class="featured_container">
@@ -53,7 +71,7 @@ get_header(); ?>
 							<div class="carousel-inner">
 								<?php 
 								$first = 1;
-								foreach ($sp_slideshow as $sp_slideshowimage) { ?>
+								foreach ($featured_image as $sp_slideshowimage) { ?>
 								<div class="item <?=$first?'active':''; ?>">
 									<img itemprop="image" class="featured-listing-image" src="<?php echo $sp_slideshowimage ?>" />
 								</div>

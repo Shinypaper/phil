@@ -11,7 +11,7 @@ get_header(); ?>
 							<?php $descendants = get_categories(array('child_of' => 6)); ?>
 							<?php foreach ($descendants as $child) { ?>
 							
-							<h1 class="post_title"><a href="<?= bloginfo('url'). "/category/neighbourhoods/" .$child->slug; ?>"> <?php echo $child->cat_name; ?></a></h1>
+							<h1 class="post_title"><a href="<?= bloginfo('url'). "/category/neighbourhoods/" .$child->slug; ?>" class="neighbourhoods"> <?php echo $child->cat_name; ?></a></h1>
 								
 							<?php } ?>
 							

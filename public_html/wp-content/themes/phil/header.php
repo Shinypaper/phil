@@ -29,26 +29,84 @@
 				<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 		<div id="content">
-			<header class="masthead">
-				<h1>
 					<a href="#" id="show-nav">
-					<div class="logo">
-						<img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt="Philip Stavrou">
-					</div>
-					<?php if (is_front_page()) {?>MENU <? } ?><i class="fa fa-bars"></i>
+					<i class="fa fa-bars"></i><?php if (is_front_page()) {?> MENU<? } ?>
 					</a>
-				</h1>
-
+			<header class="masthead">
+					<div class="logo">
+						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo_black.png" alt="Philip Stavrou"></a>
+					</div>
 			</header>
 			<aside id="sidebar" class="sidebar">
-				<h1>
-					<div class="logo">
-						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt=""></a>
-					</div>
-				</h1>
 
 				<?php wp_nav_menu( array('menu' => 'Primary Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'nav') ); ?>
+				<div class="featured_images_header">
+					
+					<p class="featured_title">Featured Listings</p>
+					<div id="carousel-<?php echo $post->ID; ?>" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+								<?php // GET DATA FOR FEATURED LISTINGS
 
+									$args = array(
+								 		'post_type' => 'sp_property',
+								 		'meta_key' => 'featured_listing',
+								 		'meta_value' => '1'
+								 	);
+									$listings = get_posts( $args );
+								
+									$first = 1;
+
+									foreach ($listings as $post) {
+										setup_postdata($post);
+										$sp_slideshow = array();
+
+										$photosCount = get_post_meta($post->ID,'dfd_PhotosCount',true) ;					
+										$type = get_option('sc-soldpress_photo_listing_q', 'LargePhoto');
+										$wp_upload_dir = wp_upload_dir(); 
+										$photoindex = $photosCount - 1;
+										for ($i=0; $i<=$photoindex; $i++)
+										{
+											
+											$filename      = get_post_meta($post->ID,'dfd_ListingKey',true) . '-' . $type . '-' . $i . '.jpg';
+											$fileurl      = $wp_upload_dir['baseurl'] . '/soldpress/' . $filename;		
+											$filepath     = $wp_upload_dir['basedir'] . '/soldpress/' . $filename;
+
+											if(file_exists ($filepath))
+											{						
+												$sp_slideshow[]    = $fileurl;			
+											}						
+										}
+										
+									
+										$images = array();
+
+										$featured_image = sp_get_property_images();
+										if( have_rows('custom_images') ):
+										 
+										 	// loop through the rows of data
+										    while ( have_rows('custom_images') ) : the_row();
+										 
+										        // display a sub field value
+										        $images[] = get_sub_field('custom_image');
+										    endwhile;
+										  
+										endif; 
+
+											if (count($featured_image) < 1 AND count($images) > 0 ) {
+												$featured_image = $images;
+											}
+									if ($featured_image) {
+								?>
+									<div class="item <?=$first?'active':''; ?> nav_slider">
+									<a href="<?= $post->guid?>"> <img itemprop="image" class="featured-listing-image" src="<?php echo $featured_image[0] ?>" /></a>
+									</div>
+								<?php $first = 0; ?>
+							<? } ?>
+							<? } ?>
+							</div>
+					</div>
+				</div>
 			</aside>
 			<div class="page_image">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
