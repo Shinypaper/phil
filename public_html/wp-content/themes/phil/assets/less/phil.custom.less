@@ -37,6 +37,10 @@ img {
 	z-index: 100;
 	//text-align: center;
 }
+#searchsubmit {
+	.btn;
+	.btn-default;
+}
 .main {
   background: @opaqueblack;
   padding: @grid-gutter-width;
@@ -343,6 +347,13 @@ footer {
 }
 .search_map, .search_form {
 	.make-sm-column(6);
+	input, select{
+		margin-bottom: 20px;
+		.form-control;
+	}
+	label {
+		font-size: @font-size-base;
+	}
 }
 .search_map {
 	margin-top: 20px;
