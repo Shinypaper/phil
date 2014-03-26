@@ -8,12 +8,11 @@ get_header(); ?>
 				<div class="blogwrap">
 					<section class="neighbourhoods_posts main_blog">
 					
-							<?php $descendants = get_categories(array('child_of' => 6)); ?>
-							<?php foreach ($descendants as $child) { ?>
-							
+						<?php $descendants = get_categories(array('child_of' => 6)); ?>
+						<?php foreach ($descendants as $child) { ?>
 							<h1 class="post_title"><a href="<?= bloginfo('url'). "/category/neighbourhoods/" .$child->slug; ?>" class="neighbourhoods"> <?php echo $child->cat_name; ?></a></h1>
-								
-							<?php } ?>
+							
+						<?php } ?>
 							
 					</section>
 					<?php get_template_part('blog-sidebar') ?>

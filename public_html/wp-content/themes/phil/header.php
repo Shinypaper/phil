@@ -29,9 +29,9 @@
 				<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 		<div id="content">
-					<a href="#" id="show-nav">
-					<i class="fa fa-bars"></i><?php if (is_front_page()) {?> MENU<? } ?>
-					</a>
+			<a href="#" id="show-nav">
+				<i class="fa fa-bars"></i><?php if (is_front_page()) {?> MENU<? } ?>
+			</a>
 			<header class="masthead">
 					<div class="logo">
 						<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo_black.png" alt="Philip Stavrou"></a>
@@ -109,12 +109,28 @@
 				</div>
 			</aside>
 			<div class="page_image">
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<?php $feature_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full'); ?>
-				<?php if (!$feature_image) 
-					$feature_image[0] = get_bloginfo('template_url')."/assets/img/AURA75_LIVINGREZ.jpg";
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+					if (is_page()) {
+						$feature_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full');
+						if (!$feature_image) 
+							$feature_image[0] = get_bloginfo('template_url')."/assets/img/home.jpg"; ?>
+						<figure class="banner_img" style="background: url('<?php echo $feature_image[0]; ?>') no-repeat center center fixed; background-size: cover;"> </figure>
+
+					<? } else {
+						if ($feature_image) {
+							break;
+						}
+						$frontpage_id = get_option('page_for_posts');
+						$feature_image = wp_get_attachment_image_src( get_post_thumbnail_id( $frontpage_id ), 'full'); 
+						if (!$feature_image) {
+							
+							$feature_image[0] = get_bloginfo('template_url')."/assets/img/home.jpg";
+						}
+						?>
+						<figure class="banner_img" style="background: url('<?php echo $feature_image[0]; ?>') no-repeat center center fixed; background-size: cover;"> </figure>
+
+					<? }
 				?>
-					<figure class="banner_img" style="background: url('<?php echo $feature_image[0]; ?>') no-repeat center center fixed; background-size: cover;"> </figure>
 				<?php endwhile; ?>
 				<?php endif; ?>
 			</div>

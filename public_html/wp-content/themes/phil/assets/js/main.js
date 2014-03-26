@@ -26,9 +26,9 @@ $('#show-nav').click(function() {
 		active?$('#sidebar').removeClass('active'):$('#sidebar').addClass('active');
 	});
 	$('#content').hasClass('active')? shifted = 0: shifted = '200px';
-	$('#content').css({'position': 'relative'})
+	$('#content').css({'position': 'static'})
 	.animate({
-		left: shifted},
+		'margin-left': shifted},
 		300, function() {
 			if (!shifted) {
 				$('#content').removeClass('active');
