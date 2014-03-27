@@ -22,6 +22,7 @@ img {
 }
 .btn {
 	color: black;
+	text-transform: uppercase;
 }
 .masthead {
 	text-align: center;
@@ -45,6 +46,7 @@ img {
   background: @opaqueblack;
   padding: @grid-gutter-width;
   margin-bottom: @grid-gutter-width;
+  .clearfix();
 }
 .banner {
   max-width: 1400px;
@@ -403,6 +405,68 @@ footer {
 			color: @brand-primary;
 		}
 	}
+}
+
+//Sell Page
+//----------
+.sell_carousel {
+
+	.carousel-inner {
+		min-height: 450px;
+		padding: 0 (@grid-gutter-width * 2);
+	}
+	.carousel_row {
+		.make-row();
+	}
+	.sell_icon {
+		.make-md-column(4);
+		text-align: center;
+		padding: 20px;
+		i {
+			font-size: 100px;
+			@media (min-width: @screen-md) {
+				font-size: 240px;
+			}
+		}
+	}
+	.sell_content {
+		.make-md-column(8);
+		h2 {
+			margin-bottom: @grid-gutter-width;
+			border-bottom: 1px solid @brand-primary;
+			padding: @grid-gutter-width 0;
+		}
+		p {
+			font-size: 20px;
+			margin-bottom: @grid-gutter-width;
+			@media (min-width: @screen-lg) {
+				font-size: 30px;
+			}
+		}
+	}
+	.carousel_navigation {
+		.hidden-xs;
+		.hidden-sm;
+	}
+	.content_left {
+		i {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			font-size: 40px;
+		}
+	}
+	.content_right {
+		i {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			font-size: 40px;
+		}
+	}
+}
+.sell_contact {
+	float: right;
 }
 
 //Neighbourhood pages
