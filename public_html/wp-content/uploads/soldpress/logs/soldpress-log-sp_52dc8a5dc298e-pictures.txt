@@ -1,6 +1,0 @@
-[20/Jan/2014:02:30:53] (wp-cron) ///// Begin Sync sp_52dc8a5dc298e
-
-[20/Jan/2014:02:30:54] (wp-cron) sync_pictures:Sync Disabled
-
-[20/Jan/2014:02:30:54] (wp-cron) ///// End Syncsp_52dc8a5dc298e
-

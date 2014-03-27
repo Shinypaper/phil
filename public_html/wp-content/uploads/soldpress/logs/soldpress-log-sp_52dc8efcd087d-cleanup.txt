@@ -1,6 +1,0 @@
-[20/Jan/2014:02:50:36] (wp-cron) ///// Begin Sync sp_52dc8efcd087d
-
-[20/Jan/2014:02:50:36] (wp-cron) sync_geo:Sync Disabled
-
-[20/Jan/2014:02:50:36] (wp-cron) ///// End Syncsp_52dc8efcd087d
-

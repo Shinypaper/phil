@@ -1,6 +1,0 @@
-[20/Jan/2014:19:34:49] (wp-cron) ///// Begin Sync sp_52dd7a59019bd
-
-[20/Jan/2014:19:34:49] (wp-cron) sync_listings:Sync Disabled
-
-[20/Jan/2014:19:34:49] (wp-cron) ///// End Syncsp_52dd7a59019bd
-
