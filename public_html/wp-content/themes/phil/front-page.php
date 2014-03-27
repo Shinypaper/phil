@@ -9,9 +9,9 @@
 				<section class="main_links">
 						
 					<div class="links_wrap">
-						<div class="link"><a href="<?php bloginfo('url') ?>/featured-listings"><img src="<?php bloginfo('url')?>/wp-content/uploads/2014/01/Skyline_black_left.png" alt=""></a></div>
-						<div class="link"><a href="<?php bloginfo('url') ?>/sell"><img src="<?php bloginfo('url')?>/wp-content/uploads/2014/01/Skyline_black_centre.png" alt=""></a></div>
-						<div class="link"><a href="<?php bloginfo('url') ?>/neighbourhoods"><img src="<?php bloginfo('url')?>/wp-content/uploads/2014/01/Skyline_black_right.png" alt=""></a></div>
+						<a class="main_link buy" href="<?php bloginfo('url') ?>/featured-listings"><span class="link ">buy</span></a>
+						<a class="main_link sell" href="<?php bloginfo('url') ?>/sell"><span class="link ">sell</span></a>
+						<a class="main_link neighbourhood_link" href="<?php bloginfo('url') ?>/neighbourhoods"><span class="link">neighbourhoods</span></a>
 					</div>
 
 				</section>

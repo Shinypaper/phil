@@ -168,6 +168,13 @@ footer {
 // ---------------
 .homepage_main {
 	padding: 0;
+	span {
+	color: black;
+	font-size: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	text-transform: uppercase;
+	}
 }
 .main_links {
 	display: none;
@@ -175,13 +182,47 @@ footer {
 	.clearfix;
 }
 .links_wrap {
-	margin: 0;
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.link {
-	float: left;
-	width: 33.33333%;
+.main_link {
+	.clearfix();
+	.make-sm-column(4);
+	@media (min-width: @screen-sm) {
+		padding: 150px 10px;
+		margin: 0;
+	}
+}
+
+.buy {
+	@media (min-width: @screen-sm) {
+		background: url('../../uploads/2014/03/Skyline_black_left-300x276.png') no-repeat center;
+		background-size: 100%;
+		&:hover {
+			background: url('../../uploads/2014/01/Skyline_white_left-300x276.png') no-repeat center;
+			background-size: 100%;
+		}
+	}
+}
+.sell {
+	@media (min-width: @screen-sm) {
+		background: url('../../uploads/2014/03/Skyline_black_center-300x276.png') no-repeat center;
+		background-size: 100%;
+		&:hover {
+			background: url('../../uploads/2014/01/Skyline_white_centre-300x276.png') no-repeat center;
+			background-size: 100%;
+		}
+	}
+}
+.neighbourhood_link {
+	@media (min-width: @screen-sm) {
+		background: url('../../uploads/2014/03/Skyline_black_right-300x276.png') no-repeat center;
+		background-size: 100%;
+		&:hover {
+			background: url('../../uploads/2014/01/Skyline_white_right-300x276.png') no-repeat center;
+			background-size: 100%;
+		}
+	}
 }
 .page_image {
 	position: fixed;
