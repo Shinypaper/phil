@@ -17,7 +17,7 @@ get_header(); ?>
 							
 						<?php } ?>
 							
-					</section>`
+					</section>
 					<?php get_template_part('blog-sidebar') ?>
 				</div>
 			</div>
