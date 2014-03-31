@@ -5841,6 +5841,13 @@ footer {
 .homepage_main {
   padding: 0;
 }
+.homepage_main span {
+  color: black;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  text-transform: uppercase;
+}
 .main_links {
   display: none;
   background: rgba(0, 0, 0, 0.5);
@@ -5866,13 +5873,76 @@ footer {
   clear: both;
 }
 .links_wrap {
-  margin: 0;
   max-width: 1200px;
   margin: 0 auto;
 }
-.link {
-  float: left;
-  width: 33.33333%;
+.main_link {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main_link:before,
+.main_link:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.main_link:after {
+  clear: both;
+}
+.main_link:before,
+.main_link:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.main_link:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  .main_link {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+@media (min-width: 768px) {
+  .main_link {
+    padding: 150px 10px;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .buy {
+    background: url('../../uploads/2014/03/Skyline_black_left-300x276.png') no-repeat center;
+    background-size: 100%;
+  }
+  .buy:hover {
+    background: url('../../uploads/2014/01/Skyline_white_left-300x276.png') no-repeat center;
+    background-size: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .sell {
+    background: url('../../uploads/2014/03/Skyline_black_center-300x276.png') no-repeat center;
+    background-size: 100%;
+  }
+  .sell:hover {
+    background: url('../../uploads/2014/01/Skyline_white_centre-300x276.png') no-repeat center;
+    background-size: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .neighbourhood_link {
+    background: url('../../uploads/2014/03/Skyline_black_right-300x276.png') no-repeat center;
+    background-size: 100%;
+  }
+  .neighbourhood_link:hover {
+    background: url('../../uploads/2014/01/Skyline_white_right-300x276.png') no-repeat center;
+    background-size: 100%;
+  }
 }
 .page_image {
   position: fixed;
@@ -6489,11 +6559,48 @@ td.sell_carousel .carousel_navigation {
 .sell_contact {
   float: right;
 }
-.neighbourhoods {
-  color: #ffffff;
+.torontomap {
+  display: block !important;
+  width: 100%;
 }
-.neighbourhoods:hover {
-  color: #ffffff;
+tr.torontomap {
+  display: table-row !important;
+}
+th.torontomap,
+td.torontomap {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  .torontomap,
+  tr.torontomap,
+  th.torontomap,
+  td.torontomap {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .torontomap.hidden-sm,
+  tr.torontomap.hidden-sm,
+  th.torontomap.hidden-sm,
+  td.torontomap.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .torontomap.hidden-md,
+  tr.torontomap.hidden-md,
+  th.torontomap.hidden-md,
+  td.torontomap.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .torontomap.hidden-lg,
+  tr.torontomap.hidden-lg,
+  th.torontomap.hidden-lg,
+  td.torontomap.hidden-lg {
+    display: none !important;
+  }
 }
 #soldpress {
   color: black;
