@@ -12,7 +12,10 @@
   box-sizing: border-box;
 }
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'PT Serif', serif;
+}
+h1,h2,h3,h4,h5 {
+	font-family: @font-family-base;
 }
 .logo {
 	margin:0 30px 30px 20px;
@@ -23,6 +26,7 @@ img {
 .btn {
 	color: black;
 	text-transform: uppercase;
+	font-family: @font-family-base;
 }
 .masthead {
 	text-align: center;
@@ -89,6 +93,7 @@ img {
 // NAV STYLES
 // ----------
 .sidebar {  
+	font-family: @font-family-base;
   .nav {
 	//text-align: center;
 	margin-top: 60px;
@@ -168,6 +173,7 @@ footer {
 // ---------------
 .homepage_main {
 	padding: 0;
+	font-family: @font-family-base;
 	span {
 	color: black;
 	font-size: 30px;
@@ -290,6 +296,7 @@ footer {
 }
 .blogwidget {
   .make-md-column(3);
+  font-family: @font-family-base;
   .widget-inner {
 	background-color: @opaqueblack;
 	padding: 15px;
@@ -463,6 +470,7 @@ footer {
 		.make-md-column(4);
 		text-align: center;
 		padding: 20px;
+		padding-top: 150px;
 		i {
 			font-size: 100px;
 			@media (min-width: @screen-md) {
@@ -517,7 +525,17 @@ footer {
 	.hidden-xs;
 	width: 100%;
 }
-
+.neighbourhoods_posts {
+	.post {
+	.make-row();
+	}
+}
+.neighbourhood_thumb {
+	.make-sm-column(3);
+}
+.neighbourhood_text {
+	.make-sm-column(9);
+}
 
 //soldpress overwrite styles
 //-------------------

@@ -12,9 +12,14 @@ get_header(); ?>
 						<?php $descendants = get_categories(array('child_of' => 6)); ?>
 						<?php foreach ($descendants as $child) { ?>
 						<div class="post">
-							<h1 class="post_title"><a href="<?= bloginfo('url'). "/category/neighbourhoods/" .$child->slug; ?>" class="neighbourhoods"> <?php echo $child->cat_name; ?></a></h1>
+							<div class="neighbourhood_thumb">
+								<img src="<?php echo z_taxonomy_image_url($child->term_id, 'thumbnail'); ?>" />
+							</div>
+							<div class="neighbourhood_text">
+								<h1 class="post_title"><a href="<?= bloginfo('url'). "/category/neighbourhoods/" .$child->slug; ?>" class="neighbourhoods"> <?php echo $child->cat_name; ?></a></h1>
+								<p class="neighbourhood_desc"><?= $child->category_description; ?> </p>
+							</div>
 						</div>
-							
 						<?php } ?>
 							
 					</section>

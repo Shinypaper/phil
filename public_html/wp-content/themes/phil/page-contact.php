@@ -3,7 +3,6 @@
 get_header(); ?>
 
 <div class="container">
-		<?php //get_template_part('banner') ?>
 			<div class="main">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<article <?php post_class(); ?>>
@@ -34,9 +33,9 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="social_buttons">
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-instagram"></i></a>
+						<a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/philstavrou" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="" target="_blank"><i class="fa fa-instagram"></i></a>
 					</div>
 				</section>
 
